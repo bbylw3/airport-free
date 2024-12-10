@@ -1,1 +1,663 @@
-
+mixed-port: 7890
+allow-lan: false
+mode: "rule"
+log-level: "info"
+external-controller: "127.0.0.1:9999"
+dns:
+  enable: true
+  listen: "0.0.0.0:53"
+  ipv6: false
+  default-nameserver:
+  - "223.5.5.5"
+  - "114.114.114.114"
+  nameserver:
+  - "223.5.5.5"
+  - "114.114.114.114"
+  - "119.29.29.29"
+  - "180.76.76.76"
+  enhanced-mode: "fake-ip"
+  fake-ip-range: "198.18.0.1/16"
+  fake-ip-filter:
+  - "*.lan"
+  - "*.localdomain"
+  - "*.example"
+  - "*.invalid"
+  - "*.localhost"
+  - "*.test"
+  - "*.local"
+  - "*.home.arpa"
+  - "router.asus.com"
+  - "localhost.sec.qq.com"
+  - "localhost.ptlogin2.qq.com"
+  - "+.msftconnecttest.com"
+tun:
+  enable: true
+  auto-route: true
+  auto-detect-interface: true
+  dns-hijack:
+  - "114.114.114.114"
+  - "180.76.76.76"
+  - "119.29.29.29"
+  - "223.5.5.5"
+  - "8.8.8.8"
+  - "8.8.4.4"
+  - "1.1.1.1"
+  - "1.0.0.1"
+proxies:
+- name: "6е…ғй«ҳйҖҹжңәеңәпјҡcczzuu.top"
+  type: "ss"
+  server: "lsjd.yunxiang8.mom"
+  port: 48491
+  cipher: "chacha20-ietf-poly1305"
+  password: "bd12f79e-3209-4970-83cd-5e1f3526ff51"
+- name: "рҹҮәрҹҮё_US_зҫҺеӣҪ->рҹҮЁрҹҮҰ_CA_еҠ жӢҝеӨ§"
+  type: "vmess"
+  server: "104.18.114.238"
+  port: 2095
+  uuid: "18d96190-c10f-448f-a82a-2d36df5c3cde"
+  cipher: "auto"
+  network: "ws"
+  ws-opts:
+    path: "/github.com/Alvin9999"
+    headers:
+      host: "c17.6016725.xyz"
+  alterId: 0
+- name: "рҹҮірҹҮұ_NL_иҚ·е…°->рҹҮЁрҹҮҰ_CA_еҠ жӢҝеӨ§"
+  type: "vmess"
+  server: "45.131.208.116"
+  port: 2082
+  sni: ""
+  uuid: "5f3f09ad-89cb-4e94-a7ad-aa8239913555"
+  cipher: "auto"
+  network: "ws"
+  skip-cert-verify: true
+  ws-opts:
+    path: "/github.com/Alvin9999"
+    headers:
+      host: "ip18.6929198.xyz"
+  alterId: 0
+- name: "рҹҮөрҹҮұ_PL_жіўе…°"
+  type: "vmess"
+  server: "188.68.240.160"
+  port: 46210
+  sni: ""
+  uuid: "77205488-3495-4b7f-b348-79ae53a78f2f"
+  cipher: "auto"
+  network: "tcp"
+  fingerprint: ""
+  alterId: 0
+- name: "рҹҮұрҹҮ№_LT_з«Ӣйҷ¶е®ӣ->рҹҮЁрҹҮҰ_CA_еҠ жӢҝеӨ§"
+  type: "vmess"
+  server: "185.148.107.11"
+  port: 2082
+  uuid: "5f3f09ad-89cb-4e94-a7ad-aa8239913555"
+  cipher: "auto"
+  network: "ws"
+  ws-opts:
+    path: "/github.com/Alvin9999"
+    headers:
+      host: "ip18.6929198.xyz"
+  alterId: 0
+- name: "рҹҮ§рҹҮ¬_BG_дҝқеҠ еҲ©дәҡ->рҹҮЁрҹҮҰ_CA_еҠ жӢҝеӨ§"
+  type: "vmess"
+  server: "185.176.26.131"
+  port: 2082
+  sni: ""
+  uuid: "5f3f09ad-89cb-4e94-a7ad-aa8239913555"
+  cipher: "auto"
+  network: "ws"
+  skip-cert-verify: true
+  ws-opts:
+    path: "/github.com/Alvin9999"
+    headers:
+      host: "ip18.6929198.xyz"
+  alterId: 0
+- name: "рҹҮәрҹҮё_US_зҫҺеӣҪ->рҹҮЁрҹҮҰ_CA_еҠ жӢҝеӨ§_1"
+  type: "vmess"
+  server: "190.93.245.168"
+  port: 2082
+  sni: ""
+  uuid: "5f3f09ad-89cb-4e94-a7ad-aa8239913555"
+  cipher: "auto"
+  network: "ws"
+  skip-cert-verify: true
+  ws-opts:
+    path: "/github.com/Alvin9999"
+    headers:
+      host: "ip18.6929198.xyz"
+  alterId: 0
+- name: "рҹҮ«рҹҮ·_FR_жі•еӣҪ->рҹҮЁрҹҮҰ_CA_еҠ жӢҝеӨ§"
+  type: "vmess"
+  server: "45.80.111.9"
+  port: 2082
+  uuid: "5f3f09ad-89cb-4e94-a7ad-aa8239913555"
+  cipher: "auto"
+  network: "ws"
+  ws-opts:
+    path: "/github.com/Alvin9999"
+    headers:
+      host: "ip18.6929198.xyz"
+  alterId: 0
+- name: "рҹҮәрҹҮё_US_зҫҺеӣҪ->рҹҮЁрҹҮҰ_CA_еҠ жӢҝеӨ§_2"
+  type: "vmess"
+  server: "104.18.114.236"
+  port: 2095
+  uuid: "18d96190-c10f-448f-a82a-2d36df5c3cde"
+  cipher: "auto"
+  network: "ws"
+  ws-opts:
+    path: "/github.com/Alvin9999"
+    headers:
+      host: "c17.6016725.xyz"
+  alterId: 0
+- name: "рҹҮҰрҹҮә_AU_жҫіеӨ§еҲ©дәҡ->рҹҮЁрҹҮҰ_CA_еҠ жӢҝеӨ§"
+  type: "vmess"
+  server: "192.65.217.254"
+  port: 2082
+  uuid: "5f3f09ad-89cb-4e94-a7ad-aa8239913555"
+  cipher: "auto"
+  network: "ws"
+  ws-opts:
+    path: "/github.com/Alvin9999"
+    headers:
+      host: "ip18.6929198.xyz"
+  alterId: 0
+- name: "рҹҮЁрҹҮ·_CR_е“Ҙж–Ҝиҫҫй»ҺеҠ ->рҹҮЁрҹҮҰ_CA_еҠ жӢҝеӨ§"
+  type: "vmess"
+  server: "190.93.247.127"
+  port: 2082
+  uuid: "5f3f09ad-89cb-4e94-a7ad-aa8239913555"
+  cipher: "auto"
+  network: "ws"
+  ws-opts:
+    path: "/github.com/Alvin9999"
+    headers:
+      host: "ip18.6929198.xyz"
+  alterId: 0
+- name: "рҹҮәрҹҮё_US_зҫҺеӣҪ->рҹҮЁрҹҮҰ_CA_еҠ жӢҝеӨ§_3"
+  type: "vmess"
+  server: "154.85.99.206"
+  port: 2082
+  sni: ""
+  uuid: "5f3f09ad-89cb-4e94-a7ad-aa8239913555"
+  cipher: "auto"
+  network: "ws"
+  skip-cert-verify: true
+  ws-opts:
+    path: "/github.com/Alvin9999"
+    headers:
+      host: "ip18.6929198.xyz"
+  alterId: 0
+- name: "рҹҮәрҹҮё_US_зҫҺеӣҪ->рҹҮЁрҹҮҰ_CA_еҠ жӢҝеӨ§_4"
+  type: "vmess"
+  server: "104.18.114.173"
+  port: 2095
+  uuid: "18d96190-c10f-448f-a82a-2d36df5c3cde"
+  cipher: "auto"
+  network: "ws"
+  ws-opts:
+    path: "/github.com/Alvin9999"
+    headers:
+      host: "c17.6016725.xyz"
+  alterId: 0
+- name: "рҹҮЁрҹҮ·_CR_е“Ҙж–Ҝиҫҫй»ҺеҠ ->рҹҮЁрҹҮҰ_CA_еҠ жӢҝеӨ§_1"
+  type: "vmess"
+  server: "190.93.247.170"
+  port: 2082
+  uuid: "5f3f09ad-89cb-4e94-a7ad-aa8239913555"
+  cipher: "auto"
+  network: "ws"
+  ws-opts:
+    path: "/github.com/Alvin9999"
+    headers:
+      host: "ip18.6929198.xyz"
+  alterId: 0
+- name: "рҹҮұрҹҮә_LU_еҚўжЈ®е Ў->рҹҮЁрҹҮҰ_CA_еҠ жӢҝеӨ§"
+  type: "vmess"
+  server: "188.42.88.198"
+  port: 2082
+  uuid: "5f3f09ad-89cb-4e94-a7ad-aa8239913555"
+  cipher: "auto"
+  network: "ws"
+  ws-opts:
+    path: "/github.com/Alvin9999"
+    headers:
+      host: "ip18.6929198.xyz"
+  alterId: 0
+- name: "рҹҮірҹҮұ_NL_иҚ·е…°->рҹҮЁрҹҮҰ_CA_еҠ жӢҝеӨ§_1"
+  type: "vmess"
+  server: "45.131.6.94"
+  port: 2082
+  sni: ""
+  uuid: "5f3f09ad-89cb-4e94-a7ad-aa8239913555"
+  cipher: "auto"
+  network: "ws"
+  skip-cert-verify: true
+  ws-opts:
+    path: "/github.com/Alvin9999"
+    headers:
+      host: "ip18.6929198.xyz"
+  alterId: 0
+- name: "рҹҮәрҹҮё_US_зҫҺеӣҪ->рҹҮЁрҹҮҰ_CA_еҠ жӢҝеӨ§_5"
+  type: "vmess"
+  server: "162.159.45.77"
+  port: 2095
+  uuid: "18d96190-c10f-448f-a82a-2d36df5c3cde"
+  cipher: "auto"
+  network: "ws"
+  ws-opts:
+    path: "/github.com/Alvin9999"
+    headers:
+      host: "c17.6016725.xyz"
+  alterId: 0
+- name: "рҹҮәрҹҮё_US_зҫҺеӣҪ->рҹҮЁрҹҮҰ_CA_еҠ жӢҝеӨ§_6"
+  type: "vmess"
+  server: "104.18.114.135"
+  port: 2095
+  uuid: "18d96190-c10f-448f-a82a-2d36df5c3cde"
+  cipher: "auto"
+  network: "ws"
+  ws-opts:
+    path: "/github.com/Alvin9999"
+    headers:
+      host: "c17.6016725.xyz"
+  alterId: 0
+- name: "рҹҮәрҹҮё_US_зҫҺеӣҪ->рҹҮЁрҹҮҰ_CA_еҠ жӢҝеӨ§_7"
+  type: "vmess"
+  server: "154.83.2.121"
+  port: 2082
+  sni: ""
+  uuid: "5f3f09ad-89cb-4e94-a7ad-aa8239913555"
+  cipher: "auto"
+  network: "ws"
+  skip-cert-verify: true
+  ws-opts:
+    path: "/github.com/Alvin9999"
+    headers:
+      host: "ip18.6929198.xyz"
+  alterId: 0
+- name: "рҹҮәрҹҮё_US_зҫҺеӣҪ->рҹҮЁрҹҮҰ_CA_еҠ жӢҝеӨ§_8"
+  type: "vmess"
+  server: "104.18.114.85"
+  port: 2095
+  uuid: "18d96190-c10f-448f-a82a-2d36df5c3cde"
+  cipher: "auto"
+  network: "ws"
+  ws-opts:
+    path: "/github.com/Alvin9999"
+    headers:
+      host: "c17.6016725.xyz"
+  alterId: 0
+- name: "рҹҮәрҹҮё_US_зҫҺеӣҪ->рҹҮЁрҹҮҰ_CA_еҠ жӢҝеӨ§_9"
+  type: "vmess"
+  server: "104.18.114.167"
+  port: 2095
+  uuid: "18d96190-c10f-448f-a82a-2d36df5c3cde"
+  cipher: "auto"
+  network: "ws"
+  ws-opts:
+    path: "/github.com/Alvin9999"
+    headers:
+      host: "c17.6016725.xyz"
+  alterId: 0
+- name: "рҹҮәрҹҮё_US_зҫҺеӣҪ->рҹҮЁрҹҮҰ_CA_еҠ жӢҝеӨ§_10"
+  type: "vmess"
+  server: "190.93.244.228"
+  port: 2082
+  uuid: "5f3f09ad-89cb-4e94-a7ad-aa8239913555"
+  cipher: "auto"
+  network: "ws"
+  ws-opts:
+    path: "/github.com/Alvin9999"
+    headers:
+      host: "ip18.6929198.xyz"
+  alterId: 0
+- name: "рҹҮөрҹҮұ_PL_жіўе…°->рҹҮЁрҹҮҰ_CA_еҠ жӢҝеӨ§"
+  type: "vmess"
+  server: "188.68.240.160"
+  port: 38737
+  sni: ""
+  uuid: "1eacad0a-5284-4e2d-ade1-18dbeff82ef7"
+  cipher: "auto"
+  network: "grpc"
+  fingerprint: ""
+  grpc-opts:
+    grpc-service-name: "@AstroVPN_Official&@freeiranweb"
+  alterId: 0
+- name: "рҹҮЁрҹҮ·_CR_е“Ҙж–Ҝиҫҫй»ҺеҠ ->рҹҮЁрҹҮҰ_CA_еҠ жӢҝеӨ§_2"
+  type: "vmess"
+  server: "190.93.246.120"
+  port: 2082
+  sni: ""
+  uuid: "5f3f09ad-89cb-4e94-a7ad-aa8239913555"
+  cipher: "auto"
+  network: "ws"
+  skip-cert-verify: true
+  ws-opts:
+    path: "/github.com/Alvin9999"
+    headers:
+      host: "ip18.6929198.xyz"
+  alterId: 0
+proxy-groups:
+- name: "рҹҡҖ иҠӮзӮ№йҖүжӢ©"
+  type: "select"
+  proxies:
+  - "вҷ»пёҸ иҮӘеҠЁйҖүжӢ©"
+  - "DIRECT"
+  - "рҹҮЁрҹҮі_CN_дёӯеӣҪ->рҹҮ·рҹҮә_RU_дҝ„зҪ—ж–Ҝ"
+  - "рҹҮәрҹҮё_US_зҫҺеӣҪ->рҹҮЁрҹҮҰ_CA_еҠ жӢҝеӨ§"
+  - "рҹҮірҹҮұ_NL_иҚ·е…°->рҹҮЁрҹҮҰ_CA_еҠ жӢҝеӨ§"
+  - "рҹҮөрҹҮұ_PL_жіўе…°"
+  - "рҹҮұрҹҮ№_LT_з«Ӣйҷ¶е®ӣ->рҹҮЁрҹҮҰ_CA_еҠ жӢҝеӨ§"
+  - "рҹҮ§рҹҮ¬_BG_дҝқеҠ еҲ©дәҡ->рҹҮЁрҹҮҰ_CA_еҠ жӢҝеӨ§"
+  - "рҹҮәрҹҮё_US_зҫҺеӣҪ->рҹҮЁрҹҮҰ_CA_еҠ жӢҝеӨ§_1"
+  - "рҹҮ«рҹҮ·_FR_жі•еӣҪ->рҹҮЁрҹҮҰ_CA_еҠ жӢҝеӨ§"
+  - "рҹҮәрҹҮё_US_зҫҺеӣҪ->рҹҮЁрҹҮҰ_CA_еҠ жӢҝеӨ§_2"
+  - "рҹҮҰрҹҮә_AU_жҫіеӨ§еҲ©дәҡ->рҹҮЁрҹҮҰ_CA_еҠ жӢҝеӨ§"
+  - "рҹҮЁрҹҮ·_CR_е“Ҙж–Ҝиҫҫй»ҺеҠ ->рҹҮЁрҹҮҰ_CA_еҠ жӢҝеӨ§"
+  - "рҹҮәрҹҮё_US_зҫҺеӣҪ->рҹҮЁрҹҮҰ_CA_еҠ жӢҝеӨ§_3"
+  - "рҹҮәрҹҮё_US_зҫҺеӣҪ->рҹҮЁрҹҮҰ_CA_еҠ жӢҝеӨ§_4"
+  - "рҹҮЁрҹҮ·_CR_е“Ҙж–Ҝиҫҫй»ҺеҠ ->рҹҮЁрҹҮҰ_CA_еҠ жӢҝеӨ§_1"
+  - "рҹҮұрҹҮә_LU_еҚўжЈ®е Ў->рҹҮЁрҹҮҰ_CA_еҠ жӢҝеӨ§"
+  - "рҹҮірҹҮұ_NL_иҚ·е…°->рҹҮЁрҹҮҰ_CA_еҠ жӢҝеӨ§_1"
+  - "рҹҮәрҹҮё_US_зҫҺеӣҪ->рҹҮЁрҹҮҰ_CA_еҠ жӢҝеӨ§_5"
+  - "рҹҮәрҹҮё_US_зҫҺеӣҪ->рҹҮЁрҹҮҰ_CA_еҠ жӢҝеӨ§_6"
+  - "рҹҮәрҹҮё_US_зҫҺеӣҪ->рҹҮЁрҹҮҰ_CA_еҠ жӢҝеӨ§_7"
+  - "рҹҮәрҹҮё_US_зҫҺеӣҪ->рҹҮЁрҹҮҰ_CA_еҠ жӢҝеӨ§_8"
+  - "рҹҮәрҹҮё_US_зҫҺеӣҪ->рҹҮЁрҹҮҰ_CA_еҠ жӢҝеӨ§_9"
+  - "рҹҮәрҹҮё_US_зҫҺеӣҪ->рҹҮЁрҹҮҰ_CA_еҠ жӢҝеӨ§_10"
+  - "рҹҮөрҹҮұ_PL_жіўе…°->рҹҮЁрҹҮҰ_CA_еҠ жӢҝеӨ§"
+  - "рҹҮЁрҹҮ·_CR_е“Ҙж–Ҝиҫҫй»ҺеҠ ->рҹҮЁрҹҮҰ_CA_еҠ жӢҝеӨ§_2"
+- name: "вҷ»пёҸ иҮӘеҠЁйҖүжӢ©"
+  type: "url-test"
+  url: "http://www.gstatic.com/generate_204"
+  interval: 300
+  tolerance: 50
+  proxies:
+  - "рҹҮЁрҹҮі_CN_дёӯеӣҪ->рҹҮ·рҹҮә_RU_дҝ„зҪ—ж–Ҝ"
+  - "рҹҮәрҹҮё_US_зҫҺеӣҪ->рҹҮЁрҹҮҰ_CA_еҠ жӢҝеӨ§"
+  - "рҹҮірҹҮұ_NL_иҚ·е…°->рҹҮЁрҹҮҰ_CA_еҠ жӢҝеӨ§"
+  - "рҹҮөрҹҮұ_PL_жіўе…°"
+  - "рҹҮұрҹҮ№_LT_з«Ӣйҷ¶е®ӣ->рҹҮЁрҹҮҰ_CA_еҠ жӢҝеӨ§"
+  - "рҹҮ§рҹҮ¬_BG_дҝқеҠ еҲ©дәҡ->рҹҮЁрҹҮҰ_CA_еҠ жӢҝеӨ§"
+  - "рҹҮәрҹҮё_US_зҫҺеӣҪ->рҹҮЁрҹҮҰ_CA_еҠ жӢҝеӨ§_1"
+  - "рҹҮ«рҹҮ·_FR_жі•еӣҪ->рҹҮЁрҹҮҰ_CA_еҠ жӢҝеӨ§"
+  - "рҹҮәрҹҮё_US_зҫҺеӣҪ->рҹҮЁрҹҮҰ_CA_еҠ жӢҝеӨ§_2"
+  - "рҹҮҰрҹҮә_AU_жҫіеӨ§еҲ©дәҡ->рҹҮЁрҹҮҰ_CA_еҠ жӢҝеӨ§"
+  - "рҹҮЁрҹҮ·_CR_е“Ҙж–Ҝиҫҫй»ҺеҠ ->рҹҮЁрҹҮҰ_CA_еҠ жӢҝеӨ§"
+  - "рҹҮәрҹҮё_US_зҫҺеӣҪ->рҹҮЁрҹҮҰ_CA_еҠ жӢҝеӨ§_3"
+  - "рҹҮәрҹҮё_US_зҫҺеӣҪ->рҹҮЁрҹҮҰ_CA_еҠ жӢҝеӨ§_4"
+  - "рҹҮЁрҹҮ·_CR_е“Ҙж–Ҝиҫҫй»ҺеҠ ->рҹҮЁрҹҮҰ_CA_еҠ жӢҝеӨ§_1"
+  - "рҹҮұрҹҮә_LU_еҚўжЈ®е Ў->рҹҮЁрҹҮҰ_CA_еҠ жӢҝеӨ§"
+  - "рҹҮірҹҮұ_NL_иҚ·е…°->рҹҮЁрҹҮҰ_CA_еҠ жӢҝеӨ§_1"
+  - "рҹҮәрҹҮё_US_зҫҺеӣҪ->рҹҮЁрҹҮҰ_CA_еҠ жӢҝеӨ§_5"
+  - "рҹҮәрҹҮё_US_зҫҺеӣҪ->рҹҮЁрҹҮҰ_CA_еҠ жӢҝеӨ§_6"
+  - "рҹҮәрҹҮё_US_зҫҺеӣҪ->рҹҮЁрҹҮҰ_CA_еҠ жӢҝеӨ§_7"
+  - "рҹҮәрҹҮё_US_зҫҺеӣҪ->рҹҮЁрҹҮҰ_CA_еҠ жӢҝеӨ§_8"
+  - "рҹҮәрҹҮё_US_зҫҺеӣҪ->рҹҮЁрҹҮҰ_CA_еҠ жӢҝеӨ§_9"
+  - "рҹҮәрҹҮё_US_зҫҺеӣҪ->рҹҮЁрҹҮҰ_CA_еҠ жӢҝеӨ§_10"
+  - "рҹҮөрҹҮұ_PL_жіўе…°->рҹҮЁрҹҮҰ_CA_еҠ жӢҝеӨ§"
+  - "рҹҮЁрҹҮ·_CR_е“Ҙж–Ҝиҫҫй»ҺеҠ ->рҹҮЁрҹҮҰ_CA_еҠ жӢҝеӨ§_2"
+- name: "рҹҢҚ еӣҪеӨ–еӘ’дҪ“"
+  type: "select"
+  proxies:
+  - "рҹҡҖ иҠӮзӮ№йҖүжӢ©"
+  - "вҷ»пёҸ иҮӘеҠЁйҖүжӢ©"
+  - "рҹҺҜ е…Ёзҗғзӣҙиҝһ"
+  - "рҹҮЁрҹҮі_CN_дёӯеӣҪ->рҹҮ·рҹҮә_RU_дҝ„зҪ—ж–Ҝ"
+  - "рҹҮәрҹҮё_US_зҫҺеӣҪ->рҹҮЁрҹҮҰ_CA_еҠ жӢҝеӨ§"
+  - "рҹҮірҹҮұ_NL_иҚ·е…°->рҹҮЁрҹҮҰ_CA_еҠ жӢҝеӨ§"
+  - "рҹҮөрҹҮұ_PL_жіўе…°"
+  - "рҹҮұрҹҮ№_LT_з«Ӣйҷ¶е®ӣ->рҹҮЁрҹҮҰ_CA_еҠ жӢҝеӨ§"
+  - "рҹҮ§рҹҮ¬_BG_дҝқеҠ еҲ©дәҡ->рҹҮЁрҹҮҰ_CA_еҠ жӢҝеӨ§"
+  - "рҹҮәрҹҮё_US_зҫҺеӣҪ->рҹҮЁрҹҮҰ_CA_еҠ жӢҝеӨ§_1"
+  - "рҹҮ«рҹҮ·_FR_жі•еӣҪ->рҹҮЁрҹҮҰ_CA_еҠ жӢҝеӨ§"
+  - "рҹҮәрҹҮё_US_зҫҺеӣҪ->рҹҮЁрҹҮҰ_CA_еҠ жӢҝеӨ§_2"
+  - "рҹҮҰрҹҮә_AU_жҫіеӨ§еҲ©дәҡ->рҹҮЁрҹҮҰ_CA_еҠ жӢҝеӨ§"
+  - "рҹҮЁрҹҮ·_CR_е“Ҙж–Ҝиҫҫй»ҺеҠ ->рҹҮЁрҹҮҰ_CA_еҠ жӢҝеӨ§"
+  - "рҹҮәрҹҮё_US_зҫҺеӣҪ->рҹҮЁрҹҮҰ_CA_еҠ жӢҝеӨ§_3"
+  - "рҹҮәрҹҮё_US_зҫҺеӣҪ->рҹҮЁрҹҮҰ_CA_еҠ жӢҝеӨ§_4"
+  - "рҹҮЁрҹҮ·_CR_е“Ҙж–Ҝиҫҫй»ҺеҠ ->рҹҮЁрҹҮҰ_CA_еҠ жӢҝеӨ§_1"
+  - "рҹҮұрҹҮә_LU_еҚўжЈ®е Ў->рҹҮЁрҹҮҰ_CA_еҠ жӢҝеӨ§"
+  - "рҹҮірҹҮұ_NL_иҚ·е…°->рҹҮЁрҹҮҰ_CA_еҠ жӢҝеӨ§_1"
+  - "рҹҮәрҹҮё_US_зҫҺеӣҪ->рҹҮЁрҹҮҰ_CA_еҠ жӢҝеӨ§_5"
+  - "рҹҮәрҹҮё_US_зҫҺеӣҪ->рҹҮЁрҹҮҰ_CA_еҠ жӢҝеӨ§_6"
+  - "рҹҮәрҹҮё_US_зҫҺеӣҪ->рҹҮЁрҹҮҰ_CA_еҠ жӢҝеӨ§_7"
+  - "рҹҮәрҹҮё_US_зҫҺеӣҪ->рҹҮЁрҹҮҰ_CA_еҠ жӢҝеӨ§_8"
+  - "рҹҮәрҹҮё_US_зҫҺеӣҪ->рҹҮЁрҹҮҰ_CA_еҠ жӢҝеӨ§_9"
+  - "рҹҮәрҹҮё_US_зҫҺеӣҪ->рҹҮЁрҹҮҰ_CA_еҠ жӢҝеӨ§_10"
+  - "рҹҮөрҹҮұ_PL_жіўе…°->рҹҮЁрҹҮҰ_CA_еҠ жӢҝеӨ§"
+  - "рҹҮЁрҹҮ·_CR_е“Ҙж–Ҝиҫҫй»ҺеҠ ->рҹҮЁрҹҮҰ_CA_еҠ жӢҝеӨ§_2"
+- name: "рҹ“І з”өжҠҘдҝЎжҒҜ"
+  type: "select"
+  proxies:
+  - "рҹҡҖ иҠӮзӮ№йҖүжӢ©"
+  - "рҹҺҜ е…Ёзҗғзӣҙиҝһ"
+  - "рҹҮЁрҹҮі_CN_дёӯеӣҪ->рҹҮ·рҹҮә_RU_дҝ„зҪ—ж–Ҝ"
+  - "рҹҮәрҹҮё_US_зҫҺеӣҪ->рҹҮЁрҹҮҰ_CA_еҠ жӢҝеӨ§"
+  - "рҹҮірҹҮұ_NL_иҚ·е…°->рҹҮЁрҹҮҰ_CA_еҠ жӢҝеӨ§"
+  - "рҹҮөрҹҮұ_PL_жіўе…°"
+  - "рҹҮұрҹҮ№_LT_з«Ӣйҷ¶е®ӣ->рҹҮЁрҹҮҰ_CA_еҠ жӢҝеӨ§"
+  - "рҹҮ§рҹҮ¬_BG_дҝқеҠ еҲ©дәҡ->рҹҮЁрҹҮҰ_CA_еҠ жӢҝеӨ§"
+  - "рҹҮәрҹҮё_US_зҫҺеӣҪ->рҹҮЁрҹҮҰ_CA_еҠ жӢҝеӨ§_1"
+  - "рҹҮ«рҹҮ·_FR_жі•еӣҪ->рҹҮЁрҹҮҰ_CA_еҠ жӢҝеӨ§"
+  - "рҹҮәрҹҮё_US_зҫҺеӣҪ->рҹҮЁрҹҮҰ_CA_еҠ жӢҝеӨ§_2"
+  - "рҹҮҰрҹҮә_AU_жҫіеӨ§еҲ©дәҡ->рҹҮЁрҹҮҰ_CA_еҠ жӢҝеӨ§"
+  - "рҹҮЁрҹҮ·_CR_е“Ҙж–Ҝиҫҫй»ҺеҠ ->рҹҮЁрҹҮҰ_CA_еҠ жӢҝеӨ§"
+  - "рҹҮәрҹҮё_US_зҫҺеӣҪ->рҹҮЁрҹҮҰ_CA_еҠ жӢҝеӨ§_3"
+  - "рҹҮәрҹҮё_US_зҫҺеӣҪ->рҹҮЁрҹҮҰ_CA_еҠ жӢҝеӨ§_4"
+  - "рҹҮЁрҹҮ·_CR_е“Ҙж–Ҝиҫҫй»ҺеҠ ->рҹҮЁрҹҮҰ_CA_еҠ жӢҝеӨ§_1"
+  - "рҹҮұрҹҮә_LU_еҚўжЈ®е Ў->рҹҮЁрҹҮҰ_CA_еҠ жӢҝеӨ§"
+  - "рҹҮірҹҮұ_NL_иҚ·е…°->рҹҮЁрҹҮҰ_CA_еҠ жӢҝеӨ§_1"
+  - "рҹҮәрҹҮё_US_зҫҺеӣҪ->рҹҮЁрҹҮҰ_CA_еҠ жӢҝеӨ§_5"
+  - "рҹҮәрҹҮё_US_зҫҺеӣҪ->рҹҮЁрҹҮҰ_CA_еҠ жӢҝеӨ§_6"
+  - "рҹҮәрҹҮё_US_зҫҺеӣҪ->рҹҮЁрҹҮҰ_CA_еҠ жӢҝеӨ§_7"
+  - "рҹҮәрҹҮё_US_зҫҺеӣҪ->рҹҮЁрҹҮҰ_CA_еҠ жӢҝеӨ§_8"
+  - "рҹҮәрҹҮё_US_зҫҺеӣҪ->рҹҮЁрҹҮҰ_CA_еҠ жӢҝеӨ§_9"
+  - "рҹҮәрҹҮё_US_зҫҺеӣҪ->рҹҮЁрҹҮҰ_CA_еҠ жӢҝеӨ§_10"
+  - "рҹҮөрҹҮұ_PL_жіўе…°->рҹҮЁрҹҮҰ_CA_еҠ жӢҝеӨ§"
+  - "рҹҮЁрҹҮ·_CR_е“Ҙж–Ҝиҫҫй»ҺеҠ ->рҹҮЁрҹҮҰ_CA_еҠ жӢҝеӨ§_2"
+- name: "в“ӮпёҸ еҫ®иҪҜжңҚеҠЎ"
+  type: "select"
+  proxies:
+  - "рҹҺҜ е…Ёзҗғзӣҙиҝһ"
+  - "рҹҡҖ иҠӮзӮ№йҖүжӢ©"
+  - "рҹҮЁрҹҮі_CN_дёӯеӣҪ->рҹҮ·рҹҮә_RU_дҝ„зҪ—ж–Ҝ"
+  - "рҹҮәрҹҮё_US_зҫҺеӣҪ->рҹҮЁрҹҮҰ_CA_еҠ жӢҝеӨ§"
+  - "рҹҮірҹҮұ_NL_иҚ·е…°->рҹҮЁрҹҮҰ_CA_еҠ жӢҝеӨ§"
+  - "рҹҮөрҹҮұ_PL_жіўе…°"
+  - "рҹҮұрҹҮ№_LT_з«Ӣйҷ¶е®ӣ->рҹҮЁрҹҮҰ_CA_еҠ жӢҝеӨ§"
+  - "рҹҮ§рҹҮ¬_BG_дҝқеҠ еҲ©дәҡ->рҹҮЁрҹҮҰ_CA_еҠ жӢҝеӨ§"
+  - "рҹҮәрҹҮё_US_зҫҺеӣҪ->рҹҮЁрҹҮҰ_CA_еҠ жӢҝеӨ§_1"
+  - "рҹҮ«рҹҮ·_FR_жі•еӣҪ->рҹҮЁрҹҮҰ_CA_еҠ жӢҝеӨ§"
+  - "рҹҮәрҹҮё_US_зҫҺеӣҪ->рҹҮЁрҹҮҰ_CA_еҠ жӢҝеӨ§_2"
+  - "рҹҮҰрҹҮә_AU_жҫіеӨ§еҲ©дәҡ->рҹҮЁрҹҮҰ_CA_еҠ жӢҝеӨ§"
+  - "рҹҮЁрҹҮ·_CR_е“Ҙж–Ҝиҫҫй»ҺеҠ ->рҹҮЁрҹҮҰ_CA_еҠ жӢҝеӨ§"
+  - "рҹҮәрҹҮё_US_зҫҺеӣҪ->рҹҮЁрҹҮҰ_CA_еҠ жӢҝеӨ§_3"
+  - "рҹҮәрҹҮё_US_зҫҺеӣҪ->рҹҮЁрҹҮҰ_CA_еҠ жӢҝеӨ§_4"
+  - "рҹҮЁрҹҮ·_CR_е“Ҙж–Ҝиҫҫй»ҺеҠ ->рҹҮЁрҹҮҰ_CA_еҠ жӢҝеӨ§_1"
+  - "рҹҮұрҹҮә_LU_еҚўжЈ®е Ў->рҹҮЁрҹҮҰ_CA_еҠ жӢҝеӨ§"
+  - "рҹҮірҹҮұ_NL_иҚ·е…°->рҹҮЁрҹҮҰ_CA_еҠ жӢҝеӨ§_1"
+  - "рҹҮәрҹҮё_US_зҫҺеӣҪ->рҹҮЁрҹҮҰ_CA_еҠ жӢҝеӨ§_5"
+  - "рҹҮәрҹҮё_US_зҫҺеӣҪ->рҹҮЁрҹҮҰ_CA_еҠ жӢҝеӨ§_6"
+  - "рҹҮәрҹҮё_US_зҫҺеӣҪ->рҹҮЁрҹҮҰ_CA_еҠ жӢҝеӨ§_7"
+  - "рҹҮәрҹҮё_US_зҫҺеӣҪ->рҹҮЁрҹҮҰ_CA_еҠ жӢҝеӨ§_8"
+  - "рҹҮәрҹҮё_US_зҫҺеӣҪ->рҹҮЁрҹҮҰ_CA_еҠ жӢҝеӨ§_9"
+  - "рҹҮәрҹҮё_US_зҫҺеӣҪ->рҹҮЁрҹҮҰ_CA_еҠ жӢҝеӨ§_10"
+  - "рҹҮөрҹҮұ_PL_жіўе…°->рҹҮЁрҹҮҰ_CA_еҠ жӢҝеӨ§"
+  - "рҹҮЁрҹҮ·_CR_е“Ҙж–Ҝиҫҫй»ҺеҠ ->рҹҮЁрҹҮҰ_CA_еҠ жӢҝеӨ§_2"
+- name: "рҹҚҺ иӢ№жһңжңҚеҠЎ"
+  type: "select"
+  proxies:
+  - "рҹҡҖ иҠӮзӮ№йҖүжӢ©"
+  - "рҹҺҜ е…Ёзҗғзӣҙиҝһ"
+  - "рҹҮЁрҹҮі_CN_дёӯеӣҪ->рҹҮ·рҹҮә_RU_дҝ„зҪ—ж–Ҝ"
+  - "рҹҮәрҹҮё_US_зҫҺеӣҪ->рҹҮЁрҹҮҰ_CA_еҠ жӢҝеӨ§"
+  - "рҹҮірҹҮұ_NL_иҚ·е…°->рҹҮЁрҹҮҰ_CA_еҠ жӢҝеӨ§"
+  - "рҹҮөрҹҮұ_PL_жіўе…°"
+  - "рҹҮұрҹҮ№_LT_з«Ӣйҷ¶е®ӣ->рҹҮЁрҹҮҰ_CA_еҠ жӢҝеӨ§"
+  - "рҹҮ§рҹҮ¬_BG_дҝқеҠ еҲ©дәҡ->рҹҮЁрҹҮҰ_CA_еҠ жӢҝеӨ§"
+  - "рҹҮәрҹҮё_US_зҫҺеӣҪ->рҹҮЁрҹҮҰ_CA_еҠ жӢҝеӨ§_1"
+  - "рҹҮ«рҹҮ·_FR_жі•еӣҪ->рҹҮЁрҹҮҰ_CA_еҠ жӢҝеӨ§"
+  - "рҹҮәрҹҮё_US_зҫҺеӣҪ->рҹҮЁрҹҮҰ_CA_еҠ жӢҝеӨ§_2"
+  - "рҹҮҰрҹҮә_AU_жҫіеӨ§еҲ©дәҡ->рҹҮЁрҹҮҰ_CA_еҠ жӢҝеӨ§"
+  - "рҹҮЁрҹҮ·_CR_е“Ҙж–Ҝиҫҫй»ҺеҠ ->рҹҮЁрҹҮҰ_CA_еҠ жӢҝеӨ§"
+  - "рҹҮәрҹҮё_US_зҫҺеӣҪ->рҹҮЁрҹҮҰ_CA_еҠ жӢҝеӨ§_3"
+  - "рҹҮәрҹҮё_US_зҫҺеӣҪ->рҹҮЁрҹҮҰ_CA_еҠ жӢҝеӨ§_4"
+  - "рҹҮЁрҹҮ·_CR_е“Ҙж–Ҝиҫҫй»ҺеҠ ->рҹҮЁрҹҮҰ_CA_еҠ жӢҝеӨ§_1"
+  - "рҹҮұрҹҮә_LU_еҚўжЈ®е Ў->рҹҮЁрҹҮҰ_CA_еҠ жӢҝеӨ§"
+  - "рҹҮірҹҮұ_NL_иҚ·е…°->рҹҮЁрҹҮҰ_CA_еҠ жӢҝеӨ§_1"
+  - "рҹҮәрҹҮё_US_зҫҺеӣҪ->рҹҮЁрҹҮҰ_CA_еҠ жӢҝеӨ§_5"
+  - "рҹҮәрҹҮё_US_зҫҺеӣҪ->рҹҮЁрҹҮҰ_CA_еҠ жӢҝеӨ§_6"
+  - "рҹҮәрҹҮё_US_зҫҺеӣҪ->рҹҮЁрҹҮҰ_CA_еҠ жӢҝеӨ§_7"
+  - "рҹҮәрҹҮё_US_зҫҺеӣҪ->рҹҮЁрҹҮҰ_CA_еҠ жӢҝеӨ§_8"
+  - "рҹҮәрҹҮё_US_зҫҺеӣҪ->рҹҮЁрҹҮҰ_CA_еҠ жӢҝеӨ§_9"
+  - "рҹҮәрҹҮё_US_зҫҺеӣҪ->рҹҮЁрҹҮҰ_CA_еҠ жӢҝеӨ§_10"
+  - "рҹҮөрҹҮұ_PL_жіўе…°->рҹҮЁрҹҮҰ_CA_еҠ жӢҝеӨ§"
+  - "рҹҮЁрҹҮ·_CR_е“Ҙж–Ҝиҫҫй»ҺеҠ ->рҹҮЁрҹҮҰ_CA_еҠ жӢҝеӨ§_2"
+- name: "рҹҺҜ е…Ёзҗғзӣҙиҝһ"
+  type: "select"
+  proxies:
+  - "DIRECT"
+  - "рҹҡҖ иҠӮзӮ№йҖүжӢ©"
+  - "вҷ»пёҸ иҮӘеҠЁйҖүжӢ©"
+- name: "рҹӣ‘ е…ЁзҗғжӢҰжҲӘ"
+  type: "select"
+  proxies:
+  - "REJECT"
+  - "DIRECT"
+- name: "рҹҚғ еә”з”ЁеҮҖеҢ–"
+  type: "select"
+  proxies:
+  - "REJECT"
+  - "DIRECT"
+- name: "рҹҗҹ жјҸзҪ‘д№Ӣйұј"
+  type: "select"
+  proxies:
+  - "рҹҡҖ иҠӮзӮ№йҖүжӢ©"
+  - "рҹҺҜ е…Ёзҗғзӣҙиҝһ"
+  - "вҷ»пёҸ иҮӘеҠЁйҖүжӢ©"
+  - "рҹҮЁрҹҮі_CN_дёӯеӣҪ->рҹҮ·рҹҮә_RU_дҝ„зҪ—ж–Ҝ"
+  - "рҹҮәрҹҮё_US_зҫҺеӣҪ->рҹҮЁрҹҮҰ_CA_еҠ жӢҝеӨ§"
+  - "рҹҮірҹҮұ_NL_иҚ·е…°->рҹҮЁрҹҮҰ_CA_еҠ жӢҝеӨ§"
+  - "рҹҮөрҹҮұ_PL_жіўе…°"
+  - "рҹҮұрҹҮ№_LT_з«Ӣйҷ¶е®ӣ->рҹҮЁрҹҮҰ_CA_еҠ жӢҝеӨ§"
+  - "рҹҮ§рҹҮ¬_BG_дҝқеҠ еҲ©дәҡ->рҹҮЁрҹҮҰ_CA_еҠ жӢҝеӨ§"
+  - "рҹҮәрҹҮё_US_зҫҺеӣҪ->рҹҮЁрҹҮҰ_CA_еҠ жӢҝеӨ§_1"
+  - "рҹҮ«рҹҮ·_FR_жі•еӣҪ->рҹҮЁрҹҮҰ_CA_еҠ жӢҝеӨ§"
+  - "рҹҮәрҹҮё_US_зҫҺеӣҪ->рҹҮЁрҹҮҰ_CA_еҠ жӢҝеӨ§_2"
+  - "рҹҮҰрҹҮә_AU_жҫіеӨ§еҲ©дәҡ->рҹҮЁрҹҮҰ_CA_еҠ жӢҝеӨ§"
+  - "рҹҮЁрҹҮ·_CR_е“Ҙж–Ҝиҫҫй»ҺеҠ ->рҹҮЁрҹҮҰ_CA_еҠ жӢҝеӨ§"
+  - "рҹҮәрҹҮё_US_зҫҺеӣҪ->рҹҮЁрҹҮҰ_CA_еҠ жӢҝеӨ§_3"
+  - "рҹҮәрҹҮё_US_зҫҺеӣҪ->рҹҮЁрҹҮҰ_CA_еҠ жӢҝеӨ§_4"
+  - "рҹҮЁрҹҮ·_CR_е“Ҙж–Ҝиҫҫй»ҺеҠ ->рҹҮЁрҹҮҰ_CA_еҠ жӢҝеӨ§_1"
+  - "рҹҮұрҹҮә_LU_еҚўжЈ®е Ў->рҹҮЁрҹҮҰ_CA_еҠ жӢҝеӨ§"
+  - "рҹҮірҹҮұ_NL_иҚ·е…°->рҹҮЁрҹҮҰ_CA_еҠ жӢҝеӨ§_1"
+  - "рҹҮәрҹҮё_US_зҫҺеӣҪ->рҹҮЁрҹҮҰ_CA_еҠ жӢҝеӨ§_5"
+  - "рҹҮәрҹҮё_US_зҫҺеӣҪ->рҹҮЁрҹҮҰ_CA_еҠ жӢҝеӨ§_6"
+  - "рҹҮәрҹҮё_US_зҫҺеӣҪ->рҹҮЁрҹҮҰ_CA_еҠ жӢҝеӨ§_7"
+  - "рҹҮәрҹҮё_US_зҫҺеӣҪ->рҹҮЁрҹҮҰ_CA_еҠ жӢҝеӨ§_8"
+  - "рҹҮәрҹҮё_US_зҫҺеӣҪ->рҹҮЁрҹҮҰ_CA_еҠ жӢҝеӨ§_9"
+  - "рҹҮәрҹҮё_US_зҫҺеӣҪ->рҹҮЁрҹҮҰ_CA_еҠ жӢҝеӨ§_10"
+  - "рҹҮөрҹҮұ_PL_жіўе…°->рҹҮЁрҹҮҰ_CA_еҠ жӢҝеӨ§"
+  - "рҹҮЁрҹҮ·_CR_е“Ҙж–Ҝиҫҫй»ҺеҠ ->рҹҮЁрҹҮҰ_CA_еҠ жӢҝеӨ§_2"
+rule-providers:
+  Apple:
+    type: "http"
+    behavior: "classical"
+    url: "https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/Apple.list"
+    format: "text"
+    interval: 3600
+    path: "./Clash/Apple.list"
+  Telegram:
+    type: "http"
+    behavior: "classical"
+    url: "https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/Telegram.list"
+    format: "text"
+    interval: 3600
+    path: "./Clash/Telegram.list"
+  ProxyLite:
+    type: "http"
+    behavior: "classical"
+    url: "https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/ProxyLite.list"
+    format: "text"
+    interval: 3600
+    path: "./Clash/ProxyLite.list"
+  ChinaDomain:
+    type: "http"
+    behavior: "classical"
+    url: "https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/ChinaDomain.list"
+    format: "text"
+    interval: 3600
+    path: "./Clash/ChinaDomain.list"
+  ChinaCompanyIp:
+    type: "http"
+    behavior: "classical"
+    url: "https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/ChinaCompanyIp.list"
+    format: "text"
+    interval: 3600
+    path: "./Clash/ChinaCompanyIp.list"
+  ProxyMedia:
+    type: "http"
+    behavior: "classical"
+    url: "https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/ProxyMedia.list"
+    format: "text"
+    interval: 3600
+    path: "./Clash/ProxyMedia.list"
+  LocalAreaNetwork:
+    type: "http"
+    behavior: "classical"
+    url: "https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/LocalAreaNetwork.list"
+    format: "text"
+    interval: 3600
+    path: "./Clash/LocalAreaNetwork.list"
+  Microsoft:
+    type: "http"
+    behavior: "classical"
+    url: "https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/Microsoft.list"
+    format: "text"
+    interval: 3600
+    path: "./Clash/Microsoft.list"
+  GoogleCN:
+    type: "http"
+    behavior: "classical"
+    url: "https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/GoogleCN.list"
+    format: "text"
+    interval: 3600
+    path: "./Clash/GoogleCN.list"
+  BanAD:
+    type: "http"
+    behavior: "classical"
+    url: "https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/BanAD.list"
+    format: "text"
+    interval: 3600
+    path: "./Clash/BanAD.list"
+  BanProgramAD:
+    type: "http"
+    behavior: "classical"
+    url: "https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/BanProgramAD.list"
+    format: "text"
+    interval: 3600
+    path: "./Clash/BanProgramAD.list"
+  SteamCN:
+    type: "http"
+    behavior: "classical"
+    url: "https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/Ruleset/SteamCN.list"
+    format: "text"
+    interval: 3600
+    path: "./Clash/SteamCN.list"
+rules:
+- "RULE-SET,LocalAreaNetwork,рҹҺҜ е…Ёзҗғзӣҙиҝһ"
+- "RULE-SET,BanAD,рҹӣ‘ е…ЁзҗғжӢҰжҲӘ"
+- "RULE-SET,BanProgramAD,рҹҚғ еә”з”ЁеҮҖеҢ–"
+- "RULE-SET,GoogleCN,рҹҺҜ е…Ёзҗғзӣҙиҝһ"
+- "RULE-SET,SteamCN,рҹҺҜ е…Ёзҗғзӣҙиҝһ"
+- "RULE-SET,Microsoft,в“ӮпёҸ еҫ®иҪҜжңҚеҠЎ"
+- "RULE-SET,Apple,рҹҚҺ иӢ№жһңжңҚеҠЎ"
+- "RULE-SET,ProxyMedia,рҹҢҚ еӣҪеӨ–еӘ’дҪ“"
+- "RULE-SET,Telegram,рҹ“І з”өжҠҘдҝЎжҒҜ"
+- "RULE-SET,ProxyLite,рҹҡҖ иҠӮзӮ№йҖүжӢ©"
+- "RULE-SET,ChinaDomain,рҹҺҜ е…Ёзҗғзӣҙиҝһ"
+- "RULE-SET,ChinaCompanyIp,рҹҺҜ е…Ёзҗғзӣҙиҝһ"
+- "GEOIP,CN,рҹҺҜ е…Ёзҗғзӣҙиҝһ"
+- "MATCH,рҹҗҹ жјҸзҪ‘д№Ӣйұј"
