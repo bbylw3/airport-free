@@ -1,6 +1,6 @@
 # 创建者：v2rayse.com 自动创建
-# 创建时间：2025-01-11 08:00:00
-# 节点类型：trojan, ss, vmess
+# 创建时间：2025-01-12 08:00:00
+# 节点类型：ss, vmess, trojan
 ---
 mixed-port: 7890
 allow-lan: false
@@ -48,384 +48,377 @@ tun:
   - "1.1.1.1"
   - "1.0.0.1"
 proxies:
+- name: "🇬🇧_GB_英国"
+  type: "ss"
+  server: "212.102.53.197"
+  port: 443
+  cipher: "aes-128-gcm"
+  password: "shadowsocks"
+- name: "🇨🇳_CN_中国->🇷🇺_RU_俄罗斯"
+  type: "vmess"
+  server: "cm1.awslcn.info"
+  port: 25230
+  sni: ""
+  uuid: "243eab52-9ac1-405c-887c-eb112c0985b8"
+  cipher: "auto"
+  network: "ws"
+  skip-cert-verify: true
+  ws-opts:
+    path: "/"
+    headers:
+      host: "cm1.awslcn.info"
+  alterId: 0
 - name: "🇺🇸_US_美国_1"
   type: "trojan"
-  server: "166.1.227.194"
+  server: "35.155.4.93"
   port: 443
-  sni: "relative-rhino.boa152.lol"
+  sni: "usable-toad.treefrog761.one"
   password: "3723507166611775488"
   network: "tcp"
-- name: "🇺🇸_US_美国_2"
-  type: "trojan"
-  server: "organic-hare.boa152.lol"
+  skip-cert-verify: true
+- name: "🇺🇸_US_美国->🇯🇵_JP_日本"
+  type: "ss"
+  server: "35.88.145.21"
   port: 443
-  sni: "organic-hare.boa152.lol"
-  password: "3723507166611775488"
+  cipher: "aes-256-cfb"
+  password: "amazonskr05"
+- name: "🇮🇹_IT_意大利"
+  type: "ss"
+  server: "37.143.129.230"
+  port: 989
+  cipher: "aes-256-cfb"
+  password: "f8f7aCzcPKbsF8p3"
+- name: "🇺🇸_US_美国->🇫🇷_FR_法国"
+  type: "vmess"
+  server: "151.101.2.216"
+  port: 80
+  sni: ""
+  uuid: "c69f3029-ae1e-45ca-aa08-70970f14dfd2"
+  cipher: "auto"
+  network: "ws"
+  fingerprint: ""
+  ws-opts:
+    path: "/racevpn?telegram@ISVvpn-telegram@ISVvpn-telegram@ISVvpn"
+    headers:
+      host: "telegram-ISVvpn.ir"
+  alterId: 0
 - name: "🇷🇺_RU_俄罗斯"
   type: "ss"
   server: "217.30.10.18"
   port: 9056
   cipher: "aes-256-cfb"
   password: "rNBfNuuANFCAk7KB"
+- name: "🇺🇸_US_美国_2"
+  type: "trojan"
+  server: "166.1.227.30"
+  port: 443
+  sni: "eternal-tadpole.boa152.lol"
+  password: "3723507166611775488"
+  network: "tcp"
+- name: "🇺🇸_US_美国_4"
+  type: "ss"
+  server: "35.94.25.109"
+  port: 443
+  cipher: "aes-256-cfb"
+  password: "amazonskr05"
+- name: "🇺🇸_US_美国->🇸🇬_SG_新加坡"
+  type: "ss"
+  server: "35.90.11.23"
+  port: 443
+  cipher: "aes-256-cfb"
+  password: "amazonskr05"
+- name: "🇷🇺_RU_俄罗斯->🇨🇦_CA_加拿大"
+  type: "trojan"
+  server: "195.133.93.135"
+  port: 443
+  sni: "pleased-airedale.boa152.lol"
+  password: "3723507166611775488"
+  network: "tcp"
+- name: "🇺🇸_US_美国_6"
+  type: "ss"
+  server: "35.89.145.123"
+  port: 443
+  cipher: "aes-256-cfb"
+  password: "amazonskr05"
 - name: "🇷🇺_RU_俄罗斯_1"
+  type: "trojan"
+  server: "195.133.93.234"
+  port: 443
+  sni: "wise-cowbird.boa152.lol"
+  password: "3723507166611775488"
+  network: "tcp"
+  skip-cert-verify: true
+- name: "🇬🇧_GB_英国_1"
   type: "ss"
-  server: "217.30.10.18"
-  port: 9045
-  cipher: "aes-256-cfb"
-  password: "Lp27rqyJq72bZsqX"
+  server: "uk-dc1.yangon.club"
+  port: 443
+  cipher: "aes-128-gcm"
+  password: "shadowsocks"
 - name: "🇷🇺_RU_俄罗斯_2"
-  type: "ss"
-  server: "217.30.10.18"
-  port: 9005
-  cipher: "aes-256-cfb"
-  password: "ZET59LF6DvCC8KVt"
-- name: "🇺🇸_US_美国_3"
-  type: "ss"
-  server: "38.114.114.69"
-  port: 7001
-  cipher: "aes-256-gcm"
-  password: "RexnBgU7EV5ADxG"
+  type: "trojan"
+  server: "80.240.112.167"
+  port: 443
+  sni: "ample-cockatoo.boa152.lol"
+  password: "3723507166611775488"
+  network: "tcp"
 - name: "🇷🇺_RU_俄罗斯_3"
   type: "ss"
   server: "217.30.10.18"
   port: 9003
   cipher: "aes-256-cfb"
   password: "JdmRK9gMEqFgs8nP"
-- name: "🇺🇸_US_美国_4"
-  type: "ss"
-  server: "38.114.114.69"
-  port: 443
-  cipher: "aes-256-gcm"
-  password: "pKEW8JPByTVTLtM"
-- name: "🇺🇸_US_美国_5"
-  type: "ss"
-  server: "38.114.114.69"
-  port: 9102
-  cipher: "aes-256-gcm"
-  password: "e4FCWrgpkji3QY"
-- name: "🇨🇳_CN_中国->🇷🇺_RU_俄罗斯"
+- name: "🇮🇪_IE_爱尔兰->🇺🇸_US_美国"
   type: "trojan"
-  server: "ru0195.alibabaokz.com"
-  port: 60194
-  sni: "ru0195.alibabaokz.com"
-  password: "38571ca6-6692-4559-b901-0bc5826b7661"
-  skip-cert-verify: true
+  server: "63.34.134.148"
+  port: 22222
+  sni: "trojan.burgerip.co.uk"
+  password: "telegram-id-privatevpns"
 - name: "🇷🇺_RU_俄罗斯_4"
   type: "ss"
   server: "217.30.10.18"
-  port: 9001
+  port: 9094
   cipher: "aes-256-cfb"
-  password: "UkXRsXvR6buDMG2Y"
-- name: "🇺🇸_US_美国_6"
-  type: "ss"
-  server: "38.114.114.69"
-  port: 6697
-  cipher: "aes-256-gcm"
-  password: "TEzjfAYq2IjtuoS"
-- name: "🇺🇸_US_美国_7"
-  type: "ss"
-  server: "38.114.114.69"
-  port: 8091
-  cipher: "aes-256-gcm"
-  password: "PCnnH6SQSnfoS27"
+  password: "rpgbNnU9rDDU4aWZ"
 - name: "🇷🇺_RU_俄罗斯_5"
   type: "ss"
   server: "217.30.10.18"
-  port: 9084
+  port: 9037
   cipher: "aes-256-cfb"
-  password: "c3NtHJ5ujV2tGDfj"
-- name: "🇺🇸_US_美国_9"
-  type: "ss"
-  server: "38.114.114.69"
-  port: 8882
-  cipher: "aes-256-gcm"
-  password: "kDWvXYZoTBcGkC4"
-- name: "🇳🇱_NL_荷兰_1"
-  type: "ss"
-  server: "213.109.147.242"
-  port: 62685
-  cipher: "chacha20-ietf-poly1305"
-  password: "VpKABcOpNNA0l5G2AVOmw8"
-- name: "🇺🇸_US_美国_11"
-  type: "ss"
-  server: "38.114.114.69"
-  port: 8090
-  cipher: "aes-256-gcm"
-  password: "PCnnH6SQSnfoS27"
-- name: "🇮🇹_IT_意大利->🇺🇸_US_美国"
-  type: "ss"
-  server: "37.143.129.230"
-  port: 989
-  cipher: "aes-256-cfb"
-  password: "f8f7aCzcPKbsF8p3"
-- name: "🇬🇧_GB_英国"
-  type: "ss"
-  server: "51.13.182.236"
-  port: 6870
-  cipher: "chacha20-ietf-poly1305"
-  password: "M7x1mGNOwhPiRB9jSxZJNy"
-- name: "🇨🇳_CN_中国->🇺🇸_US_美国"
-  type: "ss"
-  server: "w72tapyb.slashdevslashnetslashtun.net"
-  port: 17004
-  cipher: "aes-256-gcm"
-  password: "YRCK2D16NISDAPEV"
-- name: "🇺🇸_US_美国_12"
-  type: "ss"
-  server: "35.94.145.100"
+  password: "TN2YqghxeFDKZfLU"
+- name: "🇷🇺_RU_俄罗斯->🇰🇷_KR_韩国"
+  type: "trojan"
+  server: "oriented-terrier.boa152.lol"
   port: 443
-  cipher: "aes-256-cfb"
-  password: "amazonskr05"
+  sni: "oriented-terrier.boa152.lol"
+  password: "3723507166611775488"
+  skip-cert-verify: true
+- name: "🇷🇺_RU_俄罗斯_6"
+  type: "ss"
+  server: "185.22.155.228"
+  port: 23456
+  cipher: "aes-256-gcm"
+  password: "dongtaiwang.com"
+- name: "🇺🇸_US_美国_7"
+  type: "trojan"
+  server: "usable-toad.treefrog761.one"
+  port: 443
+  sni: "usable-toad.treefrog761.one"
+  password: "3723507166611775488"
 - name: "🇮🇷_IR_伊朗"
   type: "ss"
   server: "83.147.216.173"
   port: 9848
   cipher: "chacha20-ietf-poly1305"
   password: "zUQvFioae7KzAZ2GCMgNum"
-- name: "🇨🇳_CN_中国"
-  type: "ss"
-  server: "62.60.233.72"
-  port: 33155
-  cipher: "aes-256-gcm"
-  password: "AYbFL39bn4EfDXfDbueamN"
-- name: "🇺🇸_US_美国_14"
-  type: "ss"
-  server: "38.114.114.69"
-  port: 5004
-  cipher: "aes-256-gcm"
-  password: "g5MeD6Ft3CWlJId"
-- name: "🇨🇳_CN_中国->🇷🇺_RU_俄罗斯_1"
+- name: "🇺🇸_US_美国->🇨🇳_CN_中国"
   type: "vmess"
-  server: "cm1.awslcn.info"
-  port: 25230
-  uuid: "243eab52-9ac1-405c-887c-eb112c0985b8"
+  server: "142.0.134.245"
+  port: 45017
+  uuid: "418048af-a293-4b99-9b0c-98ca3580dd24"
   cipher: "auto"
-  network: "ws"
-  ws-opts:
-    path: "/"
-    headers:
-      host: "cm1.awslcn.info"
-  alterId: 0
-- name: "🇷🇺_RU_俄罗斯->🇺🇸_US_美国"
+  network: "tcp"
+  alterId: 64
+- name: "🇷🇺_RU_俄罗斯_7"
   type: "ss"
-  server: "45.8.158.238"
-  port: 16112
-  cipher: "aes-256-gcm"
-  password: "2a117bd4077d9a53"
-- name: "🇨🇳_CN_中国->🇺🇸_US_美国_1"
-  type: "trojan"
-  server: "120.232.217.96"
-  port: 21332
-  sni: "120.232.217.96"
-  password: "7daf833c-37b9-4afc-8495-96590f03f781"
-  skip-cert-verify: true
-- name: "🇺🇸_US_美国_15"
+  server: "217.30.10.18"
+  port: 9042
+  cipher: "aes-256-cfb"
+  password: "S7KwUu7yBy58S3Ga"
+- name: "🇷🇺_RU_俄罗斯_8"
   type: "ss"
-  server: "38.114.114.69"
-  port: 8119
-  cipher: "aes-256-gcm"
-  password: "cdBIDV42DCwnfIN"
+  server: "217.30.10.18"
+  port: 9014
+  cipher: "aes-256-cfb"
+  password: "KnJGad3FqTvjqbaX"
 proxy-groups:
 - name: "🚀 节点选择"
   type: "select"
   proxies:
   - "♻️ 自动选择"
   - "DIRECT"
-  - "🇺🇸_US_美国_1"
-  - "🇺🇸_US_美国_2"
-  - "🇷🇺_RU_俄罗斯"
-  - "🇷🇺_RU_俄罗斯_1"
-  - "🇷🇺_RU_俄罗斯_2"
-  - "🇺🇸_US_美国_3"
-  - "🇷🇺_RU_俄罗斯_3"
-  - "🇺🇸_US_美国_4"
-  - "🇺🇸_US_美国_5"
-  - "🇨🇳_CN_中国->🇷🇺_RU_俄罗斯"
-  - "🇷🇺_RU_俄罗斯_4"
-  - "🇺🇸_US_美国_6"
-  - "🇺🇸_US_美国_7"
-  - "🇷🇺_RU_俄罗斯_5"
-  - "🇺🇸_US_美国_9"
-  - "🇳🇱_NL_荷兰_1"
-  - "🇺🇸_US_美国_11"
-  - "🇮🇹_IT_意大利->🇺🇸_US_美国"
   - "🇬🇧_GB_英国"
-  - "🇨🇳_CN_中国->🇺🇸_US_美国"
-  - "🇺🇸_US_美国_12"
+  - "🇨🇳_CN_中国->🇷🇺_RU_俄罗斯"
+  - "🇺🇸_US_美国_1"
+  - "🇺🇸_US_美国->🇯🇵_JP_日本"
+  - "🇮🇹_IT_意大利"
+  - "🇺🇸_US_美国->🇫🇷_FR_法国"
+  - "🇷🇺_RU_俄罗斯"
+  - "🇺🇸_US_美国_2"
+  - "🇺🇸_US_美国_4"
+  - "🇺🇸_US_美国->🇸🇬_SG_新加坡"
+  - "🇷🇺_RU_俄罗斯->🇨🇦_CA_加拿大"
+  - "🇺🇸_US_美国_6"
+  - "🇷🇺_RU_俄罗斯_1"
+  - "🇬🇧_GB_英国_1"
+  - "🇷🇺_RU_俄罗斯_2"
+  - "🇷🇺_RU_俄罗斯_3"
+  - "🇮🇪_IE_爱尔兰->🇺🇸_US_美国"
+  - "🇷🇺_RU_俄罗斯_4"
+  - "🇷🇺_RU_俄罗斯_5"
+  - "🇷🇺_RU_俄罗斯->🇰🇷_KR_韩国"
+  - "🇷🇺_RU_俄罗斯_6"
+  - "🇺🇸_US_美国_7"
   - "🇮🇷_IR_伊朗"
-  - "🇨🇳_CN_中国"
-  - "🇺🇸_US_美国_14"
-  - "🇨🇳_CN_中国->🇷🇺_RU_俄罗斯_1"
-  - "🇷🇺_RU_俄罗斯->🇺🇸_US_美国"
-  - "🇨🇳_CN_中国->🇺🇸_US_美国_1"
-  - "🇺🇸_US_美国_15"
+  - "🇺🇸_US_美国->🇨🇳_CN_中国"
+  - "🇷🇺_RU_俄罗斯_7"
+  - "🇷🇺_RU_俄罗斯_8"
 - name: "♻️ 自动选择"
   type: "url-test"
   url: "http://www.gstatic.com/generate_204"
   interval: 300
   tolerance: 50
   proxies:
-  - "🇺🇸_US_美国_1"
-  - "🇺🇸_US_美国_2"
-  - "🇷🇺_RU_俄罗斯"
-  - "🇷🇺_RU_俄罗斯_1"
-  - "🇷🇺_RU_俄罗斯_2"
-  - "🇺🇸_US_美国_3"
-  - "🇷🇺_RU_俄罗斯_3"
-  - "🇺🇸_US_美国_4"
-  - "🇺🇸_US_美国_5"
-  - "🇨🇳_CN_中国->🇷🇺_RU_俄罗斯"
-  - "🇷🇺_RU_俄罗斯_4"
-  - "🇺🇸_US_美国_6"
-  - "🇺🇸_US_美国_7"
-  - "🇷🇺_RU_俄罗斯_5"
-  - "🇺🇸_US_美国_9"
-  - "🇳🇱_NL_荷兰_1"
-  - "🇺🇸_US_美国_11"
-  - "🇮🇹_IT_意大利->🇺🇸_US_美国"
   - "🇬🇧_GB_英国"
-  - "🇨🇳_CN_中国->🇺🇸_US_美国"
-  - "🇺🇸_US_美国_12"
+  - "🇨🇳_CN_中国->🇷🇺_RU_俄罗斯"
+  - "🇺🇸_US_美国_1"
+  - "🇺🇸_US_美国->🇯🇵_JP_日本"
+  - "🇮🇹_IT_意大利"
+  - "🇺🇸_US_美国->🇫🇷_FR_法国"
+  - "🇷🇺_RU_俄罗斯"
+  - "🇺🇸_US_美国_2"
+  - "🇺🇸_US_美国_4"
+  - "🇺🇸_US_美国->🇸🇬_SG_新加坡"
+  - "🇷🇺_RU_俄罗斯->🇨🇦_CA_加拿大"
+  - "🇺🇸_US_美国_6"
+  - "🇷🇺_RU_俄罗斯_1"
+  - "🇬🇧_GB_英国_1"
+  - "🇷🇺_RU_俄罗斯_2"
+  - "🇷🇺_RU_俄罗斯_3"
+  - "🇮🇪_IE_爱尔兰->🇺🇸_US_美国"
+  - "🇷🇺_RU_俄罗斯_4"
+  - "🇷🇺_RU_俄罗斯_5"
+  - "🇷🇺_RU_俄罗斯->🇰🇷_KR_韩国"
+  - "🇷🇺_RU_俄罗斯_6"
+  - "🇺🇸_US_美国_7"
   - "🇮🇷_IR_伊朗"
-  - "🇨🇳_CN_中国"
-  - "🇺🇸_US_美国_14"
-  - "🇨🇳_CN_中国->🇷🇺_RU_俄罗斯_1"
-  - "🇷🇺_RU_俄罗斯->🇺🇸_US_美国"
-  - "🇨🇳_CN_中国->🇺🇸_US_美国_1"
-  - "🇺🇸_US_美国_15"
+  - "🇺🇸_US_美国->🇨🇳_CN_中国"
+  - "🇷🇺_RU_俄罗斯_7"
+  - "🇷🇺_RU_俄罗斯_8"
 - name: "🌍 国外媒体"
   type: "select"
   proxies:
   - "🚀 节点选择"
   - "♻️ 自动选择"
   - "🎯 全球直连"
-  - "🇺🇸_US_美国_1"
-  - "🇺🇸_US_美国_2"
-  - "🇷🇺_RU_俄罗斯"
-  - "🇷🇺_RU_俄罗斯_1"
-  - "🇷🇺_RU_俄罗斯_2"
-  - "🇺🇸_US_美国_3"
-  - "🇷🇺_RU_俄罗斯_3"
-  - "🇺🇸_US_美国_4"
-  - "🇺🇸_US_美国_5"
-  - "🇨🇳_CN_中国->🇷🇺_RU_俄罗斯"
-  - "🇷🇺_RU_俄罗斯_4"
-  - "🇺🇸_US_美国_6"
-  - "🇺🇸_US_美国_7"
-  - "🇷🇺_RU_俄罗斯_5"
-  - "🇺🇸_US_美国_9"
-  - "🇳🇱_NL_荷兰_1"
-  - "🇺🇸_US_美国_11"
-  - "🇮🇹_IT_意大利->🇺🇸_US_美国"
   - "🇬🇧_GB_英国"
-  - "🇨🇳_CN_中国->🇺🇸_US_美国"
-  - "🇺🇸_US_美国_12"
+  - "🇨🇳_CN_中国->🇷🇺_RU_俄罗斯"
+  - "🇺🇸_US_美国_1"
+  - "🇺🇸_US_美国->🇯🇵_JP_日本"
+  - "🇮🇹_IT_意大利"
+  - "🇺🇸_US_美国->🇫🇷_FR_法国"
+  - "🇷🇺_RU_俄罗斯"
+  - "🇺🇸_US_美国_2"
+  - "🇺🇸_US_美国_4"
+  - "🇺🇸_US_美国->🇸🇬_SG_新加坡"
+  - "🇷🇺_RU_俄罗斯->🇨🇦_CA_加拿大"
+  - "🇺🇸_US_美国_6"
+  - "🇷🇺_RU_俄罗斯_1"
+  - "🇬🇧_GB_英国_1"
+  - "🇷🇺_RU_俄罗斯_2"
+  - "🇷🇺_RU_俄罗斯_3"
+  - "🇮🇪_IE_爱尔兰->🇺🇸_US_美国"
+  - "🇷🇺_RU_俄罗斯_4"
+  - "🇷🇺_RU_俄罗斯_5"
+  - "🇷🇺_RU_俄罗斯->🇰🇷_KR_韩国"
+  - "🇷🇺_RU_俄罗斯_6"
+  - "🇺🇸_US_美国_7"
   - "🇮🇷_IR_伊朗"
-  - "🇨🇳_CN_中国"
-  - "🇺🇸_US_美国_14"
-  - "🇨🇳_CN_中国->🇷🇺_RU_俄罗斯_1"
-  - "🇷🇺_RU_俄罗斯->🇺🇸_US_美国"
-  - "🇨🇳_CN_中国->🇺🇸_US_美国_1"
-  - "🇺🇸_US_美国_15"
+  - "🇺🇸_US_美国->🇨🇳_CN_中国"
+  - "🇷🇺_RU_俄罗斯_7"
+  - "🇷🇺_RU_俄罗斯_8"
 - name: "📲 电报信息"
   type: "select"
   proxies:
   - "🚀 节点选择"
   - "🎯 全球直连"
-  - "🇺🇸_US_美国_1"
-  - "🇺🇸_US_美国_2"
-  - "🇷🇺_RU_俄罗斯"
-  - "🇷🇺_RU_俄罗斯_1"
-  - "🇷🇺_RU_俄罗斯_2"
-  - "🇺🇸_US_美国_3"
-  - "🇷🇺_RU_俄罗斯_3"
-  - "🇺🇸_US_美国_4"
-  - "🇺🇸_US_美国_5"
-  - "🇨🇳_CN_中国->🇷🇺_RU_俄罗斯"
-  - "🇷🇺_RU_俄罗斯_4"
-  - "🇺🇸_US_美国_6"
-  - "🇺🇸_US_美国_7"
-  - "🇷🇺_RU_俄罗斯_5"
-  - "🇺🇸_US_美国_9"
-  - "🇳🇱_NL_荷兰_1"
-  - "🇺🇸_US_美国_11"
-  - "🇮🇹_IT_意大利->🇺🇸_US_美国"
   - "🇬🇧_GB_英国"
-  - "🇨🇳_CN_中国->🇺🇸_US_美国"
-  - "🇺🇸_US_美国_12"
+  - "🇨🇳_CN_中国->🇷🇺_RU_俄罗斯"
+  - "🇺🇸_US_美国_1"
+  - "🇺🇸_US_美国->🇯🇵_JP_日本"
+  - "🇮🇹_IT_意大利"
+  - "🇺🇸_US_美国->🇫🇷_FR_法国"
+  - "🇷🇺_RU_俄罗斯"
+  - "🇺🇸_US_美国_2"
+  - "🇺🇸_US_美国_4"
+  - "🇺🇸_US_美国->🇸🇬_SG_新加坡"
+  - "🇷🇺_RU_俄罗斯->🇨🇦_CA_加拿大"
+  - "🇺🇸_US_美国_6"
+  - "🇷🇺_RU_俄罗斯_1"
+  - "🇬🇧_GB_英国_1"
+  - "🇷🇺_RU_俄罗斯_2"
+  - "🇷🇺_RU_俄罗斯_3"
+  - "🇮🇪_IE_爱尔兰->🇺🇸_US_美国"
+  - "🇷🇺_RU_俄罗斯_4"
+  - "🇷🇺_RU_俄罗斯_5"
+  - "🇷🇺_RU_俄罗斯->🇰🇷_KR_韩国"
+  - "🇷🇺_RU_俄罗斯_6"
+  - "🇺🇸_US_美国_7"
   - "🇮🇷_IR_伊朗"
-  - "🇨🇳_CN_中国"
-  - "🇺🇸_US_美国_14"
-  - "🇨🇳_CN_中国->🇷🇺_RU_俄罗斯_1"
-  - "🇷🇺_RU_俄罗斯->🇺🇸_US_美国"
-  - "🇨🇳_CN_中国->🇺🇸_US_美国_1"
-  - "🇺🇸_US_美国_15"
+  - "🇺🇸_US_美国->🇨🇳_CN_中国"
+  - "🇷🇺_RU_俄罗斯_7"
+  - "🇷🇺_RU_俄罗斯_8"
 - name: "Ⓜ️ 微软服务"
   type: "select"
   proxies:
   - "🎯 全球直连"
   - "🚀 节点选择"
-  - "🇺🇸_US_美国_1"
-  - "🇺🇸_US_美国_2"
-  - "🇷🇺_RU_俄罗斯"
-  - "🇷🇺_RU_俄罗斯_1"
-  - "🇷🇺_RU_俄罗斯_2"
-  - "🇺🇸_US_美国_3"
-  - "🇷🇺_RU_俄罗斯_3"
-  - "🇺🇸_US_美国_4"
-  - "🇺🇸_US_美国_5"
-  - "🇨🇳_CN_中国->🇷🇺_RU_俄罗斯"
-  - "🇷🇺_RU_俄罗斯_4"
-  - "🇺🇸_US_美国_6"
-  - "🇺🇸_US_美国_7"
-  - "🇷🇺_RU_俄罗斯_5"
-  - "🇺🇸_US_美国_9"
-  - "🇳🇱_NL_荷兰_1"
-  - "🇺🇸_US_美国_11"
-  - "🇮🇹_IT_意大利->🇺🇸_US_美国"
   - "🇬🇧_GB_英国"
-  - "🇨🇳_CN_中国->🇺🇸_US_美国"
-  - "🇺🇸_US_美国_12"
+  - "🇨🇳_CN_中国->🇷🇺_RU_俄罗斯"
+  - "🇺🇸_US_美国_1"
+  - "🇺🇸_US_美国->🇯🇵_JP_日本"
+  - "🇮🇹_IT_意大利"
+  - "🇺🇸_US_美国->🇫🇷_FR_法国"
+  - "🇷🇺_RU_俄罗斯"
+  - "🇺🇸_US_美国_2"
+  - "🇺🇸_US_美国_4"
+  - "🇺🇸_US_美国->🇸🇬_SG_新加坡"
+  - "🇷🇺_RU_俄罗斯->🇨🇦_CA_加拿大"
+  - "🇺🇸_US_美国_6"
+  - "🇷🇺_RU_俄罗斯_1"
+  - "🇬🇧_GB_英国_1"
+  - "🇷🇺_RU_俄罗斯_2"
+  - "🇷🇺_RU_俄罗斯_3"
+  - "🇮🇪_IE_爱尔兰->🇺🇸_US_美国"
+  - "🇷🇺_RU_俄罗斯_4"
+  - "🇷🇺_RU_俄罗斯_5"
+  - "🇷🇺_RU_俄罗斯->🇰🇷_KR_韩国"
+  - "🇷🇺_RU_俄罗斯_6"
+  - "🇺🇸_US_美国_7"
   - "🇮🇷_IR_伊朗"
-  - "🇨🇳_CN_中国"
-  - "🇺🇸_US_美国_14"
-  - "🇨🇳_CN_中国->🇷🇺_RU_俄罗斯_1"
-  - "🇷🇺_RU_俄罗斯->🇺🇸_US_美国"
-  - "🇨🇳_CN_中国->🇺🇸_US_美国_1"
-  - "🇺🇸_US_美国_15"
+  - "🇺🇸_US_美国->🇨🇳_CN_中国"
+  - "🇷🇺_RU_俄罗斯_7"
+  - "🇷🇺_RU_俄罗斯_8"
 - name: "🍎 苹果服务"
   type: "select"
   proxies:
   - "🚀 节点选择"
   - "🎯 全球直连"
-  - "🇺🇸_US_美国_1"
-  - "🇺🇸_US_美国_2"
-  - "🇷🇺_RU_俄罗斯"
-  - "🇷🇺_RU_俄罗斯_1"
-  - "🇷🇺_RU_俄罗斯_2"
-  - "🇺🇸_US_美国_3"
-  - "🇷🇺_RU_俄罗斯_3"
-  - "🇺🇸_US_美国_4"
-  - "🇺🇸_US_美国_5"
-  - "🇨🇳_CN_中国->🇷🇺_RU_俄罗斯"
-  - "🇷🇺_RU_俄罗斯_4"
-  - "🇺🇸_US_美国_6"
-  - "🇺🇸_US_美国_7"
-  - "🇷🇺_RU_俄罗斯_5"
-  - "🇺🇸_US_美国_9"
-  - "🇳🇱_NL_荷兰_1"
-  - "🇺🇸_US_美国_11"
-  - "🇮🇹_IT_意大利->🇺🇸_US_美国"
   - "🇬🇧_GB_英国"
-  - "🇨🇳_CN_中国->🇺🇸_US_美国"
-  - "🇺🇸_US_美国_12"
+  - "🇨🇳_CN_中国->🇷🇺_RU_俄罗斯"
+  - "🇺🇸_US_美国_1"
+  - "🇺🇸_US_美国->🇯🇵_JP_日本"
+  - "🇮🇹_IT_意大利"
+  - "🇺🇸_US_美国->🇫🇷_FR_法国"
+  - "🇷🇺_RU_俄罗斯"
+  - "🇺🇸_US_美国_2"
+  - "🇺🇸_US_美国_4"
+  - "🇺🇸_US_美国->🇸🇬_SG_新加坡"
+  - "🇷🇺_RU_俄罗斯->🇨🇦_CA_加拿大"
+  - "🇺🇸_US_美国_6"
+  - "🇷🇺_RU_俄罗斯_1"
+  - "🇬🇧_GB_英国_1"
+  - "🇷🇺_RU_俄罗斯_2"
+  - "🇷🇺_RU_俄罗斯_3"
+  - "🇮🇪_IE_爱尔兰->🇺🇸_US_美国"
+  - "🇷🇺_RU_俄罗斯_4"
+  - "🇷🇺_RU_俄罗斯_5"
+  - "🇷🇺_RU_俄罗斯->🇰🇷_KR_韩国"
+  - "🇷🇺_RU_俄罗斯_6"
+  - "🇺🇸_US_美国_7"
   - "🇮🇷_IR_伊朗"
-  - "🇨🇳_CN_中国"
-  - "🇺🇸_US_美国_14"
-  - "🇨🇳_CN_中国->🇷🇺_RU_俄罗斯_1"
-  - "🇷🇺_RU_俄罗斯->🇺🇸_US_美国"
-  - "🇨🇳_CN_中国->🇺🇸_US_美国_1"
-  - "🇺🇸_US_美国_15"
+  - "🇺🇸_US_美国->🇨🇳_CN_中国"
+  - "🇷🇺_RU_俄罗斯_7"
+  - "🇷🇺_RU_俄罗斯_8"
 - name: "🎯 全球直连"
   type: "select"
   proxies:
@@ -448,34 +441,32 @@ proxy-groups:
   - "🚀 节点选择"
   - "🎯 全球直连"
   - "♻️ 自动选择"
-  - "🇺🇸_US_美国_1"
-  - "🇺🇸_US_美国_2"
-  - "🇷🇺_RU_俄罗斯"
-  - "🇷🇺_RU_俄罗斯_1"
-  - "🇷🇺_RU_俄罗斯_2"
-  - "🇺🇸_US_美国_3"
-  - "🇷🇺_RU_俄罗斯_3"
-  - "🇺🇸_US_美国_4"
-  - "🇺🇸_US_美国_5"
-  - "🇨🇳_CN_中国->🇷🇺_RU_俄罗斯"
-  - "🇷🇺_RU_俄罗斯_4"
-  - "🇺🇸_US_美国_6"
-  - "🇺🇸_US_美国_7"
-  - "🇷🇺_RU_俄罗斯_5"
-  - "🇺🇸_US_美国_9"
-  - "🇳🇱_NL_荷兰_1"
-  - "🇺🇸_US_美国_11"
-  - "🇮🇹_IT_意大利->🇺🇸_US_美国"
   - "🇬🇧_GB_英国"
-  - "🇨🇳_CN_中国->🇺🇸_US_美国"
-  - "🇺🇸_US_美国_12"
+  - "🇨🇳_CN_中国->🇷🇺_RU_俄罗斯"
+  - "🇺🇸_US_美国_1"
+  - "🇺🇸_US_美国->🇯🇵_JP_日本"
+  - "🇮🇹_IT_意大利"
+  - "🇺🇸_US_美国->🇫🇷_FR_法国"
+  - "🇷🇺_RU_俄罗斯"
+  - "🇺🇸_US_美国_2"
+  - "🇺🇸_US_美国_4"
+  - "🇺🇸_US_美国->🇸🇬_SG_新加坡"
+  - "🇷🇺_RU_俄罗斯->🇨🇦_CA_加拿大"
+  - "🇺🇸_US_美国_6"
+  - "🇷🇺_RU_俄罗斯_1"
+  - "🇬🇧_GB_英国_1"
+  - "🇷🇺_RU_俄罗斯_2"
+  - "🇷🇺_RU_俄罗斯_3"
+  - "🇮🇪_IE_爱尔兰->🇺🇸_US_美国"
+  - "🇷🇺_RU_俄罗斯_4"
+  - "🇷🇺_RU_俄罗斯_5"
+  - "🇷🇺_RU_俄罗斯->🇰🇷_KR_韩国"
+  - "🇷🇺_RU_俄罗斯_6"
+  - "🇺🇸_US_美国_7"
   - "🇮🇷_IR_伊朗"
-  - "🇨🇳_CN_中国"
-  - "🇺🇸_US_美国_14"
-  - "🇨🇳_CN_中国->🇷🇺_RU_俄罗斯_1"
-  - "🇷🇺_RU_俄罗斯->🇺🇸_US_美国"
-  - "🇨🇳_CN_中国->🇺🇸_US_美国_1"
-  - "🇺🇸_US_美国_15"
+  - "🇺🇸_US_美国->🇨🇳_CN_中国"
+  - "🇷🇺_RU_俄罗斯_7"
+  - "🇷🇺_RU_俄罗斯_8"
 rule-providers:
   Apple:
     type: "http"
@@ -585,79 +576,54 @@ log-level: info
 external-controller: :9090
 proxies:
   - {name: KR韩国(mibei77.com 米贝节点分享), server: 106.240.1.52, port: 20443, type: trojan, password: SSorg, skip-cert-verify: true, udp: true}
-  - {name: US美国(mibei77.com 米贝节点分享), server: s2.db-link01.top, port: 2082, type: vmess, uuid: 4b36625c-b9d9-3ea6-aed5-86d62c70e16d, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /dabai.in104.19.196.1, ws-headers: {Host: 100-178-162-73.s2.db-link01.top}, udp: true}
-  - {name: SG新加坡(mibei77.com 米贝节点分享), server: 206.238.236.31, port: 8443, type: trojan, password: SSorg, skip-cert-verify: true, udp: true}
-  - {name: US美国(mibei77.com 米贝节点分享) 2, server: 120.234.102.229, port: 52908, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: US美国(mibei77.com 米贝节点分享) 3, server: s5.db-link01.top, port: 2086, type: vmess, uuid: 4b36625c-b9d9-3ea6-aed5-86d62c70e16d, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /dabai.in104.20.74.23, ws-headers: {Host: 100-252-227-152.s5.db-link01.top}, udp: true}
-  - {name: US美国(mibei77.com 米贝节点分享) 4, server: 208.67.105.87, port: 42501, type: ss, cipher: chacha20-ietf-poly1305, password: nq96KftrZAj3LuFQESqmn44Mo5oCuo2cipoEsae25mrmHG2oJ4VT37scBfVBpN5DWtUELZutVhhXs8Le5B8fZ9hLn9ytwvbf, udp: true}
-  - {name: HK香港(mibei77.com 米贝节点分享), server: 138.2.36.157, port: 8443, type: trojan, password: SSorg, skip-cert-verify: true, udp: true}
-  - {name: 俄罗斯(mibei77.com 米贝节点分享), server: 5.182.84.229, port: 2087, type: trojan, password: SSorg, skip-cert-verify: true, udp: true}
-  - {name: US美国(mibei77.com 米贝节点分享) 5, server: 45.136.199.132, port: 443, type: trojan, password: SSorg, skip-cert-verify: true, udp: true}
-  - {name: US美国(mibei77.com 米贝节点分享) 6, server: 108.165.152.29, port: 2096, type: trojan, password: SSorg, skip-cert-verify: true, udp: true}
-  - {name: SG新加坡(mibei77.com 米贝节点分享) 2, server: 27.50.49.207, port: 443, type: trojan, password: SSorg, skip-cert-verify: true, udp: true}
-  - {name: US美国(mibei77.com 米贝节点分享) 7, server: 92.53.190.161, port: 2087, type: trojan, password: SSorg, skip-cert-verify: true, udp: true}
-  - {name: US美国(mibei77.com 米贝节点分享) 8, server: 198.62.62.192, port: 2083, type: trojan, password: SSorg, skip-cert-verify: true, udp: true}
-  - {name: US美国(mibei77.com 米贝节点分享) 9, server: 154.211.8.47, port: 2096, type: trojan, password: SSorg, skip-cert-verify: true, udp: true}
-  - {name: US美国(mibei77.com 米贝节点分享) 10, server: 27.50.49.156, port: 2096, type: trojan, password: SSorg, skip-cert-verify: true, udp: true}
+  - {name: US美国(mibei77.com 米贝节点分享), server: 108.165.152.80, port: 2083, type: trojan, password: SSorg, skip-cert-verify: true, udp: true}
   - {name: 亚美尼亚(mibei77.com 米贝节点分享), server: 188.164.159.91, port: 2083, type: trojan, password: SSorg, skip-cert-verify: true, udp: true}
-  - {name: SG新加坡(mibei77.com 米贝节点分享) 3, server: 108.165.152.67, port: 2053, type: trojan, password: SSorg, skip-cert-verify: true, udp: true}
-  - {name: SG新加坡(mibei77.com 米贝节点分享) 4, server: 27.50.48.189, port: 2083, type: trojan, password: SSorg, skip-cert-verify: true, udp: true}
-  - {name: US美国(mibei77.com 米贝节点分享) 11, server: s4.db-link02.top, port: 8880, type: vmess, uuid: 4b36625c-b9d9-3ea6-aed5-86d62c70e16d, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /dabai.in104.25.239.131, ws-headers: {Host: 100-128-12-180.s4.db-link02.top}, udp: true}
+  - {name: 爱沙尼亚(mibei77.com 米贝节点分享), server: 45.136.199.132, port: 443, type: trojan, password: SSorg, skip-cert-verify: true, udp: true}
+  - {name: SG新加坡(mibei77.com 米贝节点分享), server: 27.50.49.207, port: 443, type: trojan, password: SSorg, skip-cert-verify: true, udp: true}
+  - {name: US美国(mibei77.com 米贝节点分享) 2, server: 92.53.190.161, port: 2087, type: trojan, password: SSorg, skip-cert-verify: true, udp: true}
+  - {name: US美国(mibei77.com 米贝节点分享) 3, server: 27.50.49.156, port: 2096, type: trojan, password: SSorg, skip-cert-verify: true, udp: true}
+  - {name: US美国(mibei77.com 米贝节点分享) 4, server: 120.232.153.63, port: 40972, type: vmess, uuid: 770ee730-2450-4e3c-a6c6-3932bd32afbd, alterId: 64, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: US美国(mibei77.com 米贝节点分享) 5, server: 162.159.45.156, port: 8443, type: trojan, password: SSorg, skip-cert-verify: true, udp: true}
+  - {name: US美国(mibei77.com 米贝节点分享) 6, server: 108.165.152.104, port: 2053, type: trojan, password: SSorg, skip-cert-verify: true, udp: true}
+  - {name: 俄罗斯(mibei77.com 米贝节点分享), server: 5.182.84.229, port: 2087, type: trojan, password: SSorg, skip-cert-verify: true, udp: true}
+  - {name: US美国(mibei77.com 米贝节点分享) 7, server: s1.cn-db.top, port: 2082, type: vmess, uuid: 4b36625c-b9d9-3ea6-aed5-86d62c70e16d, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /dabai.in172.64.27.73, ws-headers: {Host: 100-150-51-99.s1.cn-db.top}, udp: true}
+  - {name: SG新加坡(mibei77.com 米贝节点分享) 2, server: 27.50.48.189, port: 2083, type: trojan, password: SSorg, skip-cert-verify: true, udp: true}
+  - {name: US美国(mibei77.com 米贝节点分享) 8, server: s1.db-link02.top, port: 2082, type: vmess, uuid: 4b36625c-b9d9-3ea6-aed5-86d62c70e16d, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /dabai.in104.20.8.162, ws-headers: {Host: 100-6-81-226.s1.db-link02.top}, udp: true}
   - {name: 亚美尼亚(mibei77.com 米贝节点分享) 2, server: 188.164.159.241, port: 2096, type: trojan, password: SSorg, skip-cert-verify: true, udp: true}
-  - {name: US美国(mibei77.com 米贝节点分享) 12, server: 38.114.114.69, port: 8090, type: ss, cipher: aes-256-gcm, password: PCnnH6SQSnfoS27, udp: true}
-  - {name: US美国(mibei77.com 米贝节点分享) 13, server: s2.db-link02.top, port: 2086, type: vmess, uuid: 4b36625c-b9d9-3ea6-aed5-86d62c70e16d, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /dabai.in172.64.43.14, ws-headers: {Host: 100-171-104-238.s2.db-link02.top}, udp: true}
-  - {name: GB英国(mibei77.com 米贝节点分享), server: 62.60.233.72, port: 33155, type: ss, cipher: aes-256-gcm, password: AYbFL39bn4EfDXfDbueamN, udp: true}
-  - {name: GB英国(mibei77.com 米贝节点分享) 2, server: 51.13.182.231, port: 3089, type: ss, cipher: chacha20-ietf-poly1305, password: J0lgxy4mb52CIJ8UUcEgts, udp: true}
-  - {name: SG新加坡(mibei77.com 米贝节点分享) 5, server: 108.165.152.80, port: 2083, type: trojan, password: SSorg, skip-cert-verify: true, udp: true}
-  - {name: US美国(mibei77.com 米贝节点分享) 14, server: shs.xiaoqi666.xyz, port: 2086, type: vmess, uuid: 3fd7b958-2161-46e1-b6fc-bd6bb2165312, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /, ws-headers: {Host: shs.xiaoqi666.xyz}, udp: true}
-  - {name: GB英国(mibei77.com 米贝节点分享) 3, server: 51.13.182.236, port: 6870, type: ss, cipher: chacha20-ietf-poly1305, password: M7x1mGNOwhPiRB9jSxZJNy, udp: true}
-  - {name: US美国(mibei77.com 米贝节点分享) 15, server: organic-hare.boa152.lol, port: 443, type: trojan, password: !<str> 3723507166611775488, sni: organic-hare.boa152.lol, skip-cert-verify: true, udp: true}
-  - {name: US美国(mibei77.com 米贝节点分享) 16, server: 192.9.154.127, port: 443, type: trojan, password: SSorg, skip-cert-verify: true, udp: true}
-  - {name: HK香港(mibei77.com 米贝节点分享) 2, server: 103.148.72.147, port: 1443, type: trojan, password: SSorg, skip-cert-verify: true, udp: true}
-  - {name: GB英国(mibei77.com 米贝节点分享) 4, server: 212.41.15.119, port: 443, type: trojan, password: SSorg, skip-cert-verify: true, udp: true}
-  - {name: US美国(mibei77.com 米贝节点分享) 17, server: 38.114.114.69, port: 8119, type: ss, cipher: aes-256-gcm, password: cdBIDV42DCwnfIN, udp: true}
-  - {name: US美国(mibei77.com 米贝节点分享) 18, server: s1.cn-db.top, port: 2082, type: vmess, uuid: 4b36625c-b9d9-3ea6-aed5-86d62c70e16d, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /dabai.in172.64.27.73, ws-headers: {Host: 100-150-51-99.s1.cn-db.top}, udp: true}
-  - {name: US美国(mibei77.com 米贝节点分享) 19, server: 154.197.64.248, port: 8443, type: trojan, password: SSorg, skip-cert-verify: true, udp: true}
-  - {name: US美国(mibei77.com 米贝节点分享) 20, server: 47.238.136.235, port: 443, type: trojan, password: SSorg, skip-cert-verify: true, udp: true}
-  - {name: US美国(mibei77.com 米贝节点分享) 21, server: 38.114.114.69, port: 8091, type: ss, cipher: aes-256-gcm, password: PCnnH6SQSnfoS27, udp: true}
-  - {name: KR韩国(mibei77.com 米贝节点分享) 2, server: 103.137.63.3, port: 443, type: trojan, password: SSorg, skip-cert-verify: true, udp: true}
-  - {name: US美国(mibei77.com 米贝节点分享) 22, server: 120.232.153.63, port: 40972, type: vmess, uuid: 770ee730-2450-4e3c-a6c6-3932bd32afbd, alterId: 64, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: US美国(mibei77.com 米贝节点分享) 23, server: 151.101.2.216, port: 80, type: vmess, uuid: c69f3029-ae1e-45ca-aa08-70970f14dfd2, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: "/racevpn?telegram@ISVvpn-telegram@ISVvpn-telegram@ISVvpn", ws-headers: {Host: telegram-ISVvpn.ir}, udp: true}
-  - {name: US美国(mibei77.com 米贝节点分享) 24, server: 38.114.114.69, port: 7001, type: ss, cipher: aes-256-gcm, password: RexnBgU7EV5ADxG, udp: true}
-  - {name: US美国(mibei77.com 米贝节点分享) 25, server: 8.210.171.28, port: 443, type: trojan, password: SSorg, skip-cert-verify: true, udp: true}
-  - {name: US美国(mibei77.com 米贝节点分享) 26, server: 183.236.48.158, port: 50052, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: FR法国(mibei77.com 米贝节点分享), server: 163.5.159.231, port: 443, type: vmess, uuid: e537f2f5-2a0c-4f59-92c9-832ca6433bf3, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /linkws, ws-headers: {Host: irvideo.cfd}, udp: true}
-  - {name: US美国(mibei77.com 米贝节点分享) 27, server: 183.236.51.23, port: 46602, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: US美国(mibei77.com 米贝节点分享) 9, server: s1.db-link02.top, port: 80, type: vmess, uuid: 4b36625c-b9d9-3ea6-aed5-86d62c70e16d, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /dabai.in104.17.169.115, ws-headers: {Host: 100-49-141-209.s1.db-link02.top}, udp: true}
+  - {name: US美国(mibei77.com 米贝节点分享) 10, server: s1.cn-db.top, port: 2052, type: vmess, uuid: 4b36625c-b9d9-3ea6-aed5-86d62c70e16d, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /dabai.in172.64.9.180, ws-headers: {Host: 100-185-39-111.s1.cn-db.top}, udp: true}
   - {name: JP日本(mibei77.com 米贝节点分享), server: arxfw2b78fi2q9hzylhn.freesocks.work, port: 443, type: ss, cipher: chacha20-ietf-poly1305, password: Nk9asglDzHzjktVzTkvhaA, udp: true}
-  - {name: US美国(mibei77.com 米贝节点分享) 28, server: s1.cn-db.top, port: 2052, type: vmess, uuid: 4b36625c-b9d9-3ea6-aed5-86d62c70e16d, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /dabai.in172.64.9.180, ws-headers: {Host: 100-185-39-111.s1.cn-db.top}, udp: true}
-  - {name: US美国(mibei77.com 米贝节点分享) 29, server: s1.db-link02.top, port: 2082, type: vmess, uuid: 4b36625c-b9d9-3ea6-aed5-86d62c70e16d, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /dabai.in104.20.8.162, ws-headers: {Host: 100-6-81-226.s1.db-link02.top}, udp: true}
-  - {name: US美国(mibei77.com 米贝节点分享) 30, server: s2.db-link01.top, port: 2082, type: vmess, uuid: 4b36625c-b9d9-3ea6-aed5-86d62c70e16d, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /dabai.in104.20.128.34, ws-headers: {Host: 100-162-69-150.s2.db-link01.top}, udp: true}
-  - {name: 伊朗(mibei77.com 米贝节点分享), server: 92.242.220.22, port: 37885, type: vmess, uuid: 8dee19ab-50ce-4d06-be42-5e53c8989ccc, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: SG新加坡(mibei77.com 米贝节点分享) 6, server: 154.197.64.189, port: 2087, type: trojan, password: SSorg, skip-cert-verify: true, udp: true}
+  - {name: US美国(mibei77.com 米贝节点分享) 11, server: s2.db-link02.top, port: 2086, type: vmess, uuid: 4b36625c-b9d9-3ea6-aed5-86d62c70e16d, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /dabai.in172.64.43.14, ws-headers: {Host: 100-171-104-238.s2.db-link02.top}, udp: true}
+  - {name: HK香港(mibei77.com 米贝节点分享), server: 154.197.64.166, port: 2053, type: trojan, password: SSorg, skip-cert-verify: true, udp: true}
+  - {name: HK香港(mibei77.com 米贝节点分享) 2, server: naiu-jp.05vr9nyqg5.download, port: 13012, type: trojan, password: e279c494-c426-443a-a034-a04516409242, sni: naiu-jp.05vr9nyqg5.download, skip-cert-verify: true, udp: true}
+  - {name: GB英国(mibei77.com 米贝节点分享), server: 212.41.15.119, port: 443, type: trojan, password: SSorg, skip-cert-verify: true, udp: true}
+  - {name: US美国(mibei77.com 米贝节点分享) 12, server: 183.236.51.23, port: 56601, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: US美国(mibei77.com 米贝节点分享) 13, server: s4.db-link02.top, port: 8880, type: vmess, uuid: 4b36625c-b9d9-3ea6-aed5-86d62c70e16d, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /dabai.in104.25.239.131, ws-headers: {Host: 100-128-12-180.s4.db-link02.top}, udp: true}
+  - {name: US美国(mibei77.com 米贝节点分享) 14, server: 88.218.78.95, port: 8443, type: trojan, password: SSorg, skip-cert-verify: true, udp: true}
+  - {name: 伊朗(mibei77.com 米贝节点分享), server: 83.147.216.173, port: 9848, type: ss, cipher: chacha20-ietf-poly1305, password: zUQvFioae7KzAZ2GCMgNum, udp: true}
+  - {name: US美国(mibei77.com 米贝节点分享) 15, server: 183.236.51.23, port: 46602, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: US美国(mibei77.com 米贝节点分享) 16, server: 47.238.136.235, port: 443, type: trojan, password: SSorg, skip-cert-verify: true, udp: true}
+  - {name: US美国(mibei77.com 米贝节点分享) 17, server: 8.210.171.28, port: 443, type: trojan, password: SSorg, skip-cert-verify: true, udp: true}
+  - {name: US美国(mibei77.com 米贝节点分享) 18, server: 208.67.105.87, port: 42501, type: ss, cipher: chacha20-ietf-poly1305, password: nq96KftrZAj3LuFQESqmn44Mo5oCuo2cipoEsae25mrmHG2oJ4VT37scBfVBpN5DWtUELZutVhhXs8Le5B8fZ9hLn9ytwvbf, udp: true}
+  - {name: US美国(mibei77.com 米贝节点分享) 19, server: 183.236.48.158, port: 50052, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: US美国(mibei77.com 米贝节点分享) 20, server: 92.242.220.22, port: 37885, type: vmess, uuid: 8dee19ab-50ce-4d06-be42-5e53c8989ccc, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: US美国(mibei77.com 米贝节点分享) 21, server: s3.db-link01.top, port: 2082, type: vmess, uuid: 4b36625c-b9d9-3ea6-aed5-86d62c70e16d, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /dabai.in104.25.204.117, ws-headers: {Host: 100-6-204-129.s3.db-link01.top}, udp: true}
   - {name: JP日本(mibei77.com 米贝节点分享) 2, server: 18.182.63.216, port: 443, type: trojan, password: SSorg, skip-cert-verify: true, udp: true}
-  - {name: US美国(mibei77.com 米贝节点分享) 31, server: s5.db-link01.top, port: 2052, type: vmess, uuid: 4b36625c-b9d9-3ea6-aed5-86d62c70e16d, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /dabai.in104.24.204.143, ws-headers: {Host: 100-62-189-118.s5.db-link01.top}, udp: true}
-  - {name: US美国(mibei77.com 米贝节点分享) 32, server: 185.204.109.190, port: 8443, type: trojan, password: SSorg, skip-cert-verify: true, udp: true}
-  - {name: HK香港(mibei77.com 米贝节点分享) 3, server: 52.141.25.42, port: 443, type: trojan, password: SSorg, skip-cert-verify: true, udp: true}
-  - {name: US美国(mibei77.com 米贝节点分享) 33, server: 183.236.51.23, port: 56601, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: US美国(mibei77.com 米贝节点分享) 34, server: 38.114.114.69, port: 8118, type: ss, cipher: aes-256-gcm, password: cdBIDV42DCwnfIN, udp: true}
-  - {name: US美国(mibei77.com 米贝节点分享) 35, server: 52.231.97.210, port: 2053, type: trojan, password: SSorg, skip-cert-verify: true, udp: true}
-  - {name: US美国(mibei77.com 米贝节点分享) 36, server: s1.db-link01.top, port: 80, type: vmess, uuid: 4b36625c-b9d9-3ea6-aed5-86d62c70e16d, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /dabai.in172.67.102.198, ws-headers: {Host: 100-223-174-216.s1.db-link01.top}, udp: true}
-  - {name: SG新加坡(mibei77.com 米贝节点分享) 7, server: 154.197.64.166, port: 2053, type: trojan, password: SSorg, skip-cert-verify: true, udp: true}
-  - {name: US美国(mibei77.com 米贝节点分享) 37, server: 27.50.48.115, port: 2087, type: trojan, password: SSorg, skip-cert-verify: true, udp: true}
-  - {name: US美国(mibei77.com 米贝节点分享) 38, server: 108.165.152.98, port: 2087, type: trojan, password: SSorg, skip-cert-verify: true, udp: true}
-  - {name: US美国(mibei77.com 米贝节点分享) 39, server: 206.238.236.134, port: 443, type: trojan, password: SSorg, skip-cert-verify: true, udp: true}
-  - {name: US美国(mibei77.com 米贝节点分享) 40, server: 103.116.7.103, port: 2083, type: trojan, password: SSorg, skip-cert-verify: true, udp: true}
-  - {name: FR法国(mibei77.com 米贝节点分享) 2, server: 88.218.78.95, port: 8443, type: trojan, password: SSorg, skip-cert-verify: true, udp: true}
-  - {name: US美国(mibei77.com 米贝节点分享) 41, server: 38.114.114.69, port: 5004, type: ss, cipher: aes-256-gcm, password: g5MeD6Ft3CWlJId, udp: true}
-  - {name: GB英国(mibei77.com 米贝节点分享) 5, server: 45.8.158.238, port: 16112, type: ss, cipher: aes-256-gcm, password: 2a117bd4077d9a53, udp: true}
-  - {name: SG新加坡(mibei77.com 米贝节点分享) 8, server: 66.81.247.88, port: 2083, type: trojan, password: SSorg, skip-cert-verify: true, udp: true}
-  - {name: SG新加坡(mibei77.com 米贝节点分享) 9, server: 154.197.64.67, port: 443, type: trojan, password: SSorg, skip-cert-verify: true, udp: true}
-  - {name: US美国(mibei77.com 米贝节点分享) 42, server: 38.114.114.69, port: 8881, type: ss, cipher: aes-256-gcm, password: kDWvXYZoTBcGkC4, udp: true}
-  - {name: US美国(mibei77.com 米贝节点分享) 43, server: 183.236.51.23, port: 51704, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: US美国(mibei77.com 米贝节点分享) 44, server: s3.db-link01.top, port: 2082, type: vmess, uuid: 4b36625c-b9d9-3ea6-aed5-86d62c70e16d, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /dabai.in104.25.204.117, ws-headers: {Host: 100-6-204-129.s3.db-link01.top}, udp: true}
-  - {name: US美国(mibei77.com 米贝节点分享) 45, server: 38.114.114.69, port: 443, type: ss, cipher: aes-256-gcm, password: pKEW8JPByTVTLtM, udp: true}
-  - {name: US美国(mibei77.com 米贝节点分享) 46, server: 16.16.45.85, port: 8443, type: trojan, password: SSorg, skip-cert-verify: true, udp: true}
-  - {name: JP日本(mibei77.com 米贝节点分享) 3, server: 121.174.111.147, port: 10936, type: trojan, password: SSorg, skip-cert-verify: true, udp: true}
+  - {name: US美国(mibei77.com 米贝节点分享) 22, server: 66.81.247.88, port: 2083, type: trojan, password: SSorg, skip-cert-verify: true, udp: true}
+  - {name: KR韩国(mibei77.com 米贝节点分享) 2, server: 61.81.181.169, port: 14985, type: trojan, password: SSorg, skip-cert-verify: true, udp: true}
+  - {name: HK香港(mibei77.com 米贝节点分享) 3, server: 154.197.64.67, port: 443, type: trojan, password: SSorg, skip-cert-verify: true, udp: true}
+  - {name: NL荷兰(mibei77.com 米贝节点分享), server: 185.204.109.190, port: 8443, type: trojan, password: SSorg, skip-cert-verify: true, udp: true}
+  - {name: US美国(mibei77.com 米贝节点分享) 23, server: s4.cn-db.top, port: 2086, type: vmess, uuid: 4b36625c-b9d9-3ea6-aed5-86d62c70e16d, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /dabai.in172.67.103.33, ws-headers: {Host: 100-59-133-139.s4.cn-db.top}, udp: true}
+  - {name: HK香港(mibei77.com 米贝节点分享) 4, server: 154.197.64.189, port: 2087, type: trojan, password: SSorg, skip-cert-verify: true, udp: true}
+  - {name: SG新加坡(mibei77.com 米贝节点分享) 3, server: 108.165.152.67, port: 2053, type: trojan, password: SSorg, skip-cert-verify: true, udp: true}
+  - {name: US美国(mibei77.com 米贝节点分享) 24, server: 206.238.236.134, port: 443, type: trojan, password: SSorg, skip-cert-verify: true, udp: true}
+  - {name: 伊朗(mibei77.com 米贝节点分享) 2, server: 92.242.220.22, port: 37885, type: vmess, uuid: 8dee19ab-50ce-4d06-be42-5e53c8989ccc, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: KR韩国(mibei77.com 米贝节点分享) 3, server: 52.231.97.210, port: 2053, type: trojan, password: SSorg, skip-cert-verify: true, udp: true}
+  - {name: US美国(mibei77.com 米贝节点分享) 25, server: s2.db-link01.top, port: 2082, type: vmess, uuid: 4b36625c-b9d9-3ea6-aed5-86d62c70e16d, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /dabai.in104.19.196.1, ws-headers: {Host: 100-178-162-73.s2.db-link01.top}, udp: true}
+  - {name: US美国(mibei77.com 米贝节点分享) 26, server: 209.94.90.87, port: 2087, type: trojan, password: SSorg, skip-cert-verify: true, udp: true}
+  - {name: GB英国(mibei77.com 米贝节点分享) 2, server: 18.171.236.219, port: 8443, type: trojan, password: SSorg, skip-cert-verify: true, udp: true}
+  - {name: US美国(mibei77.com 米贝节点分享) 27, server: 16.16.45.85, port: 8443, type: trojan, password: SSorg, skip-cert-verify: true, udp: true}
+  - {name: US美国(mibei77.com 米贝节点分享) 28, server: 198.62.62.192, port: 2083, type: trojan, password: SSorg, skip-cert-verify: true, udp: true}
 proxy-groups:
   - name: 🔰 节点选择
     type: select
@@ -666,78 +632,53 @@ proxy-groups:
       - 🎯 全球直连
       - KR韩国(mibei77.com 米贝节点分享)
       - US美国(mibei77.com 米贝节点分享)
+      - 亚美尼亚(mibei77.com 米贝节点分享)
+      - 爱沙尼亚(mibei77.com 米贝节点分享)
       - SG新加坡(mibei77.com 米贝节点分享)
       - US美国(mibei77.com 米贝节点分享) 2
       - US美国(mibei77.com 米贝节点分享) 3
       - US美国(mibei77.com 米贝节点分享) 4
-      - HK香港(mibei77.com 米贝节点分享)
-      - 俄罗斯(mibei77.com 米贝节点分享)
       - US美国(mibei77.com 米贝节点分享) 5
       - US美国(mibei77.com 米贝节点分享) 6
-      - SG新加坡(mibei77.com 米贝节点分享) 2
+      - 俄罗斯(mibei77.com 米贝节点分享)
       - US美国(mibei77.com 米贝节点分享) 7
+      - SG新加坡(mibei77.com 米贝节点分享) 2
       - US美国(mibei77.com 米贝节点分享) 8
+      - 亚美尼亚(mibei77.com 米贝节点分享) 2
       - US美国(mibei77.com 米贝节点分享) 9
       - US美国(mibei77.com 米贝节点分享) 10
-      - 亚美尼亚(mibei77.com 米贝节点分享)
-      - SG新加坡(mibei77.com 米贝节点分享) 3
-      - SG新加坡(mibei77.com 米贝节点分享) 4
+      - JP日本(mibei77.com 米贝节点分享)
       - US美国(mibei77.com 米贝节点分享) 11
-      - 亚美尼亚(mibei77.com 米贝节点分享) 2
+      - HK香港(mibei77.com 米贝节点分享)
+      - HK香港(mibei77.com 米贝节点分享) 2
+      - GB英国(mibei77.com 米贝节点分享)
       - US美国(mibei77.com 米贝节点分享) 12
       - US美国(mibei77.com 米贝节点分享) 13
-      - GB英国(mibei77.com 米贝节点分享)
-      - GB英国(mibei77.com 米贝节点分享) 2
-      - SG新加坡(mibei77.com 米贝节点分享) 5
       - US美国(mibei77.com 米贝节点分享) 14
-      - GB英国(mibei77.com 米贝节点分享) 3
+      - 伊朗(mibei77.com 米贝节点分享)
       - US美国(mibei77.com 米贝节点分享) 15
       - US美国(mibei77.com 米贝节点分享) 16
-      - HK香港(mibei77.com 米贝节点分享) 2
-      - GB英国(mibei77.com 米贝节点分享) 4
       - US美国(mibei77.com 米贝节点分享) 17
       - US美国(mibei77.com 米贝节点分享) 18
       - US美国(mibei77.com 米贝节点分享) 19
       - US美国(mibei77.com 米贝节点分享) 20
       - US美国(mibei77.com 米贝节点分享) 21
-      - KR韩国(mibei77.com 米贝节点分享) 2
+      - JP日本(mibei77.com 米贝节点分享) 2
       - US美国(mibei77.com 米贝节点分享) 22
+      - KR韩国(mibei77.com 米贝节点分享) 2
+      - HK香港(mibei77.com 米贝节点分享) 3
+      - NL荷兰(mibei77.com 米贝节点分享)
       - US美国(mibei77.com 米贝节点分享) 23
+      - HK香港(mibei77.com 米贝节点分享) 4
+      - SG新加坡(mibei77.com 米贝节点分享) 3
       - US美国(mibei77.com 米贝节点分享) 24
+      - 伊朗(mibei77.com 米贝节点分享) 2
+      - KR韩国(mibei77.com 米贝节点分享) 3
       - US美国(mibei77.com 米贝节点分享) 25
       - US美国(mibei77.com 米贝节点分享) 26
-      - FR法国(mibei77.com 米贝节点分享)
+      - GB英国(mibei77.com 米贝节点分享) 2
       - US美国(mibei77.com 米贝节点分享) 27
-      - JP日本(mibei77.com 米贝节点分享)
       - US美国(mibei77.com 米贝节点分享) 28
-      - US美国(mibei77.com 米贝节点分享) 29
-      - US美国(mibei77.com 米贝节点分享) 30
-      - 伊朗(mibei77.com 米贝节点分享)
-      - SG新加坡(mibei77.com 米贝节点分享) 6
-      - JP日本(mibei77.com 米贝节点分享) 2
-      - US美国(mibei77.com 米贝节点分享) 31
-      - US美国(mibei77.com 米贝节点分享) 32
-      - HK香港(mibei77.com 米贝节点分享) 3
-      - US美国(mibei77.com 米贝节点分享) 33
-      - US美国(mibei77.com 米贝节点分享) 34
-      - US美国(mibei77.com 米贝节点分享) 35
-      - US美国(mibei77.com 米贝节点分享) 36
-      - SG新加坡(mibei77.com 米贝节点分享) 7
-      - US美国(mibei77.com 米贝节点分享) 37
-      - US美国(mibei77.com 米贝节点分享) 38
-      - US美国(mibei77.com 米贝节点分享) 39
-      - US美国(mibei77.com 米贝节点分享) 40
-      - FR法国(mibei77.com 米贝节点分享) 2
-      - US美国(mibei77.com 米贝节点分享) 41
-      - GB英国(mibei77.com 米贝节点分享) 5
-      - SG新加坡(mibei77.com 米贝节点分享) 8
-      - SG新加坡(mibei77.com 米贝节点分享) 9
-      - US美国(mibei77.com 米贝节点分享) 42
-      - US美国(mibei77.com 米贝节点分享) 43
-      - US美国(mibei77.com 米贝节点分享) 44
-      - US美国(mibei77.com 米贝节点分享) 45
-      - US美国(mibei77.com 米贝节点分享) 46
-      - JP日本(mibei77.com 米贝节点分享) 3
   - name: ♻️ 自动选择
     type: url-test
     url: http://www.gstatic.com/generate_204
@@ -745,78 +686,53 @@ proxy-groups:
     proxies:
       - KR韩国(mibei77.com 米贝节点分享)
       - US美国(mibei77.com 米贝节点分享)
+      - 亚美尼亚(mibei77.com 米贝节点分享)
+      - 爱沙尼亚(mibei77.com 米贝节点分享)
       - SG新加坡(mibei77.com 米贝节点分享)
       - US美国(mibei77.com 米贝节点分享) 2
       - US美国(mibei77.com 米贝节点分享) 3
       - US美国(mibei77.com 米贝节点分享) 4
-      - HK香港(mibei77.com 米贝节点分享)
-      - 俄罗斯(mibei77.com 米贝节点分享)
       - US美国(mibei77.com 米贝节点分享) 5
       - US美国(mibei77.com 米贝节点分享) 6
-      - SG新加坡(mibei77.com 米贝节点分享) 2
+      - 俄罗斯(mibei77.com 米贝节点分享)
       - US美国(mibei77.com 米贝节点分享) 7
+      - SG新加坡(mibei77.com 米贝节点分享) 2
       - US美国(mibei77.com 米贝节点分享) 8
+      - 亚美尼亚(mibei77.com 米贝节点分享) 2
       - US美国(mibei77.com 米贝节点分享) 9
       - US美国(mibei77.com 米贝节点分享) 10
-      - 亚美尼亚(mibei77.com 米贝节点分享)
-      - SG新加坡(mibei77.com 米贝节点分享) 3
-      - SG新加坡(mibei77.com 米贝节点分享) 4
+      - JP日本(mibei77.com 米贝节点分享)
       - US美国(mibei77.com 米贝节点分享) 11
-      - 亚美尼亚(mibei77.com 米贝节点分享) 2
+      - HK香港(mibei77.com 米贝节点分享)
+      - HK香港(mibei77.com 米贝节点分享) 2
+      - GB英国(mibei77.com 米贝节点分享)
       - US美国(mibei77.com 米贝节点分享) 12
       - US美国(mibei77.com 米贝节点分享) 13
-      - GB英国(mibei77.com 米贝节点分享)
-      - GB英国(mibei77.com 米贝节点分享) 2
-      - SG新加坡(mibei77.com 米贝节点分享) 5
       - US美国(mibei77.com 米贝节点分享) 14
-      - GB英国(mibei77.com 米贝节点分享) 3
+      - 伊朗(mibei77.com 米贝节点分享)
       - US美国(mibei77.com 米贝节点分享) 15
       - US美国(mibei77.com 米贝节点分享) 16
-      - HK香港(mibei77.com 米贝节点分享) 2
-      - GB英国(mibei77.com 米贝节点分享) 4
       - US美国(mibei77.com 米贝节点分享) 17
       - US美国(mibei77.com 米贝节点分享) 18
       - US美国(mibei77.com 米贝节点分享) 19
       - US美国(mibei77.com 米贝节点分享) 20
       - US美国(mibei77.com 米贝节点分享) 21
-      - KR韩国(mibei77.com 米贝节点分享) 2
+      - JP日本(mibei77.com 米贝节点分享) 2
       - US美国(mibei77.com 米贝节点分享) 22
+      - KR韩国(mibei77.com 米贝节点分享) 2
+      - HK香港(mibei77.com 米贝节点分享) 3
+      - NL荷兰(mibei77.com 米贝节点分享)
       - US美国(mibei77.com 米贝节点分享) 23
+      - HK香港(mibei77.com 米贝节点分享) 4
+      - SG新加坡(mibei77.com 米贝节点分享) 3
       - US美国(mibei77.com 米贝节点分享) 24
+      - 伊朗(mibei77.com 米贝节点分享) 2
+      - KR韩国(mibei77.com 米贝节点分享) 3
       - US美国(mibei77.com 米贝节点分享) 25
       - US美国(mibei77.com 米贝节点分享) 26
-      - FR法国(mibei77.com 米贝节点分享)
+      - GB英国(mibei77.com 米贝节点分享) 2
       - US美国(mibei77.com 米贝节点分享) 27
-      - JP日本(mibei77.com 米贝节点分享)
       - US美国(mibei77.com 米贝节点分享) 28
-      - US美国(mibei77.com 米贝节点分享) 29
-      - US美国(mibei77.com 米贝节点分享) 30
-      - 伊朗(mibei77.com 米贝节点分享)
-      - SG新加坡(mibei77.com 米贝节点分享) 6
-      - JP日本(mibei77.com 米贝节点分享) 2
-      - US美国(mibei77.com 米贝节点分享) 31
-      - US美国(mibei77.com 米贝节点分享) 32
-      - HK香港(mibei77.com 米贝节点分享) 3
-      - US美国(mibei77.com 米贝节点分享) 33
-      - US美国(mibei77.com 米贝节点分享) 34
-      - US美国(mibei77.com 米贝节点分享) 35
-      - US美国(mibei77.com 米贝节点分享) 36
-      - SG新加坡(mibei77.com 米贝节点分享) 7
-      - US美国(mibei77.com 米贝节点分享) 37
-      - US美国(mibei77.com 米贝节点分享) 38
-      - US美国(mibei77.com 米贝节点分享) 39
-      - US美国(mibei77.com 米贝节点分享) 40
-      - FR法国(mibei77.com 米贝节点分享) 2
-      - US美国(mibei77.com 米贝节点分享) 41
-      - GB英国(mibei77.com 米贝节点分享) 5
-      - SG新加坡(mibei77.com 米贝节点分享) 8
-      - SG新加坡(mibei77.com 米贝节点分享) 9
-      - US美国(mibei77.com 米贝节点分享) 42
-      - US美国(mibei77.com 米贝节点分享) 43
-      - US美国(mibei77.com 米贝节点分享) 44
-      - US美国(mibei77.com 米贝节点分享) 45
-      - US美国(mibei77.com 米贝节点分享) 46
-      - JP日本(mibei77.com 米贝节点分享) 3
   - name: 🎥 NETFLIX
     type: select
     proxies:
@@ -825,78 +741,53 @@ proxy-groups:
       - 🎯 全球直连
       - KR韩国(mibei77.com 米贝节点分享)
       - US美国(mibei77.com 米贝节点分享)
+      - 亚美尼亚(mibei77.com 米贝节点分享)
+      - 爱沙尼亚(mibei77.com 米贝节点分享)
       - SG新加坡(mibei77.com 米贝节点分享)
       - US美国(mibei77.com 米贝节点分享) 2
       - US美国(mibei77.com 米贝节点分享) 3
       - US美国(mibei77.com 米贝节点分享) 4
-      - HK香港(mibei77.com 米贝节点分享)
-      - 俄罗斯(mibei77.com 米贝节点分享)
       - US美国(mibei77.com 米贝节点分享) 5
       - US美国(mibei77.com 米贝节点分享) 6
-      - SG新加坡(mibei77.com 米贝节点分享) 2
+      - 俄罗斯(mibei77.com 米贝节点分享)
       - US美国(mibei77.com 米贝节点分享) 7
+      - SG新加坡(mibei77.com 米贝节点分享) 2
       - US美国(mibei77.com 米贝节点分享) 8
+      - 亚美尼亚(mibei77.com 米贝节点分享) 2
       - US美国(mibei77.com 米贝节点分享) 9
       - US美国(mibei77.com 米贝节点分享) 10
-      - 亚美尼亚(mibei77.com 米贝节点分享)
-      - SG新加坡(mibei77.com 米贝节点分享) 3
-      - SG新加坡(mibei77.com 米贝节点分享) 4
+      - JP日本(mibei77.com 米贝节点分享)
       - US美国(mibei77.com 米贝节点分享) 11
-      - 亚美尼亚(mibei77.com 米贝节点分享) 2
+      - HK香港(mibei77.com 米贝节点分享)
+      - HK香港(mibei77.com 米贝节点分享) 2
+      - GB英国(mibei77.com 米贝节点分享)
       - US美国(mibei77.com 米贝节点分享) 12
       - US美国(mibei77.com 米贝节点分享) 13
-      - GB英国(mibei77.com 米贝节点分享)
-      - GB英国(mibei77.com 米贝节点分享) 2
-      - SG新加坡(mibei77.com 米贝节点分享) 5
       - US美国(mibei77.com 米贝节点分享) 14
-      - GB英国(mibei77.com 米贝节点分享) 3
+      - 伊朗(mibei77.com 米贝节点分享)
       - US美国(mibei77.com 米贝节点分享) 15
       - US美国(mibei77.com 米贝节点分享) 16
-      - HK香港(mibei77.com 米贝节点分享) 2
-      - GB英国(mibei77.com 米贝节点分享) 4
       - US美国(mibei77.com 米贝节点分享) 17
       - US美国(mibei77.com 米贝节点分享) 18
       - US美国(mibei77.com 米贝节点分享) 19
       - US美国(mibei77.com 米贝节点分享) 20
       - US美国(mibei77.com 米贝节点分享) 21
-      - KR韩国(mibei77.com 米贝节点分享) 2
+      - JP日本(mibei77.com 米贝节点分享) 2
       - US美国(mibei77.com 米贝节点分享) 22
+      - KR韩国(mibei77.com 米贝节点分享) 2
+      - HK香港(mibei77.com 米贝节点分享) 3
+      - NL荷兰(mibei77.com 米贝节点分享)
       - US美国(mibei77.com 米贝节点分享) 23
+      - HK香港(mibei77.com 米贝节点分享) 4
+      - SG新加坡(mibei77.com 米贝节点分享) 3
       - US美国(mibei77.com 米贝节点分享) 24
+      - 伊朗(mibei77.com 米贝节点分享) 2
+      - KR韩国(mibei77.com 米贝节点分享) 3
       - US美国(mibei77.com 米贝节点分享) 25
       - US美国(mibei77.com 米贝节点分享) 26
-      - FR法国(mibei77.com 米贝节点分享)
+      - GB英国(mibei77.com 米贝节点分享) 2
       - US美国(mibei77.com 米贝节点分享) 27
-      - JP日本(mibei77.com 米贝节点分享)
       - US美国(mibei77.com 米贝节点分享) 28
-      - US美国(mibei77.com 米贝节点分享) 29
-      - US美国(mibei77.com 米贝节点分享) 30
-      - 伊朗(mibei77.com 米贝节点分享)
-      - SG新加坡(mibei77.com 米贝节点分享) 6
-      - JP日本(mibei77.com 米贝节点分享) 2
-      - US美国(mibei77.com 米贝节点分享) 31
-      - US美国(mibei77.com 米贝节点分享) 32
-      - HK香港(mibei77.com 米贝节点分享) 3
-      - US美国(mibei77.com 米贝节点分享) 33
-      - US美国(mibei77.com 米贝节点分享) 34
-      - US美国(mibei77.com 米贝节点分享) 35
-      - US美国(mibei77.com 米贝节点分享) 36
-      - SG新加坡(mibei77.com 米贝节点分享) 7
-      - US美国(mibei77.com 米贝节点分享) 37
-      - US美国(mibei77.com 米贝节点分享) 38
-      - US美国(mibei77.com 米贝节点分享) 39
-      - US美国(mibei77.com 米贝节点分享) 40
-      - FR法国(mibei77.com 米贝节点分享) 2
-      - US美国(mibei77.com 米贝节点分享) 41
-      - GB英国(mibei77.com 米贝节点分享) 5
-      - SG新加坡(mibei77.com 米贝节点分享) 8
-      - SG新加坡(mibei77.com 米贝节点分享) 9
-      - US美国(mibei77.com 米贝节点分享) 42
-      - US美国(mibei77.com 米贝节点分享) 43
-      - US美国(mibei77.com 米贝节点分享) 44
-      - US美国(mibei77.com 米贝节点分享) 45
-      - US美国(mibei77.com 米贝节点分享) 46
-      - JP日本(mibei77.com 米贝节点分享) 3
   - name: ⛔️ 广告拦截
     type: select
     proxies:
@@ -917,78 +808,53 @@ proxy-groups:
       - 🎯 全球直连
       - KR韩国(mibei77.com 米贝节点分享)
       - US美国(mibei77.com 米贝节点分享)
+      - 亚美尼亚(mibei77.com 米贝节点分享)
+      - 爱沙尼亚(mibei77.com 米贝节点分享)
       - SG新加坡(mibei77.com 米贝节点分享)
       - US美国(mibei77.com 米贝节点分享) 2
       - US美国(mibei77.com 米贝节点分享) 3
       - US美国(mibei77.com 米贝节点分享) 4
-      - HK香港(mibei77.com 米贝节点分享)
-      - 俄罗斯(mibei77.com 米贝节点分享)
       - US美国(mibei77.com 米贝节点分享) 5
       - US美国(mibei77.com 米贝节点分享) 6
-      - SG新加坡(mibei77.com 米贝节点分享) 2
+      - 俄罗斯(mibei77.com 米贝节点分享)
       - US美国(mibei77.com 米贝节点分享) 7
+      - SG新加坡(mibei77.com 米贝节点分享) 2
       - US美国(mibei77.com 米贝节点分享) 8
+      - 亚美尼亚(mibei77.com 米贝节点分享) 2
       - US美国(mibei77.com 米贝节点分享) 9
       - US美国(mibei77.com 米贝节点分享) 10
-      - 亚美尼亚(mibei77.com 米贝节点分享)
-      - SG新加坡(mibei77.com 米贝节点分享) 3
-      - SG新加坡(mibei77.com 米贝节点分享) 4
+      - JP日本(mibei77.com 米贝节点分享)
       - US美国(mibei77.com 米贝节点分享) 11
-      - 亚美尼亚(mibei77.com 米贝节点分享) 2
+      - HK香港(mibei77.com 米贝节点分享)
+      - HK香港(mibei77.com 米贝节点分享) 2
+      - GB英国(mibei77.com 米贝节点分享)
       - US美国(mibei77.com 米贝节点分享) 12
       - US美国(mibei77.com 米贝节点分享) 13
-      - GB英国(mibei77.com 米贝节点分享)
-      - GB英国(mibei77.com 米贝节点分享) 2
-      - SG新加坡(mibei77.com 米贝节点分享) 5
       - US美国(mibei77.com 米贝节点分享) 14
-      - GB英国(mibei77.com 米贝节点分享) 3
+      - 伊朗(mibei77.com 米贝节点分享)
       - US美国(mibei77.com 米贝节点分享) 15
       - US美国(mibei77.com 米贝节点分享) 16
-      - HK香港(mibei77.com 米贝节点分享) 2
-      - GB英国(mibei77.com 米贝节点分享) 4
       - US美国(mibei77.com 米贝节点分享) 17
       - US美国(mibei77.com 米贝节点分享) 18
       - US美国(mibei77.com 米贝节点分享) 19
       - US美国(mibei77.com 米贝节点分享) 20
       - US美国(mibei77.com 米贝节点分享) 21
-      - KR韩国(mibei77.com 米贝节点分享) 2
+      - JP日本(mibei77.com 米贝节点分享) 2
       - US美国(mibei77.com 米贝节点分享) 22
+      - KR韩国(mibei77.com 米贝节点分享) 2
+      - HK香港(mibei77.com 米贝节点分享) 3
+      - NL荷兰(mibei77.com 米贝节点分享)
       - US美国(mibei77.com 米贝节点分享) 23
+      - HK香港(mibei77.com 米贝节点分享) 4
+      - SG新加坡(mibei77.com 米贝节点分享) 3
       - US美国(mibei77.com 米贝节点分享) 24
+      - 伊朗(mibei77.com 米贝节点分享) 2
+      - KR韩国(mibei77.com 米贝节点分享) 3
       - US美国(mibei77.com 米贝节点分享) 25
       - US美国(mibei77.com 米贝节点分享) 26
-      - FR法国(mibei77.com 米贝节点分享)
+      - GB英国(mibei77.com 米贝节点分享) 2
       - US美国(mibei77.com 米贝节点分享) 27
-      - JP日本(mibei77.com 米贝节点分享)
       - US美国(mibei77.com 米贝节点分享) 28
-      - US美国(mibei77.com 米贝节点分享) 29
-      - US美国(mibei77.com 米贝节点分享) 30
-      - 伊朗(mibei77.com 米贝节点分享)
-      - SG新加坡(mibei77.com 米贝节点分享) 6
-      - JP日本(mibei77.com 米贝节点分享) 2
-      - US美国(mibei77.com 米贝节点分享) 31
-      - US美国(mibei77.com 米贝节点分享) 32
-      - HK香港(mibei77.com 米贝节点分享) 3
-      - US美国(mibei77.com 米贝节点分享) 33
-      - US美国(mibei77.com 米贝节点分享) 34
-      - US美国(mibei77.com 米贝节点分享) 35
-      - US美国(mibei77.com 米贝节点分享) 36
-      - SG新加坡(mibei77.com 米贝节点分享) 7
-      - US美国(mibei77.com 米贝节点分享) 37
-      - US美国(mibei77.com 米贝节点分享) 38
-      - US美国(mibei77.com 米贝节点分享) 39
-      - US美国(mibei77.com 米贝节点分享) 40
-      - FR法国(mibei77.com 米贝节点分享) 2
-      - US美国(mibei77.com 米贝节点分享) 41
-      - GB英国(mibei77.com 米贝节点分享) 5
-      - SG新加坡(mibei77.com 米贝节点分享) 8
-      - SG新加坡(mibei77.com 米贝节点分享) 9
-      - US美国(mibei77.com 米贝节点分享) 42
-      - US美国(mibei77.com 米贝节点分享) 43
-      - US美国(mibei77.com 米贝节点分享) 44
-      - US美国(mibei77.com 米贝节点分享) 45
-      - US美国(mibei77.com 米贝节点分享) 46
-      - JP日本(mibei77.com 米贝节点分享) 3
   - name: 🌏 国内媒体
     type: select
     proxies:
@@ -996,6 +862,7 @@ proxy-groups:
       - HK香港(mibei77.com 米贝节点分享)
       - HK香港(mibei77.com 米贝节点分享) 2
       - HK香港(mibei77.com 米贝节点分享) 3
+      - HK香港(mibei77.com 米贝节点分享) 4
       - 🔰 节点选择
   - name: Ⓜ️ 微软服务
     type: select
@@ -1004,78 +871,53 @@ proxy-groups:
       - 🔰 节点选择
       - KR韩国(mibei77.com 米贝节点分享)
       - US美国(mibei77.com 米贝节点分享)
+      - 亚美尼亚(mibei77.com 米贝节点分享)
+      - 爱沙尼亚(mibei77.com 米贝节点分享)
       - SG新加坡(mibei77.com 米贝节点分享)
       - US美国(mibei77.com 米贝节点分享) 2
       - US美国(mibei77.com 米贝节点分享) 3
       - US美国(mibei77.com 米贝节点分享) 4
-      - HK香港(mibei77.com 米贝节点分享)
-      - 俄罗斯(mibei77.com 米贝节点分享)
       - US美国(mibei77.com 米贝节点分享) 5
       - US美国(mibei77.com 米贝节点分享) 6
-      - SG新加坡(mibei77.com 米贝节点分享) 2
+      - 俄罗斯(mibei77.com 米贝节点分享)
       - US美国(mibei77.com 米贝节点分享) 7
+      - SG新加坡(mibei77.com 米贝节点分享) 2
       - US美国(mibei77.com 米贝节点分享) 8
+      - 亚美尼亚(mibei77.com 米贝节点分享) 2
       - US美国(mibei77.com 米贝节点分享) 9
       - US美国(mibei77.com 米贝节点分享) 10
-      - 亚美尼亚(mibei77.com 米贝节点分享)
-      - SG新加坡(mibei77.com 米贝节点分享) 3
-      - SG新加坡(mibei77.com 米贝节点分享) 4
+      - JP日本(mibei77.com 米贝节点分享)
       - US美国(mibei77.com 米贝节点分享) 11
-      - 亚美尼亚(mibei77.com 米贝节点分享) 2
+      - HK香港(mibei77.com 米贝节点分享)
+      - HK香港(mibei77.com 米贝节点分享) 2
+      - GB英国(mibei77.com 米贝节点分享)
       - US美国(mibei77.com 米贝节点分享) 12
       - US美国(mibei77.com 米贝节点分享) 13
-      - GB英国(mibei77.com 米贝节点分享)
-      - GB英国(mibei77.com 米贝节点分享) 2
-      - SG新加坡(mibei77.com 米贝节点分享) 5
       - US美国(mibei77.com 米贝节点分享) 14
-      - GB英国(mibei77.com 米贝节点分享) 3
+      - 伊朗(mibei77.com 米贝节点分享)
       - US美国(mibei77.com 米贝节点分享) 15
       - US美国(mibei77.com 米贝节点分享) 16
-      - HK香港(mibei77.com 米贝节点分享) 2
-      - GB英国(mibei77.com 米贝节点分享) 4
       - US美国(mibei77.com 米贝节点分享) 17
       - US美国(mibei77.com 米贝节点分享) 18
       - US美国(mibei77.com 米贝节点分享) 19
       - US美国(mibei77.com 米贝节点分享) 20
       - US美国(mibei77.com 米贝节点分享) 21
-      - KR韩国(mibei77.com 米贝节点分享) 2
+      - JP日本(mibei77.com 米贝节点分享) 2
       - US美国(mibei77.com 米贝节点分享) 22
+      - KR韩国(mibei77.com 米贝节点分享) 2
+      - HK香港(mibei77.com 米贝节点分享) 3
+      - NL荷兰(mibei77.com 米贝节点分享)
       - US美国(mibei77.com 米贝节点分享) 23
+      - HK香港(mibei77.com 米贝节点分享) 4
+      - SG新加坡(mibei77.com 米贝节点分享) 3
       - US美国(mibei77.com 米贝节点分享) 24
+      - 伊朗(mibei77.com 米贝节点分享) 2
+      - KR韩国(mibei77.com 米贝节点分享) 3
       - US美国(mibei77.com 米贝节点分享) 25
       - US美国(mibei77.com 米贝节点分享) 26
-      - FR法国(mibei77.com 米贝节点分享)
+      - GB英国(mibei77.com 米贝节点分享) 2
       - US美国(mibei77.com 米贝节点分享) 27
-      - JP日本(mibei77.com 米贝节点分享)
       - US美国(mibei77.com 米贝节点分享) 28
-      - US美国(mibei77.com 米贝节点分享) 29
-      - US美国(mibei77.com 米贝节点分享) 30
-      - 伊朗(mibei77.com 米贝节点分享)
-      - SG新加坡(mibei77.com 米贝节点分享) 6
-      - JP日本(mibei77.com 米贝节点分享) 2
-      - US美国(mibei77.com 米贝节点分享) 31
-      - US美国(mibei77.com 米贝节点分享) 32
-      - HK香港(mibei77.com 米贝节点分享) 3
-      - US美国(mibei77.com 米贝节点分享) 33
-      - US美国(mibei77.com 米贝节点分享) 34
-      - US美国(mibei77.com 米贝节点分享) 35
-      - US美国(mibei77.com 米贝节点分享) 36
-      - SG新加坡(mibei77.com 米贝节点分享) 7
-      - US美国(mibei77.com 米贝节点分享) 37
-      - US美国(mibei77.com 米贝节点分享) 38
-      - US美国(mibei77.com 米贝节点分享) 39
-      - US美国(mibei77.com 米贝节点分享) 40
-      - FR法国(mibei77.com 米贝节点分享) 2
-      - US美国(mibei77.com 米贝节点分享) 41
-      - GB英国(mibei77.com 米贝节点分享) 5
-      - SG新加坡(mibei77.com 米贝节点分享) 8
-      - SG新加坡(mibei77.com 米贝节点分享) 9
-      - US美国(mibei77.com 米贝节点分享) 42
-      - US美国(mibei77.com 米贝节点分享) 43
-      - US美国(mibei77.com 米贝节点分享) 44
-      - US美国(mibei77.com 米贝节点分享) 45
-      - US美国(mibei77.com 米贝节点分享) 46
-      - JP日本(mibei77.com 米贝节点分享) 3
   - name: 📲 电报信息
     type: select
     proxies:
@@ -1083,78 +925,53 @@ proxy-groups:
       - 🎯 全球直连
       - KR韩国(mibei77.com 米贝节点分享)
       - US美国(mibei77.com 米贝节点分享)
+      - 亚美尼亚(mibei77.com 米贝节点分享)
+      - 爱沙尼亚(mibei77.com 米贝节点分享)
       - SG新加坡(mibei77.com 米贝节点分享)
       - US美国(mibei77.com 米贝节点分享) 2
       - US美国(mibei77.com 米贝节点分享) 3
       - US美国(mibei77.com 米贝节点分享) 4
-      - HK香港(mibei77.com 米贝节点分享)
-      - 俄罗斯(mibei77.com 米贝节点分享)
       - US美国(mibei77.com 米贝节点分享) 5
       - US美国(mibei77.com 米贝节点分享) 6
-      - SG新加坡(mibei77.com 米贝节点分享) 2
+      - 俄罗斯(mibei77.com 米贝节点分享)
       - US美国(mibei77.com 米贝节点分享) 7
+      - SG新加坡(mibei77.com 米贝节点分享) 2
       - US美国(mibei77.com 米贝节点分享) 8
+      - 亚美尼亚(mibei77.com 米贝节点分享) 2
       - US美国(mibei77.com 米贝节点分享) 9
       - US美国(mibei77.com 米贝节点分享) 10
-      - 亚美尼亚(mibei77.com 米贝节点分享)
-      - SG新加坡(mibei77.com 米贝节点分享) 3
-      - SG新加坡(mibei77.com 米贝节点分享) 4
+      - JP日本(mibei77.com 米贝节点分享)
       - US美国(mibei77.com 米贝节点分享) 11
-      - 亚美尼亚(mibei77.com 米贝节点分享) 2
+      - HK香港(mibei77.com 米贝节点分享)
+      - HK香港(mibei77.com 米贝节点分享) 2
+      - GB英国(mibei77.com 米贝节点分享)
       - US美国(mibei77.com 米贝节点分享) 12
       - US美国(mibei77.com 米贝节点分享) 13
-      - GB英国(mibei77.com 米贝节点分享)
-      - GB英国(mibei77.com 米贝节点分享) 2
-      - SG新加坡(mibei77.com 米贝节点分享) 5
       - US美国(mibei77.com 米贝节点分享) 14
-      - GB英国(mibei77.com 米贝节点分享) 3
+      - 伊朗(mibei77.com 米贝节点分享)
       - US美国(mibei77.com 米贝节点分享) 15
       - US美国(mibei77.com 米贝节点分享) 16
-      - HK香港(mibei77.com 米贝节点分享) 2
-      - GB英国(mibei77.com 米贝节点分享) 4
       - US美国(mibei77.com 米贝节点分享) 17
       - US美国(mibei77.com 米贝节点分享) 18
       - US美国(mibei77.com 米贝节点分享) 19
       - US美国(mibei77.com 米贝节点分享) 20
       - US美国(mibei77.com 米贝节点分享) 21
-      - KR韩国(mibei77.com 米贝节点分享) 2
+      - JP日本(mibei77.com 米贝节点分享) 2
       - US美国(mibei77.com 米贝节点分享) 22
+      - KR韩国(mibei77.com 米贝节点分享) 2
+      - HK香港(mibei77.com 米贝节点分享) 3
+      - NL荷兰(mibei77.com 米贝节点分享)
       - US美国(mibei77.com 米贝节点分享) 23
+      - HK香港(mibei77.com 米贝节点分享) 4
+      - SG新加坡(mibei77.com 米贝节点分享) 3
       - US美国(mibei77.com 米贝节点分享) 24
+      - 伊朗(mibei77.com 米贝节点分享) 2
+      - KR韩国(mibei77.com 米贝节点分享) 3
       - US美国(mibei77.com 米贝节点分享) 25
       - US美国(mibei77.com 米贝节点分享) 26
-      - FR法国(mibei77.com 米贝节点分享)
+      - GB英国(mibei77.com 米贝节点分享) 2
       - US美国(mibei77.com 米贝节点分享) 27
-      - JP日本(mibei77.com 米贝节点分享)
       - US美国(mibei77.com 米贝节点分享) 28
-      - US美国(mibei77.com 米贝节点分享) 29
-      - US美国(mibei77.com 米贝节点分享) 30
-      - 伊朗(mibei77.com 米贝节点分享)
-      - SG新加坡(mibei77.com 米贝节点分享) 6
-      - JP日本(mibei77.com 米贝节点分享) 2
-      - US美国(mibei77.com 米贝节点分享) 31
-      - US美国(mibei77.com 米贝节点分享) 32
-      - HK香港(mibei77.com 米贝节点分享) 3
-      - US美国(mibei77.com 米贝节点分享) 33
-      - US美国(mibei77.com 米贝节点分享) 34
-      - US美国(mibei77.com 米贝节点分享) 35
-      - US美国(mibei77.com 米贝节点分享) 36
-      - SG新加坡(mibei77.com 米贝节点分享) 7
-      - US美国(mibei77.com 米贝节点分享) 37
-      - US美国(mibei77.com 米贝节点分享) 38
-      - US美国(mibei77.com 米贝节点分享) 39
-      - US美国(mibei77.com 米贝节点分享) 40
-      - FR法国(mibei77.com 米贝节点分享) 2
-      - US美国(mibei77.com 米贝节点分享) 41
-      - GB英国(mibei77.com 米贝节点分享) 5
-      - SG新加坡(mibei77.com 米贝节点分享) 8
-      - SG新加坡(mibei77.com 米贝节点分享) 9
-      - US美国(mibei77.com 米贝节点分享) 42
-      - US美国(mibei77.com 米贝节点分享) 43
-      - US美国(mibei77.com 米贝节点分享) 44
-      - US美国(mibei77.com 米贝节点分享) 45
-      - US美国(mibei77.com 米贝节点分享) 46
-      - JP日本(mibei77.com 米贝节点分享) 3
   - name: 🍎 苹果服务
     type: select
     proxies:
@@ -1163,78 +980,53 @@ proxy-groups:
       - ♻️ 自动选择
       - KR韩国(mibei77.com 米贝节点分享)
       - US美国(mibei77.com 米贝节点分享)
+      - 亚美尼亚(mibei77.com 米贝节点分享)
+      - 爱沙尼亚(mibei77.com 米贝节点分享)
       - SG新加坡(mibei77.com 米贝节点分享)
       - US美国(mibei77.com 米贝节点分享) 2
       - US美国(mibei77.com 米贝节点分享) 3
       - US美国(mibei77.com 米贝节点分享) 4
-      - HK香港(mibei77.com 米贝节点分享)
-      - 俄罗斯(mibei77.com 米贝节点分享)
       - US美国(mibei77.com 米贝节点分享) 5
       - US美国(mibei77.com 米贝节点分享) 6
-      - SG新加坡(mibei77.com 米贝节点分享) 2
+      - 俄罗斯(mibei77.com 米贝节点分享)
       - US美国(mibei77.com 米贝节点分享) 7
+      - SG新加坡(mibei77.com 米贝节点分享) 2
       - US美国(mibei77.com 米贝节点分享) 8
+      - 亚美尼亚(mibei77.com 米贝节点分享) 2
       - US美国(mibei77.com 米贝节点分享) 9
       - US美国(mibei77.com 米贝节点分享) 10
-      - 亚美尼亚(mibei77.com 米贝节点分享)
-      - SG新加坡(mibei77.com 米贝节点分享) 3
-      - SG新加坡(mibei77.com 米贝节点分享) 4
+      - JP日本(mibei77.com 米贝节点分享)
       - US美国(mibei77.com 米贝节点分享) 11
-      - 亚美尼亚(mibei77.com 米贝节点分享) 2
+      - HK香港(mibei77.com 米贝节点分享)
+      - HK香港(mibei77.com 米贝节点分享) 2
+      - GB英国(mibei77.com 米贝节点分享)
       - US美国(mibei77.com 米贝节点分享) 12
       - US美国(mibei77.com 米贝节点分享) 13
-      - GB英国(mibei77.com 米贝节点分享)
-      - GB英国(mibei77.com 米贝节点分享) 2
-      - SG新加坡(mibei77.com 米贝节点分享) 5
       - US美国(mibei77.com 米贝节点分享) 14
-      - GB英国(mibei77.com 米贝节点分享) 3
+      - 伊朗(mibei77.com 米贝节点分享)
       - US美国(mibei77.com 米贝节点分享) 15
       - US美国(mibei77.com 米贝节点分享) 16
-      - HK香港(mibei77.com 米贝节点分享) 2
-      - GB英国(mibei77.com 米贝节点分享) 4
       - US美国(mibei77.com 米贝节点分享) 17
       - US美国(mibei77.com 米贝节点分享) 18
       - US美国(mibei77.com 米贝节点分享) 19
       - US美国(mibei77.com 米贝节点分享) 20
       - US美国(mibei77.com 米贝节点分享) 21
-      - KR韩国(mibei77.com 米贝节点分享) 2
+      - JP日本(mibei77.com 米贝节点分享) 2
       - US美国(mibei77.com 米贝节点分享) 22
+      - KR韩国(mibei77.com 米贝节点分享) 2
+      - HK香港(mibei77.com 米贝节点分享) 3
+      - NL荷兰(mibei77.com 米贝节点分享)
       - US美国(mibei77.com 米贝节点分享) 23
+      - HK香港(mibei77.com 米贝节点分享) 4
+      - SG新加坡(mibei77.com 米贝节点分享) 3
       - US美国(mibei77.com 米贝节点分享) 24
+      - 伊朗(mibei77.com 米贝节点分享) 2
+      - KR韩国(mibei77.com 米贝节点分享) 3
       - US美国(mibei77.com 米贝节点分享) 25
       - US美国(mibei77.com 米贝节点分享) 26
-      - FR法国(mibei77.com 米贝节点分享)
+      - GB英国(mibei77.com 米贝节点分享) 2
       - US美国(mibei77.com 米贝节点分享) 27
-      - JP日本(mibei77.com 米贝节点分享)
       - US美国(mibei77.com 米贝节点分享) 28
-      - US美国(mibei77.com 米贝节点分享) 29
-      - US美国(mibei77.com 米贝节点分享) 30
-      - 伊朗(mibei77.com 米贝节点分享)
-      - SG新加坡(mibei77.com 米贝节点分享) 6
-      - JP日本(mibei77.com 米贝节点分享) 2
-      - US美国(mibei77.com 米贝节点分享) 31
-      - US美国(mibei77.com 米贝节点分享) 32
-      - HK香港(mibei77.com 米贝节点分享) 3
-      - US美国(mibei77.com 米贝节点分享) 33
-      - US美国(mibei77.com 米贝节点分享) 34
-      - US美国(mibei77.com 米贝节点分享) 35
-      - US美国(mibei77.com 米贝节点分享) 36
-      - SG新加坡(mibei77.com 米贝节点分享) 7
-      - US美国(mibei77.com 米贝节点分享) 37
-      - US美国(mibei77.com 米贝节点分享) 38
-      - US美国(mibei77.com 米贝节点分享) 39
-      - US美国(mibei77.com 米贝节点分享) 40
-      - FR法国(mibei77.com 米贝节点分享) 2
-      - US美国(mibei77.com 米贝节点分享) 41
-      - GB英国(mibei77.com 米贝节点分享) 5
-      - SG新加坡(mibei77.com 米贝节点分享) 8
-      - SG新加坡(mibei77.com 米贝节点分享) 9
-      - US美国(mibei77.com 米贝节点分享) 42
-      - US美国(mibei77.com 米贝节点分享) 43
-      - US美国(mibei77.com 米贝节点分享) 44
-      - US美国(mibei77.com 米贝节点分享) 45
-      - US美国(mibei77.com 米贝节点分享) 46
-      - JP日本(mibei77.com 米贝节点分享) 3
   - name: 🎯 全球直连
     type: select
     proxies:
@@ -1252,78 +1044,53 @@ proxy-groups:
       - ♻️ 自动选择
       - KR韩国(mibei77.com 米贝节点分享)
       - US美国(mibei77.com 米贝节点分享)
+      - 亚美尼亚(mibei77.com 米贝节点分享)
+      - 爱沙尼亚(mibei77.com 米贝节点分享)
       - SG新加坡(mibei77.com 米贝节点分享)
       - US美国(mibei77.com 米贝节点分享) 2
       - US美国(mibei77.com 米贝节点分享) 3
       - US美国(mibei77.com 米贝节点分享) 4
-      - HK香港(mibei77.com 米贝节点分享)
-      - 俄罗斯(mibei77.com 米贝节点分享)
       - US美国(mibei77.com 米贝节点分享) 5
       - US美国(mibei77.com 米贝节点分享) 6
-      - SG新加坡(mibei77.com 米贝节点分享) 2
+      - 俄罗斯(mibei77.com 米贝节点分享)
       - US美国(mibei77.com 米贝节点分享) 7
+      - SG新加坡(mibei77.com 米贝节点分享) 2
       - US美国(mibei77.com 米贝节点分享) 8
+      - 亚美尼亚(mibei77.com 米贝节点分享) 2
       - US美国(mibei77.com 米贝节点分享) 9
       - US美国(mibei77.com 米贝节点分享) 10
-      - 亚美尼亚(mibei77.com 米贝节点分享)
-      - SG新加坡(mibei77.com 米贝节点分享) 3
-      - SG新加坡(mibei77.com 米贝节点分享) 4
+      - JP日本(mibei77.com 米贝节点分享)
       - US美国(mibei77.com 米贝节点分享) 11
-      - 亚美尼亚(mibei77.com 米贝节点分享) 2
+      - HK香港(mibei77.com 米贝节点分享)
+      - HK香港(mibei77.com 米贝节点分享) 2
+      - GB英国(mibei77.com 米贝节点分享)
       - US美国(mibei77.com 米贝节点分享) 12
       - US美国(mibei77.com 米贝节点分享) 13
-      - GB英国(mibei77.com 米贝节点分享)
-      - GB英国(mibei77.com 米贝节点分享) 2
-      - SG新加坡(mibei77.com 米贝节点分享) 5
       - US美国(mibei77.com 米贝节点分享) 14
-      - GB英国(mibei77.com 米贝节点分享) 3
+      - 伊朗(mibei77.com 米贝节点分享)
       - US美国(mibei77.com 米贝节点分享) 15
       - US美国(mibei77.com 米贝节点分享) 16
-      - HK香港(mibei77.com 米贝节点分享) 2
-      - GB英国(mibei77.com 米贝节点分享) 4
       - US美国(mibei77.com 米贝节点分享) 17
       - US美国(mibei77.com 米贝节点分享) 18
       - US美国(mibei77.com 米贝节点分享) 19
       - US美国(mibei77.com 米贝节点分享) 20
       - US美国(mibei77.com 米贝节点分享) 21
-      - KR韩国(mibei77.com 米贝节点分享) 2
+      - JP日本(mibei77.com 米贝节点分享) 2
       - US美国(mibei77.com 米贝节点分享) 22
+      - KR韩国(mibei77.com 米贝节点分享) 2
+      - HK香港(mibei77.com 米贝节点分享) 3
+      - NL荷兰(mibei77.com 米贝节点分享)
       - US美国(mibei77.com 米贝节点分享) 23
+      - HK香港(mibei77.com 米贝节点分享) 4
+      - SG新加坡(mibei77.com 米贝节点分享) 3
       - US美国(mibei77.com 米贝节点分享) 24
+      - 伊朗(mibei77.com 米贝节点分享) 2
+      - KR韩国(mibei77.com 米贝节点分享) 3
       - US美国(mibei77.com 米贝节点分享) 25
       - US美国(mibei77.com 米贝节点分享) 26
-      - FR法国(mibei77.com 米贝节点分享)
+      - GB英国(mibei77.com 米贝节点分享) 2
       - US美国(mibei77.com 米贝节点分享) 27
-      - JP日本(mibei77.com 米贝节点分享)
       - US美国(mibei77.com 米贝节点分享) 28
-      - US美国(mibei77.com 米贝节点分享) 29
-      - US美国(mibei77.com 米贝节点分享) 30
-      - 伊朗(mibei77.com 米贝节点分享)
-      - SG新加坡(mibei77.com 米贝节点分享) 6
-      - JP日本(mibei77.com 米贝节点分享) 2
-      - US美国(mibei77.com 米贝节点分享) 31
-      - US美国(mibei77.com 米贝节点分享) 32
-      - HK香港(mibei77.com 米贝节点分享) 3
-      - US美国(mibei77.com 米贝节点分享) 33
-      - US美国(mibei77.com 米贝节点分享) 34
-      - US美国(mibei77.com 米贝节点分享) 35
-      - US美国(mibei77.com 米贝节点分享) 36
-      - SG新加坡(mibei77.com 米贝节点分享) 7
-      - US美国(mibei77.com 米贝节点分享) 37
-      - US美国(mibei77.com 米贝节点分享) 38
-      - US美国(mibei77.com 米贝节点分享) 39
-      - US美国(mibei77.com 米贝节点分享) 40
-      - FR法国(mibei77.com 米贝节点分享) 2
-      - US美国(mibei77.com 米贝节点分享) 41
-      - GB英国(mibei77.com 米贝节点分享) 5
-      - SG新加坡(mibei77.com 米贝节点分享) 8
-      - SG新加坡(mibei77.com 米贝节点分享) 9
-      - US美国(mibei77.com 米贝节点分享) 42
-      - US美国(mibei77.com 米贝节点分享) 43
-      - US美国(mibei77.com 米贝节点分享) 44
-      - US美国(mibei77.com 米贝节点分享) 45
-      - US美国(mibei77.com 米贝节点分享) 46
-      - JP日本(mibei77.com 米贝节点分享) 3
 rules:
  - DOMAIN-SUFFIX,local,🎯 全球直连
  - IP-CIDR,192.168.0.0/16,🎯 全球直连,no-resolve
@@ -11543,29 +11310,13 @@ dns:
     - tls://1.0.0.1:853
     - tls://dns.google:853
 proxies:
-  - {name: 🇬🇧 6元高速机场：cczzuu.top, server: 127.0.0.1, port: 443, client-fingerprint: chrome, type: ss, cipher: aes-128-gcm, password: 6601fb90e9b3, tfo: false}
-  - {name: 0|--2, server: 35.88.145.21, port: 443, client-fingerprint: chrome, type: ss, cipher: aes-256-cfb, password: amazonskr05, tfo: false}
-  - {name: 0|--3, server: 217.30.10.18, port: 9033, client-fingerprint: chrome, type: ss, cipher: aes-256-cfb, password: UTJA57ypk2XKQpnm, tfo: false}
-  - {name: 0|--4, server: 35.92.45.179, port: 443, client-fingerprint: chrome, type: ss, cipher: aes-256-cfb, password: amazonskr05, tfo: false}
-  - {name: 0|--5, server: 45.87.175.178, port: 8080, client-fingerprint: chrome, type: ss, cipher: chacha20-ietf-poly1305, password: cvII85TrW6n0OGyfpHVS1u, tfo: false}
-  - {name: 0|--6, server: 45.87.175.178, port: 8080, client-fingerprint: chrome, type: ss, cipher: chacha20-ietf-poly1305, password: 1RWwXhwfAB5gAEozU4G2Pg, tfo: false}
-  - {name: 0|--8, server: 35.94.145.100, port: 443, client-fingerprint: chrome, type: ss, cipher: aes-256-cfb, password: amazonskr05, tfo: false}
-  - {name: 0|--9, server: 45.8.158.238, port: 16112, client-fingerprint: chrome, type: ss, cipher: aes-256-gcm, password: 2a117bd4077d9a53, tfo: false}
-  - {name: 0|--11, server: 45.87.175.178, port: 8080, client-fingerprint: chrome, type: ss, cipher: chacha20-ietf-poly1305, password: 4a2rfixophdjffa8KVA4Aa, tfo: false}
-  - {name: 0|--12, server: 195.133.53.79, port: 16112, client-fingerprint: chrome, type: ss, cipher: aes-256-gcm, password: df14ff552867fbf9, tfo: false}
-  - {name: 0|--13, server: 45.87.175.166, port: 8080, client-fingerprint: chrome, type: ss, cipher: chacha20-ietf-poly1305, password: cvII85TrW6n0OGyfpHVS1u, tfo: false}
-  - {name: 0|--14, server: 54.186.92.34, port: 443, client-fingerprint: chrome, type: ss, cipher: aes-256-cfb, password: amazonskr05, tfo: false}
-  - {name: 0|--15, server: 35.94.25.109, port: 443, client-fingerprint: chrome, type: ss, cipher: aes-256-cfb, password: amazonskr05, tfo: false}
-  - {name: 0|--16, server: 217.30.10.18, port: 9050, client-fingerprint: chrome, type: ss, cipher: aes-256-cfb, password: FG5ddLsMPbV5CutE, tfo: false}
-  - {name: 0|--18, server: 43.203.122.162, port: 443, client-fingerprint: chrome, type: ss, cipher: aes-256-cfb, password: amazonskr05, tfo: false}
-  - {name: 0|--20, server: 35.93.248.193, port: 443, client-fingerprint: chrome, type: ss, cipher: aes-256-cfb, password: amazonskr05, tfo: false}
-  - {name: 0|--29, server: 35.85.54.63, port: 443, client-fingerprint: chrome, type: ss, cipher: aes-256-cfb, password: amazonskr05, tfo: false}
-  - {name: 0|--30, server: 35.90.11.23, port: 443, client-fingerprint: chrome, type: ss, cipher: aes-256-cfb, password: amazonskr05, tfo: false}
-  - {name: 0|--33, server: 35.91.157.153, port: 443, client-fingerprint: chrome, type: ss, cipher: aes-256-cfb, password: amazonskr05, tfo: false}
-  - {name: 0|--36, server: 213.109.147.242, port: 62685, client-fingerprint: chrome, type: ss, cipher: chacha20-ietf-poly1305, password: VpKABcOpNNA0l5G2AVOmw8, tfo: false}
-  - {name: 0|--40, server: 217.30.10.18, port: 9010, client-fingerprint: chrome, type: ss, cipher: aes-256-cfb, password: f63gg8EruDnUrmz4, tfo: false}
-  - {name: 0|--42, server: 43.207.192.4, port: 443, client-fingerprint: chrome, type: ss, cipher: aes-256-cfb, password: amazonskr05, tfo: false}
-  - {name: 0|--48, server: 125.141.26.12, port: 7544, client-fingerprint: chrome, type: ss, cipher: aes-256-cfb, password: qwerREWQ@@, tfo: false}
+  - {name: 🇬🇧 6元高速机场：cczzuu.to, server: 127.0.0.1, port: 443, client-fingerprint: chrome, type: ss, cipher: aes-128-gcm, password: 6601fb90e9b3, tfo: false}
+  - {name: 0|--1, server: 185.22.153.14, port: 16112, client-fingerprint: chrome, type: ss, cipher: aes-256-gcm, password: 76f22412bc0dbdf6, tfo: false}
+  - {name: 0|--3, server: 35.89.145.123, port: 443, client-fingerprint: chrome, type: ss, cipher: aes-256-cfb, password: amazonskr05, tfo: false}
+  - {name: 0|--4, server: 35.94.25.109, port: 443, client-fingerprint: chrome, type: ss, cipher: aes-256-cfb, password: amazonskr05, tfo: false}
+  - {name: 0|--5, server: 47.129.162.86, port: 443, client-fingerprint: chrome, type: ss, cipher: aes-256-cfb, password: amazonskr05, tfo: false}
+  - {name: 0|--8, server: 35.94.52.140, port: 443, client-fingerprint: chrome, type: ss, cipher: aes-256-cfb, password: amazonskr05, tfo: false}
+  - {name: 0|--9, server: 35.88.145.21, port: 443, client-fingerprint: chrome, type: ss, cipher: aes-256-cfb, password: amazonskr05, tfo: false}
   - {name: "🇭🇰 13,14|香港2|@ripaojiedian", server: 36.150.215.196, port: 18681, client-fingerprint: chrome, type: trojan, password: vzhXXZVw, sni: 36.150.215.196, skip-cert-verify: false}
   - {name: 🇭🇰 13|🇭🇰 香港3|@ripaojiedian, server: 120.234.102.229, port: 52908, client-fingerprint: chrome, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: false, tfo: false, skip-cert-verify: false}
   - {name: 🇭🇰 13|🇭🇰 香港5|@ripaojiedian, server: 183.236.51.23, port: 51704, client-fingerprint: chrome, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: false, tfo: false, skip-cert-verify: false}
@@ -11600,45 +11351,59 @@ proxies:
   - {name: 🇰🇷 14|韩国特殊|@ripaojiedian, server: 34.218.246.187, port: 443, client-fingerprint: chrome, type: ss, cipher: ss, password: //YWVzLTI1Ni1jZmI6YW1hem9uc2tyMDU, tfo: false}
   - {name: 🇯🇵 14|日本特殊|@ripaojiedian, server: 52.79.247.162, port: 443, client-fingerprint: chrome, type: ss, cipher: ss, password: //YWVzLTI1Ni1jZmI6YW1hem9uc2tyMDU, tfo: false}
   - {name: 🇸🇬 14|狮城特殊|@ripaojiedian, server: 54.169.246.29, port: 443, client-fingerprint: chrome, type: ss, cipher: ss, password: //YWVzLTI1Ni1jZmI6YW1hem9uc2tyMDU, tfo: false}
-  - {name: 15|CN_speednode_0003, server: 120.232.217.96, port: 21332, client-fingerprint: chrome, type: trojan, password: 7daf833c-37b9-4afc-8495-96590f03f781, sni: 120.232.217.96, skip-cert-verify: false}
-  - {name: 15|JP_speednode_0008, server: 34.146.42.164, port: 443, client-fingerprint: chrome, type: vless, uuid: 75c4925b-0afb-478e-b474-eb83411341a1, tls: false, tfo: false, skip-cert-verify: false, servername: jp.liulisanwan.cn, network: ws, ws-opts: {path: /security=tls, headers: {Host: jp.liulisanwan.cn}}}
+  - {name: 15|AM_speednode_0001, server: 188.164.159.91, port: 2083, client-fingerprint: chrome, type: trojan, password: SSorg, sni: sstjj.esslh.filegear-sg.me, skip-cert-verify: false, network: ws, ws-opts: {path: /, headers: {Host: sstjj.esslh.filegear-sg.me}}}
+  - {name: 15|CN_speednode_0004, server: 120.232.217.96, port: 21332, client-fingerprint: chrome, type: trojan, password: 7daf833c-37b9-4afc-8495-96590f03f781, sni: 120.232.217.96, skip-cert-verify: false}
+  - {name: 15|FR_speednode_0007, server: 88.218.78.95, port: 8443, client-fingerprint: chrome, type: trojan, password: SSorg, sni: sstjj.esslh.filegear-sg.me, skip-cert-verify: false, network: ws, ws-opts: {path: /, headers: {Host: sstjj.esslh.filegear-sg.me}}}
+  - {name: 15|JP_speednode_0008, server: 103.116.7.103, port: 2083, client-fingerprint: chrome, type: trojan, password: SSorg, sni: sstjj.esslh.filegear-sg.me, skip-cert-verify: false, network: ws, ws-opts: {path: /, headers: {Host: sstjj.esslh.filegear-sg.me}}}
+  - {name: 15|NL_speednode_0010, server: 185.204.109.190, port: 8443, client-fingerprint: chrome, type: trojan, password: SSorg, sni: sstjj.esslh.filegear-sg.me, skip-cert-verify: false, network: ws, ws-opts: {path: /, headers: {Host: sstjj.esslh.filegear-sg.me}}}
+  - {name: 15|SC_speednode_0012, server: 154.197.64.67, port: 443, client-fingerprint: chrome, type: trojan, password: SSorg, sni: sstjj.esslh.filegear-sg.me, skip-cert-verify: false, network: ws, ws-opts: {path: /, headers: {Host: sstjj.esslh.filegear-sg.me}}}
+  - {name: 15|SC_speednode_0013, server: 154.197.64.248, port: 8443, client-fingerprint: chrome, type: trojan, password: SSorg, sni: sstjj.esslh.filegear-sg.me, skip-cert-verify: false, network: ws, ws-opts: {path: /, headers: {Host: sstjj.esslh.filegear-sg.me}}}
   - {name: 15|SE_speednode_0014, server: 95.164.51.24, port: 2501, client-fingerprint: chrome, type: vless, uuid: d342d11e-d424-4583-b36e-524ab1f0afa4, tls: false, tfo: false, skip-cert-verify: false, servername: a.mifeng.us.kg, network: ws, ws-opts: {path: "/?ed=2560security=tls", headers: {Host: a.mifeng.us.kg}}}
-  - {name: 15|US_speednode_0016, server: 167.82.0.147, port: 80, client-fingerprint: chrome, type: vless, uuid: 42f36835-730c-4ecc-9daf-20121ae7ba47, tls: false, tfo: false, skip-cert-verify: false, servername: edge.validbv3528.ir, network: ws, ws-opts: {path: "/vless-ws/@Azarbayjab1@Azarbayjab1@Azarbayjab1@Azarbayjab1@Azarbayja1/?ed=2560", headers: {Host: edge.validbv3528.ir}}}
-  - {name: 15|US_speednode_0017, server: 167.82.0.37, port: 80, client-fingerprint: chrome, type: vless, uuid: 42f36835-730c-4ecc-9daf-20121ae7ba47, tls: false, tfo: false, skip-cert-verify: false, servername: edge.validbv3528.ir, network: ws, ws-opts: {path: "/vless-ws/@Azarbayjab1@Azarbayjab1@Azarbayjab1@Azarbayjab1@Azarbayja1/?ed=2560", headers: {Host: edge.validbv3528.ir}}}
-  - {name: 15|US_speednode_0018, server: 151.101.194.133, port: 80, client-fingerprint: chrome, type: vless, uuid: 253ef561-9e57-4336-befd-878ddd30df01, tls: false, alpn: ["h2,http/1.1"], tfo: false, skip-cert-verify: false, servername: teleirani.ir, network: ws, ws-opts: {path: "/?ed=2048fp=chrome", headers: {Host: teleirani.ir}}}
-  - {name: 15|US_speednode_0019, server: 167.82.1.102, port: 80, client-fingerprint: chrome, type: vless, uuid: 253ef561-9e57-4336-befd-878ddd30df01, tls: false, tfo: false, skip-cert-verify: false, servername: teleirani.ir, network: ws, ws-opts: {path: "/?ed=2048", headers: {Host: teleirani.ir}}}
+  - {name: 15|SG_speednode_0015, server: 206.238.236.134, port: 443, client-fingerprint: chrome, type: trojan, password: SSorg, sni: sstjj.esslh.filegear-sg.me, skip-cert-verify: false, network: ws, ws-opts: {path: /, headers: {Host: sstjj.esslh.filegear-sg.me}}}
+  - {name: 15|TR_speednode_0016, server: 95.164.116.22, port: 2501, client-fingerprint: chrome, type: vless, uuid: d342d11e-d424-4583-b36e-524ab1f0afa4, tls: false, tfo: false, skip-cert-verify: false, servername: a.mifeng.us.kg, network: ws, ws-opts: {path: "/?ed=2560security=tls", headers: {Host: a.mifeng.us.kg}}}
+  - {name: 15|US_speednode_0017, server: 167.82.0.147, port: 80, client-fingerprint: chrome, type: vless, uuid: 42f36835-730c-4ecc-9daf-20121ae7ba47, tls: false, tfo: false, skip-cert-verify: false, servername: edge.validbv3528.ir, network: ws, ws-opts: {path: "/vless-ws/@Azarbayjab1@Azarbayjab1@Azarbayjab1@Azarbayjab1@Azarbayja1/?ed=2560", headers: {Host: edge.validbv3528.ir}}}
+  - {name: 15|US_speednode_0018, server: 167.82.0.37, port: 80, client-fingerprint: chrome, type: vless, uuid: 42f36835-730c-4ecc-9daf-20121ae7ba47, tls: false, tfo: false, skip-cert-verify: false, servername: edge.validbv3528.ir, network: ws, ws-opts: {path: "/vless-ws/@Azarbayjab1@Azarbayjab1@Azarbayjab1@Azarbayjab1@Azarbayja1/?ed=2560", headers: {Host: edge.validbv3528.ir}}}
+  - {name: 15|US_speednode_0019, server: 151.101.194.133, port: 80, client-fingerprint: chrome, type: vless, uuid: 253ef561-9e57-4336-befd-878ddd30df01, tls: false, alpn: ["h2,http/1.1"], tfo: false, skip-cert-verify: false, servername: teleirani.ir, network: ws, ws-opts: {path: "/?ed=2048fp=chrome", headers: {Host: teleirani.ir}}}
   - {name: 15|US_speednode_0020, server: 167.82.85.155, port: 80, client-fingerprint: chrome, type: vless, uuid: 253ef561-9e57-4336-befd-878ddd30df01, tls: false, alpn: ["h2,http/1.1"], tfo: false, skip-cert-verify: false, servername: teleirani.ir, network: ws, ws-opts: {path: "/?ed=2048fp=chrome", headers: {Host: teleirani.ir}}}
-  - {name: 15|US_speednode_0021, server: 167.82.0.141, port: 80, client-fingerprint: chrome, type: vless, uuid: 42f36835-730c-4ecc-9daf-20121ae7ba47, tls: false, tfo: false, skip-cert-verify: false, servername: edge.validbv3528.ir, network: ws, ws-opts: {path: "/vless-ws/@Azarbayjab1@Azarbayjab1@Azarbayjab1@Azarbayjab1@Azarbayja1/?ed=2560", headers: {Host: edge.validbv3528.ir}}}
-  - {name: 15|US_speednode_0022, server: 167.82.1.103, port: 80, client-fingerprint: chrome, type: vless, uuid: 42f36835-730c-4ecc-9daf-20121ae7ba47, tls: false, tfo: false, skip-cert-verify: false, servername: edge.validbv3528.ir, network: ws, ws-opts: {path: "/?ed=2560", headers: {Host: edge.validbv3528.ir}}}
-  - {name: 15|US_speednode_0023, server: 167.82.1.119, port: 80, client-fingerprint: chrome, type: vless, uuid: 253ef561-9e57-4336-befd-878ddd30df01, tls: false, alpn: ["h2,http/1.1"], tfo: false, skip-cert-verify: false, servername: teleirani.ir, network: ws, ws-opts: {path: "/?ed=2048fp=random", headers: {Host: teleirani.ir}}}
-  - {name: 15|US_speednode_0024, server: 167.82.0.103, port: 80, client-fingerprint: chrome, type: vless, uuid: 42f36835-730c-4ecc-9daf-20121ae7ba47, tls: false, tfo: false, skip-cert-verify: false, servername: edge.validbv3528.ir, network: ws, ws-opts: {path: "/vless-ws/@Azarbayjab1@Azarbayjab1@Azarbayjab1@Azarbayjab1@Azarbayja1/?ed=2560", headers: {Host: edge.validbv3528.ir}}}
-  - {name: 15|US_speednode_0025, server: 167.82.0.1, port: 80, client-fingerprint: chrome, type: vless, uuid: 42f36835-730c-4ecc-9daf-20121ae7ba47, tls: false, tfo: false, skip-cert-verify: false, servername: edge.validbv3528.ir, network: ws, ws-opts: {path: "/vless-ws/@Azarbayjab1@Azarbayjab1@Azarbayja1?ed=2560", headers: {Host: edge.validbv3528.ir}}}
-  - {name: 15|US_speednode_0026, server: 167.82.0.46, port: 80, client-fingerprint: chrome, type: vless, uuid: 42f36835-730c-4ecc-9daf-20121ae7ba47, tls: false, tfo: false, skip-cert-verify: false, servername: edge.validbv3528.ir, network: ws, ws-opts: {path: "/vless-ws/@Azarbayjab1@Azarbayjab1@Azarbayjab1@Azarbayjab1@Azarbayja1/?ed=2560", headers: {Host: edge.validbv3528.ir}}}
-  - {name: 15|US_speednode_0027, server: 167.82.0.9, port: 80, client-fingerprint: chrome, type: vless, uuid: 42f36835-730c-4ecc-9daf-20121ae7ba47, tls: false, tfo: false, skip-cert-verify: false, servername: edge.validbv3528.ir, network: ws, ws-opts: {path: "/vless-ws/@Azarbayjab1@Azarbayjab1@Azarbayjab1@Azarbayjab1@Azarbayja1/?ed=2560", headers: {Host: edge.validbv3528.ir}}}
-  - {name: 15|US_speednode_0028, server: 167.82.0.14, port: 80, client-fingerprint: chrome, type: vless, uuid: 42f36835-730c-4ecc-9daf-20121ae7ba47, tls: false, tfo: false, skip-cert-verify: false, servername: edge.validbv3528.ir, network: ws, ws-opts: {path: "/vless-ws/@Azarbayjab1@Azarbayjab1@Azarbayjab1@Azarbayjab1@Azarbayja1/?ed=2560", headers: {Host: edge.validbv3528.ir}}}
-  - {name: 15|US_speednode_0029, server: 167.82.0.103, port: 80, client-fingerprint: chrome, type: vless, uuid: 42f36835-730c-4ecc-9daf-20121ae7ba47, tls: false, tfo: false, skip-cert-verify: false, servername: edge.validbv3528.ir, network: ws, ws-opts: {path: /, headers: {Host: edge.validbv3528.ir}}}
-  - {name: 15|US_speednode_0030, server: 167.82.69.101, port: 80, client-fingerprint: chrome, type: vless, uuid: 42f36835-730c-4ecc-9daf-20121ae7ba47, tls: false, tfo: false, skip-cert-verify: false, servername: edge.validbv3528.ir, network: ws, ws-opts: {path: "/vless-ws/@Azarbayjab1@Azarbayjab1@Azarbayjab1@Azarbayjab1@Azarbayja1/?ed=2560", headers: {Host: edge.validbv3528.ir}}}
-  - {name: 15|US_speednode_0031, server: 167.82.65.8, port: 80, client-fingerprint: chrome, type: vless, uuid: 42f36835-730c-4ecc-9daf-20121ae7ba47, tls: false, tfo: false, skip-cert-verify: false, servername: edge.validbv3528.ir, network: ws, ws-opts: {path: "/vless-ws/@Azarbayjab1@Azarbayjab1@Azarbayjab1@Azarbayjab1@Azarbayja1/?ed=2560", headers: {Host: edge.validbv3528.ir}}}
-  - {name: 15|US_speednode_0032, server: 167.82.71.3, port: 80, client-fingerprint: chrome, type: vless, uuid: 42f36835-730c-4ecc-9daf-20121ae7ba47, tls: false, tfo: false, skip-cert-verify: false, servername: edge.validbv3528.ir, network: ws, ws-opts: {path: "/vless-ws/@Azarbayjab1@Azarbayjab1@Azarbayjab1@Azarbayjab1@Azarbayja1/?ed=2560", headers: {Host: edge.validbv3528.ir}}}
-  - {name: 15|US_speednode_0033, server: 167.82.72.38, port: 80, client-fingerprint: chrome, type: vless, uuid: 42f36835-730c-4ecc-9daf-20121ae7ba47, tls: false, tfo: false, skip-cert-verify: false, servername: edge.validbv3528.ir, network: ws, ws-opts: {path: "/vless-ws/@Azarbayjab1@Azarbayjab1@Azarbayjab1@Azarbayjab1@Azarbayja1/?ed=2560", headers: {Host: edge.validbv3528.ir}}}
-  - {name: 15|US_speednode_0034, server: 167.82.65.80, port: 80, client-fingerprint: chrome, type: vless, uuid: 42f36835-730c-4ecc-9daf-20121ae7ba47, tls: false, tfo: false, skip-cert-verify: false, servername: edge.validbv3528.ir, network: ws, ws-opts: {path: "/vless-ws/@Azarbayjab1@Azarbayjab1@Azarbayjab1@Azarbayjab1@Azarbayja1/?ed=2560", headers: {Host: edge.validbv3528.ir}}}
-  - {name: 15|US_speednode_0035, server: 167.82.65.71, port: 80, client-fingerprint: chrome, type: vless, uuid: 42f36835-730c-4ecc-9daf-20121ae7ba47, tls: false, tfo: false, skip-cert-verify: false, servername: edge.validbv3528.ir, network: ws, ws-opts: {path: "/vless-ws/@Azarbayjab1@Azarbayjab1@Azarbayjab1@Azarbayjab1@Azarbayja1/?ed=2560", headers: {Host: edge.validbv3528.ir}}}
-  - {name: 15|US_speednode_0036, server: 167.82.70.214, port: 80, client-fingerprint: chrome, type: vless, uuid: 42f36835-730c-4ecc-9daf-20121ae7ba47, tls: false, tfo: false, skip-cert-verify: false, servername: edge.validbv3528.ir, network: ws, ws-opts: {path: "/vless-ws/@Azarbayjab1@Azarbayjab1@Azarbayjab1@Azarbayjab1@Azarbayja1/?ed=2560", headers: {Host: edge.validbv3528.ir}}}
-  - {name: 15|US_speednode_0037, server: 167.82.0.47, port: 80, client-fingerprint: chrome, type: vless, uuid: 253ef561-9e57-4336-befd-878ddd30df01, tls: false, tfo: false, skip-cert-verify: false, servername: teleirani.ir, network: ws, ws-opts: {path: "/vless-ws/@Azarbayjab1@Azarbayjab1@Azarbayjab1@Azarbayjab1?ed=2560", headers: {Host: teleirani.ir}}}
-  - {name: 15|US_speednode_0038, server: 167.82.0.242, port: 80, client-fingerprint: chrome, type: vless, uuid: 253ef561-9e57-4336-befd-878ddd30df01, tls: false, tfo: false, skip-cert-verify: false, servername: teleirani.ir, network: ws, ws-opts: {path: "/vless-ws/@Azarbayjab1@Azarbayjab1@Azarbayjab1@Azarbayjab1?ed=2560", headers: {Host: teleirani.ir}}}
-  - {name: 15|US_speednode_0039, server: 167.82.0.226, port: 80, client-fingerprint: chrome, type: vless, uuid: 253ef561-9e57-4336-befd-878ddd30df01, tls: false, tfo: false, skip-cert-verify: false, servername: teleirani.ir, network: ws, ws-opts: {path: "/vless-ws/@Azarbayjab1@Azarbayjab1@Azarbayjab1@Azarbayjab1?ed=2560", headers: {Host: teleirani.ir}}}
-  - {name: 15|US_speednode_0040, server: 167.82.66.165, port: 80, client-fingerprint: chrome, type: vless, uuid: 253ef561-9e57-4336-befd-878ddd30df01, tls: false, tfo: false, skip-cert-verify: false, servername: teleirani.ir, network: ws, ws-opts: {path: "/vless-ws/@Azarbayjab1@Azarbayjab1@Azarbayjab1@Azarbayjab1?ed=2560", headers: {Host: teleirani.ir}}}
-  - {name: 15|US_speednode_0041, server: 167.82.1.121, port: 80, client-fingerprint: chrome, type: vless, uuid: 253ef561-9e57-4336-befd-878ddd30df01, tls: false, tfo: false, skip-cert-verify: false, servername: teleirani.ir, network: ws, ws-opts: {path: "/vless-ws/@Azarbayjab1@Azarbayjab1@Azarbayjab1@Azarbayjab1?ed=2560", headers: {Host: teleirani.ir}}}
-  - {name: 15|US_speednode_0042, server: 167.82.72.38, port: 80, client-fingerprint: chrome, type: vless, uuid: 42f36835-730c-4ecc-9daf-20121ae7ba47, tls: false, tfo: false, skip-cert-verify: false, servername: edge.validbv3528.ir, network: ws, ws-opts: {path: /, headers: {Host: edge.validbv3528.ir}}}
-  - {name: 15|US_speednode_0046, server: 198.41.216.118, port: 80, client-fingerprint: chrome, type: vless, uuid: d342d11e-d424-4583-b36e-524ab1f0afa4, tls: false, tfo: false, skip-cert-verify: false, servername: a.mifeng.us.kg, network: ws, ws-opts: {path: "/telegram-_-_-_-_-__-free_shekan-_-_-_-/?ed=2048", headers: {Host: a.mifeng.us.kg}}}
-  - {name: 15|US_speednode_0050, server: 151.101.3.8, port: 80, client-fingerprint: chrome, type: vless, uuid: 7233f65b-8ec1-46cd-8e87-1986948d0326, tls: false, tfo: false, skip-cert-verify: false, servername: 49.org, network: ws, ws-opts: {path: "/telegram-v2safee,telegram-v2safee,telegram-v2safee,telegram-v2safee,telegram-v2safee,telegram-v2safee,telegram-v2safee,telegram-v2safee,telegram-v2safee,telegram-v2safee,telegram-v2safee,telegram-v2safee?ed=2095", headers: {Host: 49.org}}}
-  - {name: 15|US_speednode_0053, server: fishlab.ucdavis.edu, port: 443, client-fingerprint: chrome, type: vless, uuid: 57624c33-1ab8-405e-9358-03bec36f0642, tls: true, tfo: false, skip-cert-verify: false, servername: fishlab.ucdavis.edu, network: ws, ws-opts: {path: "/@UnlimitedDev----@UnlimitedDev-----@UnlimitedDev----@UnlimitedDev----@UnlimitedDev----@UnlimitedDev----@UnlimitedDev----@UnlimitedDev----@UnlimitedDev----@UnlimitedDev----@UnlimitedDev----@UnlimitedDev?ed=2480fp=chrome", headers: {Host: fishlab.ucdavis.edu}}}
-  - {name: 15|US_speednode_0054, server: 151.101.3.8, port: 80, client-fingerprint: chrome, type: vless, uuid: 2f2f4cf2-8bf2-47cc-9249-38553b41d8b1, tls: false, tfo: false, skip-cert-verify: false, servername: VpnWedbaz-VpnWedbaz.SS, network: ws, ws-opts: {path: "/@VpnWedbaz-----@VpnWedbaz?ed=2560", headers: {Host: VpnWedbaz-VpnWedbaz.SS}}}
-  - {name: 15|US_speednode_0055, server: NUFiLTER.fastly80.hosting-ip.com, port: 80, client-fingerprint: chrome, type: vless, uuid: 1917caae-f3d3-47d6-bfaa-d863a9ee941e, tls: false, tfo: false, skip-cert-verify: false, servername: Germany2-nufilter.com, network: ws, ws-opts: {path: "/telegram-NUFiLTER,telegram-NUFiLTER,telegram-NUFiLTER,telegram-NUFiLTER,telegram-NUFiLTER,telegram-NUFiLTER,telegram-NUFiLTER,telegram-NUFiLTER?ed=888", headers: {Host: Germany2-nufilter.com}}}
-  - {name: 15|US_speednode_0056, server: bestcf.liuli3wan2.me, port: 443, client-fingerprint: chrome, type: vless, uuid: e042ac3d-6de5-49c6-984c-beaf976f8242, tls: true, tfo: false, skip-cert-verify: false, servername: orsj1.1541241.xyz, network: ws, ws-opts: {path: /ymmzwsfp=chrome, headers: {Host: orsj1.1541241.xyz}}}
-  - {name: 15|US_speednode_0057, server: 198.41.192.239, port: 443, client-fingerprint: chrome, type: vless, uuid: e7934134-5395-47a7-bd90-f68a467e3971, tls: false, tfo: false, skip-cert-verify: false, servername: usb.warpo.me, network: ws, ws-opts: {path: /bingsecurity=tls, headers: {Host: usb.warpo.me}}}
-  - {name: 15|US_speednode_0058, server: bbq2.kuailejc.xyz, port: 2052, client-fingerprint: chrome, type: vless, uuid: 6657eaa4-6e21-4fd1-9a7f-157b23236aa4, tls: false, tfo: false, skip-cert-verify: false, servername: dddomg.kuailejc.xyz, network: ws, ws-opts: {path: /kuaile2024fp=ios, headers: {Host: dddomg.kuailejc.xyz}}}
-  - {name: 15|US_speednode_0059, server: 141.101.123.208, port: 443, client-fingerprint: chrome, type: vless, uuid: 8e63cfe4-8855-4334-9619-a5d403bf2b8e, tls: false, tfo: false, skip-cert-verify: false, servername: usa.warpo.me, network: ws, ws-opts: {path: /bingsecurity=tls, headers: {Host: usa.warpo.me}}}
+  - {name: 15|US_speednode_0021, server: 167.82.1.102, port: 80, client-fingerprint: chrome, type: vless, uuid: 253ef561-9e57-4336-befd-878ddd30df01, tls: false, tfo: false, skip-cert-verify: false, servername: teleirani.ir, network: ws, ws-opts: {path: "/?ed=2048", headers: {Host: teleirani.ir}}}
+  - {name: 15|US_speednode_0022, server: 167.82.0.141, port: 80, client-fingerprint: chrome, type: vless, uuid: 42f36835-730c-4ecc-9daf-20121ae7ba47, tls: false, tfo: false, skip-cert-verify: false, servername: edge.validbv3528.ir, network: ws, ws-opts: {path: "/vless-ws/@Azarbayjab1@Azarbayjab1@Azarbayjab1@Azarbayjab1@Azarbayja1/?ed=2560", headers: {Host: edge.validbv3528.ir}}}
+  - {name: 15|US_speednode_0023, server: 167.82.0.103, port: 80, client-fingerprint: chrome, type: vless, uuid: 42f36835-730c-4ecc-9daf-20121ae7ba47, tls: false, tfo: false, skip-cert-verify: false, servername: edge.validbv3528.ir, network: ws, ws-opts: {path: "/vless-ws/@Azarbayjab1@Azarbayjab1@Azarbayjab1@Azarbayjab1@Azarbayja1/?ed=2560", headers: {Host: edge.validbv3528.ir}}}
+  - {name: 15|US_speednode_0024, server: 167.82.1.119, port: 80, client-fingerprint: chrome, type: vless, uuid: 253ef561-9e57-4336-befd-878ddd30df01, tls: false, alpn: ["h2,http/1.1"], tfo: false, skip-cert-verify: false, servername: teleirani.ir, network: ws, ws-opts: {path: "/?ed=2048fp=random", headers: {Host: teleirani.ir}}}
+  - {name: 15|US_speednode_0025, server: 167.82.0.46, port: 80, client-fingerprint: chrome, type: vless, uuid: 42f36835-730c-4ecc-9daf-20121ae7ba47, tls: false, tfo: false, skip-cert-verify: false, servername: edge.validbv3528.ir, network: ws, ws-opts: {path: "/vless-ws/@Azarbayjab1@Azarbayjab1@Azarbayjab1@Azarbayjab1@Azarbayja1/?ed=2560", headers: {Host: edge.validbv3528.ir}}}
+  - {name: 15|US_speednode_0026, server: 167.82.0.9, port: 80, client-fingerprint: chrome, type: vless, uuid: 42f36835-730c-4ecc-9daf-20121ae7ba47, tls: false, tfo: false, skip-cert-verify: false, servername: edge.validbv3528.ir, network: ws, ws-opts: {path: "/vless-ws/@Azarbayjab1@Azarbayjab1@Azarbayjab1@Azarbayjab1@Azarbayja1/?ed=2560", headers: {Host: edge.validbv3528.ir}}}
+  - {name: 15|US_speednode_0027, server: 167.82.0.14, port: 80, client-fingerprint: chrome, type: vless, uuid: 42f36835-730c-4ecc-9daf-20121ae7ba47, tls: false, tfo: false, skip-cert-verify: false, servername: edge.validbv3528.ir, network: ws, ws-opts: {path: "/vless-ws/@Azarbayjab1@Azarbayjab1@Azarbayjab1@Azarbayjab1@Azarbayja1/?ed=2560", headers: {Host: edge.validbv3528.ir}}}
+  - {name: 15|US_speednode_0028, server: 167.82.0.1, port: 80, client-fingerprint: chrome, type: vless, uuid: 42f36835-730c-4ecc-9daf-20121ae7ba47, tls: false, tfo: false, skip-cert-verify: false, servername: edge.validbv3528.ir, network: ws, ws-opts: {path: "/vless-ws/@Azarbayjab1@Azarbayjab1@Azarbayja1?ed=2560", headers: {Host: edge.validbv3528.ir}}}
+  - {name: 15|US_speednode_0029, server: 167.82.1.103, port: 80, client-fingerprint: chrome, type: vless, uuid: 42f36835-730c-4ecc-9daf-20121ae7ba47, tls: false, tfo: false, skip-cert-verify: false, servername: edge.validbv3528.ir, network: ws, ws-opts: {path: "/?ed=2560", headers: {Host: edge.validbv3528.ir}}}
+  - {name: 15|US_speednode_0030, server: 167.82.0.242, port: 80, client-fingerprint: chrome, type: vless, uuid: 253ef561-9e57-4336-befd-878ddd30df01, tls: false, tfo: false, skip-cert-verify: false, servername: teleirani.ir, network: ws, ws-opts: {path: "/vless-ws/@Azarbayjab1@Azarbayjab1@Azarbayjab1@Azarbayjab1?ed=2560", headers: {Host: teleirani.ir}}}
+  - {name: 15|US_speednode_0031, server: 167.82.0.226, port: 80, client-fingerprint: chrome, type: vless, uuid: 253ef561-9e57-4336-befd-878ddd30df01, tls: false, tfo: false, skip-cert-verify: false, servername: teleirani.ir, network: ws, ws-opts: {path: "/vless-ws/@Azarbayjab1@Azarbayjab1@Azarbayjab1@Azarbayjab1?ed=2560", headers: {Host: teleirani.ir}}}
+  - {name: 15|US_speednode_0032, server: 167.82.0.47, port: 80, client-fingerprint: chrome, type: vless, uuid: 253ef561-9e57-4336-befd-878ddd30df01, tls: false, tfo: false, skip-cert-verify: false, servername: teleirani.ir, network: ws, ws-opts: {path: "/vless-ws/@Azarbayjab1@Azarbayjab1@Azarbayjab1@Azarbayjab1?ed=2560", headers: {Host: teleirani.ir}}}
+  - {name: 15|US_speednode_0033, server: 167.82.0.103, port: 80, client-fingerprint: chrome, type: vless, uuid: 42f36835-730c-4ecc-9daf-20121ae7ba47, tls: false, tfo: false, skip-cert-verify: false, servername: edge.validbv3528.ir, network: ws, ws-opts: {path: /, headers: {Host: edge.validbv3528.ir}}}
+  - {name: 15|US_speednode_0034, server: 167.82.1.121, port: 80, client-fingerprint: chrome, type: vless, uuid: 253ef561-9e57-4336-befd-878ddd30df01, tls: false, tfo: false, skip-cert-verify: false, servername: teleirani.ir, network: ws, ws-opts: {path: "/vless-ws/@Azarbayjab1@Azarbayjab1@Azarbayjab1@Azarbayjab1?ed=2560", headers: {Host: teleirani.ir}}}
+  - {name: 15|US_speednode_0035, server: 167.82.72.38, port: 80, client-fingerprint: chrome, type: vless, uuid: 42f36835-730c-4ecc-9daf-20121ae7ba47, tls: false, tfo: false, skip-cert-verify: false, servername: edge.validbv3528.ir, network: ws, ws-opts: {path: "/vless-ws/@Azarbayjab1@Azarbayjab1@Azarbayjab1@Azarbayjab1@Azarbayja1/?ed=2560", headers: {Host: edge.validbv3528.ir}}}
+  - {name: 15|US_speednode_0036, server: 167.82.66.165, port: 80, client-fingerprint: chrome, type: vless, uuid: 253ef561-9e57-4336-befd-878ddd30df01, tls: false, tfo: false, skip-cert-verify: false, servername: teleirani.ir, network: ws, ws-opts: {path: "/vless-ws/@Azarbayjab1@Azarbayjab1@Azarbayjab1@Azarbayjab1?ed=2560", headers: {Host: teleirani.ir}}}
+  - {name: 15|US_speednode_0037, server: 167.82.65.71, port: 80, client-fingerprint: chrome, type: vless, uuid: 42f36835-730c-4ecc-9daf-20121ae7ba47, tls: false, tfo: false, skip-cert-verify: false, servername: edge.validbv3528.ir, network: ws, ws-opts: {path: "/vless-ws/@Azarbayjab1@Azarbayjab1@Azarbayjab1@Azarbayjab1@Azarbayja1/?ed=2560", headers: {Host: edge.validbv3528.ir}}}
+  - {name: 15|US_speednode_0038, server: 167.82.71.3, port: 80, client-fingerprint: chrome, type: vless, uuid: 42f36835-730c-4ecc-9daf-20121ae7ba47, tls: false, tfo: false, skip-cert-verify: false, servername: edge.validbv3528.ir, network: ws, ws-opts: {path: "/vless-ws/@Azarbayjab1@Azarbayjab1@Azarbayjab1@Azarbayjab1@Azarbayja1/?ed=2560", headers: {Host: edge.validbv3528.ir}}}
+  - {name: 15|US_speednode_0039, server: 167.82.70.214, port: 80, client-fingerprint: chrome, type: vless, uuid: 42f36835-730c-4ecc-9daf-20121ae7ba47, tls: false, tfo: false, skip-cert-verify: false, servername: edge.validbv3528.ir, network: ws, ws-opts: {path: "/vless-ws/@Azarbayjab1@Azarbayjab1@Azarbayjab1@Azarbayjab1@Azarbayja1/?ed=2560", headers: {Host: edge.validbv3528.ir}}}
+  - {name: 15|US_speednode_0040, server: 198.41.216.118, port: 80, client-fingerprint: chrome, type: vless, uuid: d342d11e-d424-4583-b36e-524ab1f0afa4, tls: false, tfo: false, skip-cert-verify: false, servername: a.mifeng.us.kg, network: ws, ws-opts: {path: "/telegram-_-_-_-_-__-free_shekan-_-_-_-/?ed=2048", headers: {Host: a.mifeng.us.kg}}}
+  - {name: 15|US_speednode_0041, server: 167.82.65.80, port: 80, client-fingerprint: chrome, type: vless, uuid: 42f36835-730c-4ecc-9daf-20121ae7ba47, tls: false, tfo: false, skip-cert-verify: false, servername: edge.validbv3528.ir, network: ws, ws-opts: {path: "/vless-ws/@Azarbayjab1@Azarbayjab1@Azarbayjab1@Azarbayjab1@Azarbayja1/?ed=2560", headers: {Host: edge.validbv3528.ir}}}
+  - {name: 15|US_speednode_0042, server: 151.101.3.8, port: 80, client-fingerprint: chrome, type: vless, uuid: 7233f65b-8ec1-46cd-8e87-1986948d0326, tls: false, tfo: false, skip-cert-verify: false, servername: 49.org, network: ws, ws-opts: {path: "/telegram-v2safee,telegram-v2safee,telegram-v2safee,telegram-v2safee,telegram-v2safee,telegram-v2safee,telegram-v2safee,telegram-v2safee,telegram-v2safee,telegram-v2safee,telegram-v2safee,telegram-v2safee?ed=2095", headers: {Host: 49.org}}}
+  - {name: 15|US_speednode_0043, server: 167.82.72.38, port: 80, client-fingerprint: chrome, type: vless, uuid: 42f36835-730c-4ecc-9daf-20121ae7ba47, tls: false, tfo: false, skip-cert-verify: false, servername: edge.validbv3528.ir, network: ws, ws-opts: {path: /, headers: {Host: edge.validbv3528.ir}}}
+  - {name: 15|US_speednode_0044, server: 151.101.3.8, port: 80, client-fingerprint: chrome, type: vless, uuid: 2f2f4cf2-8bf2-47cc-9249-38553b41d8b1, tls: false, tfo: false, skip-cert-verify: false, servername: VpnWedbaz-VpnWedbaz.SS, network: ws, ws-opts: {path: "/@VpnWedbaz-----@VpnWedbaz?ed=2560", headers: {Host: VpnWedbaz-VpnWedbaz.SS}}}
+  - {name: 15|US_speednode_0045, server: 198.41.192.239, port: 443, client-fingerprint: chrome, type: vless, uuid: e7934134-5395-47a7-bd90-f68a467e3971, tls: false, tfo: false, skip-cert-verify: false, servername: usb.warpo.me, network: ws, ws-opts: {path: /bingsecurity=tls, headers: {Host: usb.warpo.me}}}
+  - {name: 15|US_speednode_0046, server: 141.101.123.208, port: 443, client-fingerprint: chrome, type: vless, uuid: 8e63cfe4-8855-4334-9619-a5d403bf2b8e, tls: false, tfo: false, skip-cert-verify: false, servername: usa.warpo.me, network: ws, ws-opts: {path: /bingsecurity=tls, headers: {Host: usa.warpo.me}}}
+  - {name: 15|US_speednode_0047, server: 167.82.0.242, port: 80, client-fingerprint: chrome, type: vless, uuid: 42f36835-730c-4ecc-9daf-20121ae7ba47, tls: false, tfo: false, skip-cert-verify: false, servername: edge.validbv3528.ir, network: ws, ws-opts: {path: "/vless-ws/@Azarbayjab1@Azarbayjab1@Azarbayjab1@Azarbayjab1@Azarbayja1/?ed=2560", headers: {Host: edge.validbv3528.ir}}}
+  - {name: 15|US_speednode_0049, server: 108.165.152.29, port: 2096, client-fingerprint: chrome, type: trojan, password: SSorg, sni: sstjj.esslh.filegear-sg.me, skip-cert-verify: false, network: ws, ws-opts: {path: /, headers: {Host: sstjj.esslh.filegear-sg.me}}}
+  - {name: 15|US_speednode_0050, server: 108.165.152.80, port: 2083, client-fingerprint: chrome, type: trojan, password: SSorg, sni: sstjj.esslh.filegear-sg.me, skip-cert-verify: false, network: ws, ws-opts: {path: /, headers: {Host: sstjj.esslh.filegear-sg.me}}}
+  - {name: 15|US_speednode_0052, server: 167.82.0.0, port: 80, client-fingerprint: chrome, type: vless, uuid: 42f36835-730c-4ecc-9daf-20121ae7ba47, tls: false, tfo: false, skip-cert-verify: false, servername: edge.validbv3528.ir, network: ws, ws-opts: {path: /, headers: {Host: edge.validbv3528.ir}}}
+  - {name: 15|US_speednode_0053, server: 167.82.65.119, port: 80, client-fingerprint: chrome, type: vless, uuid: 42f36835-730c-4ecc-9daf-20121ae7ba47, tls: false, tfo: false, skip-cert-verify: false, servername: edge.validbv3528.ir, network: ws, ws-opts: {path: "/vless-ws/@Azarbayjab1@Azarbayjab1@Azarbayjab1@Azarbayjab1@Azarbayja1/?ed=2560", headers: {Host: edge.validbv3528.ir}}}
+  - {name: 15|US_speednode_0054, server: 151.101.130.133, port: 443, client-fingerprint: chrome, type: vless, uuid: 81e5d802-a1ad-4639-9ea0-f2ad4265effb, tls: true, tfo: false, skip-cert-verify: false, servername: www.sunshinecity.co.jp, network: ws, ws-opts: {path: "/---@External_Net---@External_Net---@External_Net---@External_Net---@External_Net---@External_Net---@External_Net---@External_Net---@External_Net?ed=2048fp=chrome", headers: {Host: www.sunshinecity.co.jp}}}
+  - {name: 15|US_speednode_0055, server: 151.101.3.8, port: 80, client-fingerprint: chrome, type: vless, uuid: 81e5d802-a1ad-4639-9ea0-f2ad4265effb, tls: false, tfo: false, skip-cert-verify: false, servername: External_Net.org, network: ws, ws-opts: {path: /, headers: {Host: External_Net.org}}}
+  - {name: 15|US_speednode_0056, server: 167.82.1.136, port: 80, client-fingerprint: chrome, type: vless, uuid: 253ef561-9e57-4336-befd-878ddd30df01, tls: false, tfo: false, skip-cert-verify: false, servername: teleirani.ir, network: ws, ws-opts: {path: "/?ed=2048", headers: {Host: teleirani.ir}}}
+  - {name: 15|US_speednode_0057, server: 167.82.1.111, port: 80, client-fingerprint: chrome, type: vless, uuid: 253ef561-9e57-4336-befd-878ddd30df01, tls: false, tfo: false, skip-cert-verify: false, servername: teleirani.ir, network: ws, ws-opts: {path: "/?ed=2048", headers: {Host: teleirani.ir}}}
+  - {name: 15|US_speednode_0058, server: 173.245.49.53, port: 80, client-fingerprint: chrome, type: vless, uuid: d342d11e-d424-4583-b36e-524ab1f0afa4, tls: false, tfo: false, skip-cert-verify: false, servername: a.mifeng.us.kg, network: ws, ws-opts: {path: "/telegram-_-_-_-_-__-free_shekan-_-_-_-/?ed=2048", headers: {Host: a.mifeng.us.kg}}}
+  - {name: 15|US_speednode_0059, server: 103.21.244.190, port: 80, client-fingerprint: chrome, type: vless, uuid: d342d11e-d424-4583-b36e-524ab1f0afa4, tls: false, tfo: false, skip-cert-verify: false, servername: a.mifeng.us.kg, network: ws, ws-opts: {path: "/telegram-_-_-_-_-__-free_shekan-_-_-_-/?ed=2048", headers: {Host: a.mifeng.us.kg}}}
+  - {name: 15|US_speednode_0060, server: speedtest.net, port: 80, client-fingerprint: chrome, type: vless, uuid: fddedb06-250c-46e1-eca7-5df2e361192f, tls: false, tfo: false, skip-cert-verify: false, servername: foffmelo.com, network: ws, ws-opts: {path: "/olem/ws?ed=1024", headers: {Host: foffmelo.com}}}
+  - {name: 15|US_speednode_0063, server: 154.17.229.206, port: 443, client-fingerprint: chrome, type: vless, uuid: f232ea17-b79f-4e64-d130-d3ce92b8e5b1, tls: false, tfo: false, skip-cert-verify: false, servername: dousa.monv.me, network: ws, ws-opts: {path: /bingsecurity=tls, headers: {Host: dousa.monv.me}}}
   - {name: 16|d*********g.com_2, server: 42.236.73.72, port: 443, client-fingerprint: chrome, type: vmess, uuid: 044f0177-0675-4dcf-89d4-804b6788e518, alterId: 0, cipher: auto, tls: true, tfo: false, skip-cert-verify: false, servername: www.zitian.cn}
   - {name: 16|d*********g.com_3, server: 42.236.73.72, port: 443, client-fingerprint: chrome, type: trojan, password: fuck, sni: www.zitian.cn, alpn: [http/1.1], skip-cert-verify: false}
 proxy-groups:
@@ -11648,28 +11413,12 @@ proxy-groups:
       - ♻️ 自动选择
       - 🎯 全球直连
       - 🇬🇧 高性价比机场:https://kfyun.uk
-      - 0|--2
+      - 0|--1
       - 0|--3
       - 0|--4
       - 0|--5
-      - 0|--6
       - 0|--8
       - 0|--9
-      - 0|--11
-      - 0|--12
-      - 0|--13
-      - 0|--14
-      - 0|--15
-      - 0|--16
-      - 0|--18
-      - 0|--20
-      - 0|--29
-      - 0|--30
-      - 0|--33
-      - 0|--36
-      - 0|--40
-      - 0|--42
-      - 0|--48
       - 🇭🇰 13,14|香港2|@ripaojiedian
       - 🇭🇰 13|🇭🇰 香港3|@ripaojiedian
       - 🇭🇰 13|🇭🇰 香港5|@ripaojiedian
@@ -11704,10 +11453,16 @@ proxy-groups:
       - 🇰🇷 14|韩国特殊|@ripaojiedian
       - 🇯🇵 14|日本特殊|@ripaojiedian
       - 🇸🇬 14|狮城特殊|@ripaojiedian
-      - 15|CN_speednode_0003
+      - 15|AM_speednode_0001
+      - 15|CN_speednode_0004
+      - 15|FR_speednode_0007
       - 15|JP_speednode_0008
+      - 15|NL_speednode_0010
+      - 15|SC_speednode_0012
+      - 15|SC_speednode_0013
       - 15|SE_speednode_0014
-      - 15|US_speednode_0016
+      - 15|SG_speednode_0015
+      - 15|TR_speednode_0016
       - 15|US_speednode_0017
       - 15|US_speednode_0018
       - 15|US_speednode_0019
@@ -11734,8 +11489,14 @@ proxy-groups:
       - 15|US_speednode_0040
       - 15|US_speednode_0041
       - 15|US_speednode_0042
+      - 15|US_speednode_0043
+      - 15|US_speednode_0044
+      - 15|US_speednode_0045
       - 15|US_speednode_0046
+      - 15|US_speednode_0047
+      - 15|US_speednode_0049
       - 15|US_speednode_0050
+      - 15|US_speednode_0052
       - 15|US_speednode_0053
       - 15|US_speednode_0054
       - 15|US_speednode_0055
@@ -11743,6 +11504,8 @@ proxy-groups:
       - 15|US_speednode_0057
       - 15|US_speednode_0058
       - 15|US_speednode_0059
+      - 15|US_speednode_0060
+      - 15|US_speednode_0063
       - 16|d*********g.com_2
       - 16|d*********g.com_3
   - name: ♻️ 自动选择
@@ -11751,28 +11514,12 @@ proxy-groups:
     interval: 300
     proxies:
       - 🇬🇧 高性价比机场:https://kfyun.uk
-      - 0|--2
+      - 0|--1
       - 0|--3
       - 0|--4
       - 0|--5
-      - 0|--6
       - 0|--8
       - 0|--9
-      - 0|--11
-      - 0|--12
-      - 0|--13
-      - 0|--14
-      - 0|--15
-      - 0|--16
-      - 0|--18
-      - 0|--20
-      - 0|--29
-      - 0|--30
-      - 0|--33
-      - 0|--36
-      - 0|--40
-      - 0|--42
-      - 0|--48
       - 🇭🇰 13,14|香港2|@ripaojiedian
       - 🇭🇰 13|🇭🇰 香港3|@ripaojiedian
       - 🇭🇰 13|🇭🇰 香港5|@ripaojiedian
@@ -11807,10 +11554,16 @@ proxy-groups:
       - 🇰🇷 14|韩国特殊|@ripaojiedian
       - 🇯🇵 14|日本特殊|@ripaojiedian
       - 🇸🇬 14|狮城特殊|@ripaojiedian
-      - 15|CN_speednode_0003
+      - 15|AM_speednode_0001
+      - 15|CN_speednode_0004
+      - 15|FR_speednode_0007
       - 15|JP_speednode_0008
+      - 15|NL_speednode_0010
+      - 15|SC_speednode_0012
+      - 15|SC_speednode_0013
       - 15|SE_speednode_0014
-      - 15|US_speednode_0016
+      - 15|SG_speednode_0015
+      - 15|TR_speednode_0016
       - 15|US_speednode_0017
       - 15|US_speednode_0018
       - 15|US_speednode_0019
@@ -11837,8 +11590,14 @@ proxy-groups:
       - 15|US_speednode_0040
       - 15|US_speednode_0041
       - 15|US_speednode_0042
+      - 15|US_speednode_0043
+      - 15|US_speednode_0044
+      - 15|US_speednode_0045
       - 15|US_speednode_0046
+      - 15|US_speednode_0047
+      - 15|US_speednode_0049
       - 15|US_speednode_0050
+      - 15|US_speednode_0052
       - 15|US_speednode_0053
       - 15|US_speednode_0054
       - 15|US_speednode_0055
@@ -11846,6 +11605,8 @@ proxy-groups:
       - 15|US_speednode_0057
       - 15|US_speednode_0058
       - 15|US_speednode_0059
+      - 15|US_speednode_0060
+      - 15|US_speednode_0063
       - 16|d*********g.com_2
       - 16|d*********g.com_3
   - name: 🌍 国外媒体
@@ -11855,28 +11616,12 @@ proxy-groups:
       - ♻️ 自动选择
       - 🎯 全球直连
       - 🇬🇧 高性价比机场:https://kfyun.uk
-      - 0|--2
+      - 0|--1
       - 0|--3
       - 0|--4
       - 0|--5
-      - 0|--6
       - 0|--8
       - 0|--9
-      - 0|--11
-      - 0|--12
-      - 0|--13
-      - 0|--14
-      - 0|--15
-      - 0|--16
-      - 0|--18
-      - 0|--20
-      - 0|--29
-      - 0|--30
-      - 0|--33
-      - 0|--36
-      - 0|--40
-      - 0|--42
-      - 0|--48
       - 🇭🇰 13,14|香港2|@ripaojiedian
       - 🇭🇰 13|🇭🇰 香港3|@ripaojiedian
       - 🇭🇰 13|🇭🇰 香港5|@ripaojiedian
@@ -11911,10 +11656,16 @@ proxy-groups:
       - 🇰🇷 14|韩国特殊|@ripaojiedian
       - 🇯🇵 14|日本特殊|@ripaojiedian
       - 🇸🇬 14|狮城特殊|@ripaojiedian
-      - 15|CN_speednode_0003
+      - 15|AM_speednode_0001
+      - 15|CN_speednode_0004
+      - 15|FR_speednode_0007
       - 15|JP_speednode_0008
+      - 15|NL_speednode_0010
+      - 15|SC_speednode_0012
+      - 15|SC_speednode_0013
       - 15|SE_speednode_0014
-      - 15|US_speednode_0016
+      - 15|SG_speednode_0015
+      - 15|TR_speednode_0016
       - 15|US_speednode_0017
       - 15|US_speednode_0018
       - 15|US_speednode_0019
@@ -11941,8 +11692,14 @@ proxy-groups:
       - 15|US_speednode_0040
       - 15|US_speednode_0041
       - 15|US_speednode_0042
+      - 15|US_speednode_0043
+      - 15|US_speednode_0044
+      - 15|US_speednode_0045
       - 15|US_speednode_0046
+      - 15|US_speednode_0047
+      - 15|US_speednode_0049
       - 15|US_speednode_0050
+      - 15|US_speednode_0052
       - 15|US_speednode_0053
       - 15|US_speednode_0054
       - 15|US_speednode_0055
@@ -11950,6 +11707,8 @@ proxy-groups:
       - 15|US_speednode_0057
       - 15|US_speednode_0058
       - 15|US_speednode_0059
+      - 15|US_speednode_0060
+      - 15|US_speednode_0063
       - 16|d*********g.com_2
       - 16|d*********g.com_3
   - name: 🌏 国内媒体
@@ -11975,28 +11734,12 @@ proxy-groups:
       - 🎯 全球直连
       - 🔰 节点选择
       - 🇬🇧 高性价比机场:https://kfyun.uk
-      - 0|--2
+      - 0|--1
       - 0|--3
       - 0|--4
       - 0|--5
-      - 0|--6
       - 0|--8
       - 0|--9
-      - 0|--11
-      - 0|--12
-      - 0|--13
-      - 0|--14
-      - 0|--15
-      - 0|--16
-      - 0|--18
-      - 0|--20
-      - 0|--29
-      - 0|--30
-      - 0|--33
-      - 0|--36
-      - 0|--40
-      - 0|--42
-      - 0|--48
       - 🇭🇰 13,14|香港2|@ripaojiedian
       - 🇭🇰 13|🇭🇰 香港3|@ripaojiedian
       - 🇭🇰 13|🇭🇰 香港5|@ripaojiedian
@@ -12031,10 +11774,16 @@ proxy-groups:
       - 🇰🇷 14|韩国特殊|@ripaojiedian
       - 🇯🇵 14|日本特殊|@ripaojiedian
       - 🇸🇬 14|狮城特殊|@ripaojiedian
-      - 15|CN_speednode_0003
+      - 15|AM_speednode_0001
+      - 15|CN_speednode_0004
+      - 15|FR_speednode_0007
       - 15|JP_speednode_0008
+      - 15|NL_speednode_0010
+      - 15|SC_speednode_0012
+      - 15|SC_speednode_0013
       - 15|SE_speednode_0014
-      - 15|US_speednode_0016
+      - 15|SG_speednode_0015
+      - 15|TR_speednode_0016
       - 15|US_speednode_0017
       - 15|US_speednode_0018
       - 15|US_speednode_0019
@@ -12061,8 +11810,14 @@ proxy-groups:
       - 15|US_speednode_0040
       - 15|US_speednode_0041
       - 15|US_speednode_0042
+      - 15|US_speednode_0043
+      - 15|US_speednode_0044
+      - 15|US_speednode_0045
       - 15|US_speednode_0046
+      - 15|US_speednode_0047
+      - 15|US_speednode_0049
       - 15|US_speednode_0050
+      - 15|US_speednode_0052
       - 15|US_speednode_0053
       - 15|US_speednode_0054
       - 15|US_speednode_0055
@@ -12070,6 +11825,8 @@ proxy-groups:
       - 15|US_speednode_0057
       - 15|US_speednode_0058
       - 15|US_speednode_0059
+      - 15|US_speednode_0060
+      - 15|US_speednode_0063
       - 16|d*********g.com_2
       - 16|d*********g.com_3
   - name: 📲 电报信息
@@ -12078,28 +11835,12 @@ proxy-groups:
       - 🔰 节点选择
       - 🎯 全球直连
       - 🇬🇧 高性价比机场:https://kfyun.uk
-      - 0|--2
+      - 0|--1
       - 0|--3
       - 0|--4
       - 0|--5
-      - 0|--6
       - 0|--8
       - 0|--9
-      - 0|--11
-      - 0|--12
-      - 0|--13
-      - 0|--14
-      - 0|--15
-      - 0|--16
-      - 0|--18
-      - 0|--20
-      - 0|--29
-      - 0|--30
-      - 0|--33
-      - 0|--36
-      - 0|--40
-      - 0|--42
-      - 0|--48
       - 🇭🇰 13,14|香港2|@ripaojiedian
       - 🇭🇰 13|🇭🇰 香港3|@ripaojiedian
       - 🇭🇰 13|🇭🇰 香港5|@ripaojiedian
@@ -12134,10 +11875,16 @@ proxy-groups:
       - 🇰🇷 14|韩国特殊|@ripaojiedian
       - 🇯🇵 14|日本特殊|@ripaojiedian
       - 🇸🇬 14|狮城特殊|@ripaojiedian
-      - 15|CN_speednode_0003
+      - 15|AM_speednode_0001
+      - 15|CN_speednode_0004
+      - 15|FR_speednode_0007
       - 15|JP_speednode_0008
+      - 15|NL_speednode_0010
+      - 15|SC_speednode_0012
+      - 15|SC_speednode_0013
       - 15|SE_speednode_0014
-      - 15|US_speednode_0016
+      - 15|SG_speednode_0015
+      - 15|TR_speednode_0016
       - 15|US_speednode_0017
       - 15|US_speednode_0018
       - 15|US_speednode_0019
@@ -12164,8 +11911,14 @@ proxy-groups:
       - 15|US_speednode_0040
       - 15|US_speednode_0041
       - 15|US_speednode_0042
+      - 15|US_speednode_0043
+      - 15|US_speednode_0044
+      - 15|US_speednode_0045
       - 15|US_speednode_0046
+      - 15|US_speednode_0047
+      - 15|US_speednode_0049
       - 15|US_speednode_0050
+      - 15|US_speednode_0052
       - 15|US_speednode_0053
       - 15|US_speednode_0054
       - 15|US_speednode_0055
@@ -12173,6 +11926,8 @@ proxy-groups:
       - 15|US_speednode_0057
       - 15|US_speednode_0058
       - 15|US_speednode_0059
+      - 15|US_speednode_0060
+      - 15|US_speednode_0063
       - 16|d*********g.com_2
       - 16|d*********g.com_3
   - name: 🍎 苹果服务
@@ -12182,28 +11937,12 @@ proxy-groups:
       - 🎯 全球直连
       - ♻️ 自动选择
       - 🇬🇧 高性价比机场:https://kfyun.uk
-      - 0|--2
+      - 0|--1
       - 0|--3
       - 0|--4
       - 0|--5
-      - 0|--6
       - 0|--8
       - 0|--9
-      - 0|--11
-      - 0|--12
-      - 0|--13
-      - 0|--14
-      - 0|--15
-      - 0|--16
-      - 0|--18
-      - 0|--20
-      - 0|--29
-      - 0|--30
-      - 0|--33
-      - 0|--36
-      - 0|--40
-      - 0|--42
-      - 0|--48
       - 🇭🇰 13,14|香港2|@ripaojiedian
       - 🇭🇰 13|🇭🇰 香港3|@ripaojiedian
       - 🇭🇰 13|🇭🇰 香港5|@ripaojiedian
@@ -12238,10 +11977,16 @@ proxy-groups:
       - 🇰🇷 14|韩国特殊|@ripaojiedian
       - 🇯🇵 14|日本特殊|@ripaojiedian
       - 🇸🇬 14|狮城特殊|@ripaojiedian
-      - 15|CN_speednode_0003
+      - 15|AM_speednode_0001
+      - 15|CN_speednode_0004
+      - 15|FR_speednode_0007
       - 15|JP_speednode_0008
+      - 15|NL_speednode_0010
+      - 15|SC_speednode_0012
+      - 15|SC_speednode_0013
       - 15|SE_speednode_0014
-      - 15|US_speednode_0016
+      - 15|SG_speednode_0015
+      - 15|TR_speednode_0016
       - 15|US_speednode_0017
       - 15|US_speednode_0018
       - 15|US_speednode_0019
@@ -12268,8 +12013,14 @@ proxy-groups:
       - 15|US_speednode_0040
       - 15|US_speednode_0041
       - 15|US_speednode_0042
+      - 15|US_speednode_0043
+      - 15|US_speednode_0044
+      - 15|US_speednode_0045
       - 15|US_speednode_0046
+      - 15|US_speednode_0047
+      - 15|US_speednode_0049
       - 15|US_speednode_0050
+      - 15|US_speednode_0052
       - 15|US_speednode_0053
       - 15|US_speednode_0054
       - 15|US_speednode_0055
@@ -12277,6 +12028,8 @@ proxy-groups:
       - 15|US_speednode_0057
       - 15|US_speednode_0058
       - 15|US_speednode_0059
+      - 15|US_speednode_0060
+      - 15|US_speednode_0063
       - 16|d*********g.com_2
       - 16|d*********g.com_3
   - name: 🎯 全球直连
@@ -12295,28 +12048,12 @@ proxy-groups:
       - 🎯 全球直连
       - ♻️ 自动选择
       - 🇬🇧 高性价比机场:https://kfyun.uk
-      - 0|--2
+      - 0|--1
       - 0|--3
       - 0|--4
       - 0|--5
-      - 0|--6
       - 0|--8
       - 0|--9
-      - 0|--11
-      - 0|--12
-      - 0|--13
-      - 0|--14
-      - 0|--15
-      - 0|--16
-      - 0|--18
-      - 0|--20
-      - 0|--29
-      - 0|--30
-      - 0|--33
-      - 0|--36
-      - 0|--40
-      - 0|--42
-      - 0|--48
       - 🇭🇰 13,14|香港2|@ripaojiedian
       - 🇭🇰 13|🇭🇰 香港3|@ripaojiedian
       - 🇭🇰 13|🇭🇰 香港5|@ripaojiedian
@@ -12351,10 +12088,16 @@ proxy-groups:
       - 🇰🇷 14|韩国特殊|@ripaojiedian
       - 🇯🇵 14|日本特殊|@ripaojiedian
       - 🇸🇬 14|狮城特殊|@ripaojiedian
-      - 15|CN_speednode_0003
+      - 15|AM_speednode_0001
+      - 15|CN_speednode_0004
+      - 15|FR_speednode_0007
       - 15|JP_speednode_0008
+      - 15|NL_speednode_0010
+      - 15|SC_speednode_0012
+      - 15|SC_speednode_0013
       - 15|SE_speednode_0014
-      - 15|US_speednode_0016
+      - 15|SG_speednode_0015
+      - 15|TR_speednode_0016
       - 15|US_speednode_0017
       - 15|US_speednode_0018
       - 15|US_speednode_0019
@@ -12381,8 +12124,14 @@ proxy-groups:
       - 15|US_speednode_0040
       - 15|US_speednode_0041
       - 15|US_speednode_0042
+      - 15|US_speednode_0043
+      - 15|US_speednode_0044
+      - 15|US_speednode_0045
       - 15|US_speednode_0046
+      - 15|US_speednode_0047
+      - 15|US_speednode_0049
       - 15|US_speednode_0050
+      - 15|US_speednode_0052
       - 15|US_speednode_0053
       - 15|US_speednode_0054
       - 15|US_speednode_0055
@@ -12390,6 +12139,8 @@ proxy-groups:
       - 15|US_speednode_0057
       - 15|US_speednode_0058
       - 15|US_speednode_0059
+      - 15|US_speednode_0060
+      - 15|US_speednode_0063
       - 16|d*********g.com_2
       - 16|d*********g.com_3
 rules:
@@ -22246,286 +21997,182 @@ tun:
     - 1.1.1.1
     - 1.0.0.1
 proxies:
+  - name: 🇬🇧_GB_英国
+    port: 443
+    server: 212.102.53.197
+    type: ss
+    udp: true
+    password: shadowsocks
+    cipher: aes-128-gcm
   - name: 🇷🇺_RU_俄罗斯_1
-    port: 9003
-    server: 217.30.10.18
+    port: 23456
+    server: 185.22.155.228
     type: ss
     udp: true
-    password: JdmRK9gMEqFgs8nP
-    cipher: aes-256-cfb
-  - name: 🇺🇸_US_美国_1
-    port: 6697
-    server: 38.114.114.69
-    type: ss
-    udp: true
-    password: TEzjfAYq2IjtuoS
+    password: dongtaiwang.com
     cipher: aes-256-gcm
-  - name: 🇺🇸_US_美国->🇷🇺_RU_俄罗斯
-    port: 443
-    server: 34.218.246.187
+  - name: 🇨🇭_CH_瑞士
+    port: 54748
+    server: 195.15.254.25
     type: ss
     udp: true
-    password: amazonskr05
-    cipher: aes-256-cfb
-  - name: 🇩🇪_DE_德国->🇷🇺_RU_俄罗斯
-    port: 8080
-    server: 45.87.175.166
-    type: ss
-    udp: true
-    password: cvII85TrW6n0OGyfpHVS1u
+    password: ghBuJ9pZOF9MohhGyPjo3rvilQhlw9NzBDlOVDonQN0=
     cipher: chacha20-ietf-poly1305
-  - name: 🇺🇸_US_美国_2
-    port: 5601
-    server: 38.114.114.69
-    type: ss
-    udp: true
-    password: Y6R9pAtvxxzmGC
-    cipher: aes-256-gcm
-  - name: 🇺🇸_US_美国_3
-    port: 443
-    server: 35.85.54.63
-    type: ss
-    udp: true
-    password: amazonskr05
-    cipher: aes-256-cfb
-  - name: 🇺🇸_US_美国_4
-    port: 7001
-    server: 38.114.114.69
-    type: ss
-    udp: true
-    password: RexnBgU7EV5ADxG
-    cipher: aes-256-gcm
-  - name: 🇷🇺_RU_俄罗斯->🇺🇸_US_美国
-    port: 16112
-    server: 195.133.53.79
-    type: ss
-    udp: true
-    password: df14ff552867fbf9
-    cipher: aes-256-gcm
-  - name: 🇺🇸_US_美国_5
-    port: 5004
-    server: 38.114.114.69
-    type: ss
-    udp: true
-    password: g5MeD6Ft3CWlJId
-    cipher: aes-256-gcm
   - name: 🇷🇺_RU_俄罗斯_2
-    port: 9045
+    port: 9027
     server: 217.30.10.18
     type: ss
     udp: true
-    password: Lp27rqyJq72bZsqX
+    password: EXN3S3eQpjE7EJu8
     cipher: aes-256-cfb
-  - name: 🇺🇸_US_美国_6
-    port: 9102
-    server: 38.114.114.69
+  - name: 🇮🇷_IR_伊朗
+    port: 9848
+    server: 83.147.216.173
     type: ss
     udp: true
-    password: e4FCWrgpkji3QY
-    cipher: aes-256-gcm
-  - name: 🇺🇸_US_美国_7
+    password: zUQvFioae7KzAZ2GCMgNum
+    cipher: chacha20-ietf-poly1305
+  - name: 🇺🇸_US_美国_1
     port: 443
-    server: 35.91.157.153
+    server: 35.88.145.21
     type: ss
     udp: true
     password: amazonskr05
     cipher: aes-256-cfb
-  - name: 🇺🇸_US_美国_8
-    port: 3306
-    server: 38.114.114.69
-    type: ss
-    udp: true
-    password: Y6R9pAtvxxzmGC
-    cipher: aes-256-gcm
-  - name: 🇺🇸_US_美国_9
-    port: 7306
-    server: 38.114.114.69
-    type: ss
-    udp: true
-    password: FoOiGlkAA9yPEGP
-    cipher: aes-256-gcm
-  - name: 🇷🇺_RU_俄罗斯_3
-    port: 9026
-    server: 217.30.10.18
-    type: ss
-    udp: true
-    password: QWDDvVE9npNurQfA
-    cipher: aes-256-cfb
-  - name: 🇺🇸_US_美国_10
-    port: 443
-    server: 35.90.11.23
-    type: ss
-    udp: true
-    password: amazonskr05
-    cipher: aes-256-cfb
-  - name: 🇷🇺_RU_俄罗斯_4
-    port: 9031
-    server: 217.30.10.18
-    type: ss
-    udp: true
-    password: BwcAUZk8hUFAkDGN
-    cipher: aes-256-cfb
-  - name: 🇺🇸_US_美国_11
-    port: 443
-    server: 54.186.92.34
-    type: ss
-    udp: true
-    password: amazonskr05
-    cipher: aes-256-cfb
-  - name: 🇲🇩_MD_摩尔多瓦
+  - name: 🇮🇹_IT_意大利
     port: 989
-    server: 91.132.94.200
+    server: 37.143.129.230
     type: ss
     udp: true
     password: f8f7aCzcPKbsF8p3
     cipher: aes-256-cfb
+  - name: 🇺🇸_US_美国->🇷🇺_RU_俄罗斯
+    port: 443
+    server: 35.94.25.109
+    type: ss
+    udp: true
+    password: amazonskr05
+    cipher: aes-256-cfb
+  - name: 🇺🇸_US_美国_2
+    port: 443
+    server: 34.216.172.180
+    type: ss
+    udp: true
+    password: amazonskr05
+    cipher: aes-256-cfb
+  - name: 🇷🇺_RU_俄罗斯_3
+    port: 9037
+    server: 217.30.10.18
+    type: ss
+    udp: true
+    password: TN2YqghxeFDKZfLU
+    cipher: aes-256-cfb
+  - name: 🇩🇪_DE_德国
+    port: 8080
+    server: 45.87.175.157
+    type: ss
+    udp: true
+    password: 4a2rfixophdjffa8KVA4Aa
+    cipher: chacha20-ietf-poly1305
 proxy-groups:
   - name: 🚀 节点选择
     type: select
     proxies:
       - ♻️ 自动选择
       - DIRECT
+      - 🇬🇧_GB_英国
       - 🇷🇺_RU_俄罗斯_1
-      - 🇺🇸_US_美国_1
-      - 🇺🇸_US_美国->🇷🇺_RU_俄罗斯
-      - 🇩🇪_DE_德国->🇷🇺_RU_俄罗斯
-      - 🇺🇸_US_美国_2
-      - 🇺🇸_US_美国_3
-      - 🇺🇸_US_美国_4
-      - 🇷🇺_RU_俄罗斯->🇺🇸_US_美国
-      - 🇺🇸_US_美国_5
+      - 🇨🇭_CH_瑞士
       - 🇷🇺_RU_俄罗斯_2
-      - 🇺🇸_US_美国_6
-      - 🇺🇸_US_美国_7
-      - 🇺🇸_US_美国_8
-      - 🇺🇸_US_美国_9
+      - 🇮🇷_IR_伊朗
+      - 🇺🇸_US_美国_1
+      - 🇮🇹_IT_意大利
+      - 🇺🇸_US_美国->🇷🇺_RU_俄罗斯
+      - 🇺🇸_US_美国_2
       - 🇷🇺_RU_俄罗斯_3
-      - 🇺🇸_US_美国_10
-      - 🇷🇺_RU_俄罗斯_4
-      - 🇺🇸_US_美国_11
-      - 🇲🇩_MD_摩尔多瓦
+      - 🇩🇪_DE_德国
   - name: ♻️ 自动选择
     type: url-test
     url: http://www.gstatic.com/generate_204
     interval: 300
     tolerance: 50
     proxies:
+      - 🇬🇧_GB_英国
       - 🇷🇺_RU_俄罗斯_1
-      - 🇺🇸_US_美国_1
-      - 🇺🇸_US_美国->🇷🇺_RU_俄罗斯
-      - 🇩🇪_DE_德国->🇷🇺_RU_俄罗斯
-      - 🇺🇸_US_美国_2
-      - 🇺🇸_US_美国_3
-      - 🇺🇸_US_美国_4
-      - 🇷🇺_RU_俄罗斯->🇺🇸_US_美国
-      - 🇺🇸_US_美国_5
+      - 🇨🇭_CH_瑞士
       - 🇷🇺_RU_俄罗斯_2
-      - 🇺🇸_US_美国_6
-      - 🇺🇸_US_美国_7
-      - 🇺🇸_US_美国_8
-      - 🇺🇸_US_美国_9
+      - 🇮🇷_IR_伊朗
+      - 🇺🇸_US_美国_1
+      - 🇮🇹_IT_意大利
+      - 🇺🇸_US_美国->🇷🇺_RU_俄罗斯
+      - 🇺🇸_US_美国_2
       - 🇷🇺_RU_俄罗斯_3
-      - 🇺🇸_US_美国_10
-      - 🇷🇺_RU_俄罗斯_4
-      - 🇺🇸_US_美国_11
-      - 🇲🇩_MD_摩尔多瓦
+      - 🇩🇪_DE_德国
   - name: 🌍 国外媒体
     type: select
     proxies:
       - 🚀 节点选择
       - ♻️ 自动选择
       - 🎯 全球直连
+      - 🇬🇧_GB_英国
       - 🇷🇺_RU_俄罗斯_1
-      - 🇺🇸_US_美国_1
-      - 🇺🇸_US_美国->🇷🇺_RU_俄罗斯
-      - 🇩🇪_DE_德国->🇷🇺_RU_俄罗斯
-      - 🇺🇸_US_美国_2
-      - 🇺🇸_US_美国_3
-      - 🇺🇸_US_美国_4
-      - 🇷🇺_RU_俄罗斯->🇺🇸_US_美国
-      - 🇺🇸_US_美国_5
+      - 🇨🇭_CH_瑞士
       - 🇷🇺_RU_俄罗斯_2
-      - 🇺🇸_US_美国_6
-      - 🇺🇸_US_美国_7
-      - 🇺🇸_US_美国_8
-      - 🇺🇸_US_美国_9
+      - 🇮🇷_IR_伊朗
+      - 🇺🇸_US_美国_1
+      - 🇮🇹_IT_意大利
+      - 🇺🇸_US_美国->🇷🇺_RU_俄罗斯
+      - 🇺🇸_US_美国_2
       - 🇷🇺_RU_俄罗斯_3
-      - 🇺🇸_US_美国_10
-      - 🇷🇺_RU_俄罗斯_4
-      - 🇺🇸_US_美国_11
-      - 🇲🇩_MD_摩尔多瓦
+      - 🇩🇪_DE_德国
   - name: 📲 电报信息
     type: select
     proxies:
       - 🚀 节点选择
       - 🎯 全球直连
+      - 🇬🇧_GB_英国
       - 🇷🇺_RU_俄罗斯_1
-      - 🇺🇸_US_美国_1
-      - 🇺🇸_US_美国->🇷🇺_RU_俄罗斯
-      - 🇩🇪_DE_德国->🇷🇺_RU_俄罗斯
-      - 🇺🇸_US_美国_2
-      - 🇺🇸_US_美国_3
-      - 🇺🇸_US_美国_4
-      - 🇷🇺_RU_俄罗斯->🇺🇸_US_美国
-      - 🇺🇸_US_美国_5
+      - 🇨🇭_CH_瑞士
       - 🇷🇺_RU_俄罗斯_2
-      - 🇺🇸_US_美国_6
-      - 🇺🇸_US_美国_7
-      - 🇺🇸_US_美国_8
-      - 🇺🇸_US_美国_9
+      - 🇮🇷_IR_伊朗
+      - 🇺🇸_US_美国_1
+      - 🇮🇹_IT_意大利
+      - 🇺🇸_US_美国->🇷🇺_RU_俄罗斯
+      - 🇺🇸_US_美国_2
       - 🇷🇺_RU_俄罗斯_3
-      - 🇺🇸_US_美国_10
-      - 🇷🇺_RU_俄罗斯_4
-      - 🇺🇸_US_美国_11
-      - 🇲🇩_MD_摩尔多瓦
+      - 🇩🇪_DE_德国
   - name: Ⓜ️ 微软服务
     type: select
     proxies:
       - 🎯 全球直连
       - 🚀 节点选择
+      - 🇬🇧_GB_英国
       - 🇷🇺_RU_俄罗斯_1
-      - 🇺🇸_US_美国_1
-      - 🇺🇸_US_美国->🇷🇺_RU_俄罗斯
-      - 🇩🇪_DE_德国->🇷🇺_RU_俄罗斯
-      - 🇺🇸_US_美国_2
-      - 🇺🇸_US_美国_3
-      - 🇺🇸_US_美国_4
-      - 🇷🇺_RU_俄罗斯->🇺🇸_US_美国
-      - 🇺🇸_US_美国_5
+      - 🇨🇭_CH_瑞士
       - 🇷🇺_RU_俄罗斯_2
-      - 🇺🇸_US_美国_6
-      - 🇺🇸_US_美国_7
-      - 🇺🇸_US_美国_8
-      - 🇺🇸_US_美国_9
+      - 🇮🇷_IR_伊朗
+      - 🇺🇸_US_美国_1
+      - 🇮🇹_IT_意大利
+      - 🇺🇸_US_美国->🇷🇺_RU_俄罗斯
+      - 🇺🇸_US_美国_2
       - 🇷🇺_RU_俄罗斯_3
-      - 🇺🇸_US_美国_10
-      - 🇷🇺_RU_俄罗斯_4
-      - 🇺🇸_US_美国_11
-      - 🇲🇩_MD_摩尔多瓦
+      - 🇩🇪_DE_德国
   - name: 🍎 苹果服务
     type: select
     proxies:
       - 🚀 节点选择
       - 🎯 全球直连
+      - 🇬🇧_GB_英国
       - 🇷🇺_RU_俄罗斯_1
-      - 🇺🇸_US_美国_1
-      - 🇺🇸_US_美国->🇷🇺_RU_俄罗斯
-      - 🇩🇪_DE_德国->🇷🇺_RU_俄罗斯
-      - 🇺🇸_US_美国_2
-      - 🇺🇸_US_美国_3
-      - 🇺🇸_US_美国_4
-      - 🇷🇺_RU_俄罗斯->🇺🇸_US_美国
-      - 🇺🇸_US_美国_5
+      - 🇨🇭_CH_瑞士
       - 🇷🇺_RU_俄罗斯_2
-      - 🇺🇸_US_美国_6
-      - 🇺🇸_US_美国_7
-      - 🇺🇸_US_美国_8
-      - 🇺🇸_US_美国_9
+      - 🇮🇷_IR_伊朗
+      - 🇺🇸_US_美国_1
+      - 🇮🇹_IT_意大利
+      - 🇺🇸_US_美国->🇷🇺_RU_俄罗斯
+      - 🇺🇸_US_美国_2
       - 🇷🇺_RU_俄罗斯_3
-      - 🇺🇸_US_美国_10
-      - 🇷🇺_RU_俄罗斯_4
-      - 🇺🇸_US_美国_11
-      - 🇲🇩_MD_摩尔多瓦
+      - 🇩🇪_DE_德国
   - name: 🎯 全球直连
     type: select
     proxies:
@@ -22548,25 +22195,17 @@ proxy-groups:
       - 🚀 节点选择
       - 🎯 全球直连
       - ♻️ 自动选择
+      - 🇬🇧_GB_英国
       - 🇷🇺_RU_俄罗斯_1
-      - 🇺🇸_US_美国_1
-      - 🇺🇸_US_美国->🇷🇺_RU_俄罗斯
-      - 🇩🇪_DE_德国->🇷🇺_RU_俄罗斯
-      - 🇺🇸_US_美国_2
-      - 🇺🇸_US_美国_3
-      - 🇺🇸_US_美国_4
-      - 🇷🇺_RU_俄罗斯->🇺🇸_US_美国
-      - 🇺🇸_US_美国_5
+      - 🇨🇭_CH_瑞士
       - 🇷🇺_RU_俄罗斯_2
-      - 🇺🇸_US_美国_6
-      - 🇺🇸_US_美国_7
-      - 🇺🇸_US_美国_8
-      - 🇺🇸_US_美国_9
+      - 🇮🇷_IR_伊朗
+      - 🇺🇸_US_美国_1
+      - 🇮🇹_IT_意大利
+      - 🇺🇸_US_美国->🇷🇺_RU_俄罗斯
+      - 🇺🇸_US_美国_2
       - 🇷🇺_RU_俄罗斯_3
-      - 🇺🇸_US_美国_10
-      - 🇷🇺_RU_俄罗斯_4
-      - 🇺🇸_US_美国_11
-      - 🇲🇩_MD_摩尔多瓦
+      - 🇩🇪_DE_德国
 rules:
   - DOMAIN-SUFFIX,acl4.ssr,🎯 全球直连
   - DOMAIN-SUFFIX,ip6-localhost,🎯 全球直连
@@ -25976,45 +25615,46 @@ dns:
     - tls://dns.google:853
 proxies:
   - {name: 🇬🇧 高性价比机场:https://kfyun.uk, server: 127.0.0.1, port: 443, client-fingerprint: chrome, type: ss, cipher: aes-128-gcm, password: 6601fb90e9b3, tfo: false}
-  - {name: 0|--1, server: 35.94.25.109, port: 443, client-fingerprint: chrome, type: ss, cipher: aes-256-cfb, password: amazonskr05, tfo: false}
-  - {name: 0|--2, server: 35.94.52.140, port: 443, client-fingerprint: chrome, type: ss, cipher: aes-256-cfb, password: amazonskr05, tfo: false}
-  - {name: 0|--3, server: series-a2-mec.varzesh360.co, port: 443, client-fingerprint: chrome, type: ss, cipher: chacha20-ietf-poly1305, password: u17T3BvpYaaiuW2c, tfo: false}
-  - {name: 0|--5, server: 103.36.91.32, port: 8388, client-fingerprint: chrome, type: ss, cipher: chacha20-ietf, password: asd123456, tfo: false}
-  - {name: 0|--19, server: 163.5.159.231, port: 443, client-fingerprint: chrome, type: vmess, uuid: e537f2f5-2a0c-4f59-92c9-832ca6433bf3, alterId: 0, cipher: auto, tls: true, tfo: false, skip-cert-verify: false, network: ws, ws-opts: {path: /linkws, headers: {Host: irvideo.cfd}}}
-  - {name: "🇭🇰 13,14|香港2|@ripaojiedian", server: 36.150.215.196, port: 18681, client-fingerprint: chrome, type: trojan, password: vzhXXZVw, sni: 36.150.215.196, skip-cert-verify: false}
+  - {name: 0|--1, server: series-a2-mec.varzesh360.co, port: 443, client-fingerprint: chrome, type: ss, cipher: chacha20-ietf-poly1305, password: u17T3BvpYaaiuW2c, tfo: false}
+  - {name: 0|--2, server: 217.30.10.18, port: 9064, client-fingerprint: chrome, type: ss, cipher: aes-256-cfb, password: cp8pRSUAyLhTfVWH, tfo: false}
+  - {name: 0|--4, server: 35.89.145.123, port: 443, client-fingerprint: chrome, type: ss, cipher: aes-256-cfb, password: amazonskr05, tfo: false}
+  - {name: 0|--5, server: 35.88.145.21, port: 443, client-fingerprint: chrome, type: ss, cipher: aes-256-cfb, password: amazonskr05, tfo: false}
+  - {name: 0|--7, server: 217.30.10.18, port: 9006, client-fingerprint: chrome, type: ss, cipher: aes-256-cfb, password: FAdUvMJUq5vDgKEq, tfo: false}
+  - {name: 0|--8, server: 217.30.10.18, port: 9020, client-fingerprint: chrome, type: ss, cipher: aes-256-cfb, password: BNmAXXxAHYpTRdzu, tfo: false}
+  - {name: 0|--10, server: 217.30.10.18, port: 9001, client-fingerprint: chrome, type: ss, cipher: aes-256-cfb, password: UkXRsXvR6buDMG2Y, tfo: false}
+  - {name: 0|--11, server: 217.30.10.18, port: 9031, client-fingerprint: chrome, type: ss, cipher: aes-256-cfb, password: BwcAUZk8hUFAkDGN, tfo: false}
+  - {name: 0|--12, server: uk-dc1.yangon.club, port: 443, client-fingerprint: chrome, type: ss, cipher: aes-128-gcm, password: shadowsocks, tfo: false}
+  - {name: 0|--26, server: 149.7.16.194, port: 443, client-fingerprint: chrome, type: vmess, uuid: 03fcc618-b93d-6796-6aed-8a38c975d581, alterId: 1, cipher: auto, tls: true, tfo: false, skip-cert-verify: false, network: ws, ws-opts: {path: /linkvws, headers: {Host: 149.7.16.194}}}
+  - {name: 0|--31, server: ample-cockatoo.boa152.lol, port: 443, client-fingerprint: chrome, type: trojan, password: 3723507166611775488, sni: ample-cockatoo.boa152.lol, skip-cert-verify: false}
+  - {name: 0|--32, server: 80.240.112.167, port: 443, client-fingerprint: chrome, type: trojan, password: 3723507166611775488, sni: ample-cockatoo.boa152.lol, skip-cert-verify: false}
+  - {name: "🇭🇰 13,14|香港|@ripaojiedian", server: 36.150.215.222, port: 12524, client-fingerprint: chrome, type: trojan, password: vzhXXZVw, sni: 36.150.215.222, skip-cert-verify: false}
+  - {name: "🇭🇰 13,14|香港2|@ripaojiedian", server: 223.113.54.149, port: 51377, client-fingerprint: chrome, type: trojan, password: vzhXXZVw, sni: 223.113.54.149, skip-cert-verify: false}
   - {name: 🇭🇰 13|🇭🇰 香港3|@ripaojiedian, server: 120.234.102.229, port: 52908, client-fingerprint: chrome, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: false, tfo: false, skip-cert-verify: false}
+  - {name: 🇭🇰 13|🇭🇰 香港4|@ripaojiedian, server: wxh111.icu, port: 44320, client-fingerprint: chrome, type: ss, cipher: chacha20-ietf-poly1305, password: Gjg2ojDksj45yDPZCiHai4mkxAhAeBpP82RS94fYPoQ=, tfo: false}
   - {name: 🇭🇰 13|🇭🇰 香港5|@ripaojiedian, server: 183.236.51.23, port: 51704, client-fingerprint: chrome, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: false, tfo: false, skip-cert-verify: false}
-  - {name: 🇨🇳 13|🇨🇳 中国6|@ripaojiedian, server: 223.113.54.149, port: 14505, client-fingerprint: chrome, type: trojan, password: vzhXXZVw, sni: 223.113.54.149, skip-cert-verify: false}
+  - {name: 🇭🇰 13|🇭🇰 香港6|@ripaojiedian, server: 183.232.229.164, port: 11001, client-fingerprint: chrome, type: ss, cipher: chacha20-ietf-poly1305, password: 54f4e2f4-f0e1-4a15-a0cf-3a3234ab58fb, tfo: false}
   - {name: "🇭🇰 13,14|香港7|@ripaojiedian", server: hk03.trojanyyds.xyz, port: 443, client-fingerprint: chrome, type: trojan, password: 243eab52-9ac1-405c-887c-eb112c0985b8, sni: hk03.trojanyyds.xyz, skip-cert-verify: false}
-  - {name: 🇭🇰 13|🇭🇰 香港8|@ripaojiedian, server: 8tv68qhq.slashdevslashnetslashtun.net, port: 15013, client-fingerprint: chrome, type: ss, cipher: aes-256-gcm, password: QDMKYVHZQVM77KA8, tfo: false}
-  - {name: 🇭🇰 13|🇭🇰 香港9|@ripaojiedian, server: qh62onjn.slashdevslashnetslashtun.net, port: 15003, client-fingerprint: chrome, type: ss, cipher: aes-256-gcm, password: WEL8AJ5ROLX2DH05, tfo: false}
+  - {name: 🇭🇰 13|🇭🇰 香港8|@ripaojiedian, server: 38.147.189.188, port: 23782, client-fingerprint: chrome, type: vmess, uuid: 6ba78aee-1390-4bbe-9fca-a07c736948cd, alterId: 0, cipher: auto, tls: false, tfo: false, skip-cert-verify: false}
   - {name: "🇹🇼 13,14|台湾|@ripaojiedian", server: tw01.trojanyyds.xyz, port: 443, client-fingerprint: chrome, type: trojan, password: 243eab52-9ac1-405c-887c-eb112c0985b8, sni: tw01.trojanyyds.xyz, skip-cert-verify: false}
   - {name: "🇹🇼 13,14|台湾2|@ripaojiedian", server: 74.226.136.204, port: 443, client-fingerprint: chrome, type: trojan, password: 243eab52-9ac1-405c-887c-eb112c0985b8, sni: tw02.trojanyyds.xyz, skip-cert-verify: false}
-  - {name: 🇯🇵 13|🇯🇵 日本|@ripaojiedian, server: 8tv68qhq.slashdevslashnetslashtun.net, port: 18001, client-fingerprint: chrome, type: ss, cipher: aes-256-gcm, password: V86WNPYR4ORBV2LH, tfo: false}
-  - {name: 🇯🇵 13|🇯🇵 日本2|@ripaojiedian, server: qh62onjn.slashdevslashnetslashtun.net, port: 18003, client-fingerprint: chrome, type: ss, cipher: aes-256-gcm, password: PUYELFF4VNSZ7OYX, tfo: false}
-  - {name: 🇰🇷 13|🇰🇷 韩国|@ripaojiedian, server: p199.panda003.net, port: 58368, client-fingerprint: chrome, type: ss, cipher: aes-256-cfb, password: qwerREWQ@@, tfo: false}
-  - {name: "🇸🇬 13,14|新加坡3|@ripaojiedian", server: major-reindeer.boa152.lol, port: 443, client-fingerprint: chrome, type: trojan, password: 3723507166611775488, sni: major-reindeer.boa152.lol, skip-cert-verify: false}
+  - {name: "🇯🇵 13,14|日本|@ripaojiedian", server: naiu-jp.05vr9nyqg5.download, port: 13012, client-fingerprint: chrome, type: trojan, password: e279c494-c426-443a-a034-a04516409242, sni: cloudflare.node-ssl.cdn-alibaba.com, skip-cert-verify: false}
+  - {name: "🇯🇵 13,14|日本2|@ripaojiedian", server: lm.kaiqsz.com, port: 57468, client-fingerprint: chrome, type: trojan, password: 2ff730d5-567f-4800-8c76-5d9b07079eed, sni: yg01.redapricotcloud.com, skip-cert-verify: false}
   - {name: 🇸🇬 13|🇸🇬 新加坡|@ripaojiedian, server: ctmm.gscloud.bond, port: 31620, client-fingerprint: chrome, type: ss, cipher: chacha20-ietf-poly1305, password: f16d3752-7bae-474e-87dc-f892df2caeaf, tfo: false}
-  - {name: 🇸🇬 13|🇸🇬 新加坡4|@ripaojiedian, server: w72tapyb.slashdevslashnetslashtun.net, port: 16008, client-fingerprint: chrome, type: ss, cipher: aes-256-gcm, password: LBNV7AS85Y44SFN6, tfo: false}
+  - {name: "🇸🇬 13,14|新加坡3|@ripaojiedian", server: major-reindeer.boa152.lol, port: 443, client-fingerprint: chrome, type: trojan, password: 3723507166611775488, sni: major-reindeer.boa152.lol, skip-cert-verify: false}
   - {name: 🇺🇸 13|🇺🇸 美国|@ripaojiedian, server: sg02.trojanyyds.xyz, port: 443, client-fingerprint: chrome, type: trojan, password: 243eab52-9ac1-405c-887c-eb112c0985b8, sni: sg02.trojanyyds.xyz, skip-cert-verify: false}
-  - {name: 🇺🇸 13|🇺🇸 美国2|@ripaojiedian, server: w72tapyb.slashdevslashnetslashtun.net, port: 17004, client-fingerprint: chrome, type: ss, cipher: aes-256-gcm, password: YRCK2D16NISDAPEV, tfo: false}
-  - {name: 🇰🇷 13|🇰🇷 韩国特殊|@ripaojiedian, server: 34.218.246.187, port: 443, client-fingerprint: chrome, type: ss, cipher: aes-256-cfb, password: amazonskr05, tfo: false}
-  - {name: 🇯🇵 13|🇯🇵 日本特殊|@ripaojiedian, server: 52.79.247.162, port: 443, client-fingerprint: chrome, type: ss, cipher: aes-256-cfb, password: amazonskr05, tfo: false}
-  - {name: 🇸🇬 13|🇸🇬 狮城特殊|@ripaojiedian, server: 54.169.246.29, port: 443, client-fingerprint: chrome, type: ss, cipher: aes-256-cfb, password: amazonskr05, tfo: false}
+  - {name: 🇸🇬 13|🇸🇬 狮城特殊|@ripaojiedian, server: 52.195.182.124, port: 443, client-fingerprint: chrome, type: ss, cipher: aes-256-cfb, password: amazonskr05, tfo: false}
+  - {name: 🇰🇷 13|🇰🇷 韩国特殊|@ripaojiedian, server: 54.95.214.175, port: 443, client-fingerprint: chrome, type: ss, cipher: aes-256-cfb, password: amazonskr05, tfo: false}
+  - {name: 🇯🇵 13|🇯🇵 日本特殊|@ripaojiedian, server: 3.35.17.138, port: 443, client-fingerprint: chrome, type: ss, cipher: aes-256-cfb, password: amazonskr05, tfo: false}
   - {name: 🇭🇰 14|香港3|@ripaojiedian, server: 120.234.102.229, port: 52908, client-fingerprint: chrome, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: false, tfo: false, skip-cert-verify: false}
+  - {name: 🇭🇰 14|香港4|@ripaojiedian, server: wxh111.icu, port: 44320, client-fingerprint: chrome, type: ss, cipher: ss, password: //Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTpHamcyb2pEa3NqNDV5RFBaQ2lIYWk0bWt4QWhBZUJwUDgyUlM5NGZZUG9RPQ, tfo: false}
   - {name: 🇭🇰 14|香港5|@ripaojiedian, server: 183.236.51.23, port: 51704, client-fingerprint: chrome, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: false, tfo: false, skip-cert-verify: false}
-  - {name: 🇭🇰 14|香港6|@ripaojiedian, server: qh62onjn.slashdevslashnetslashtun.net, port: 15003, client-fingerprint: chrome, type: ss, cipher: ss, password: //YWVzLTI1Ni1nY206V0VMOEFKNVJPTFgyREgwNQ, tfo: false}
-  - {name: 🇭🇰 14|香港8|@ripaojiedian, server: 8tv68qhq.slashdevslashnetslashtun.net, port: 15013, client-fingerprint: chrome, type: ss, cipher: ss, password: //YWVzLTI1Ni1nY206UURNS1lWSFpRVk03N0tBOA, tfo: false}
-  - {name: 🇯🇵 14|日本|@ripaojiedian, server: 8tv68qhq.slashdevslashnetslashtun.net, port: 18001, client-fingerprint: chrome, type: ss, cipher: ss, password: //YWVzLTI1Ni1nY206Vjg2V05QWVI0T1JCVjJMSA, tfo: false}
-  - {name: 🇯🇵 14|日本2|@ripaojiedian, server: qh62onjn.slashdevslashnetslashtun.net, port: 18003, client-fingerprint: chrome, type: ss, cipher: ss, password: //YWVzLTI1Ni1nY206UFVZRUxGRjRWTlNaN09ZWA, tfo: false}
-  - {name: 🇰🇷 14|韩国|@ripaojiedian, server: p199.panda003.net, port: 58368, client-fingerprint: chrome, type: ss, cipher: ss, password: //YWVzLTI1Ni1jZmI6cXdlclJFV1FAQA, tfo: false}
+  - {name: 🇭🇰 14|香港6|@ripaojiedian, server: 183.232.229.164, port: 11001, client-fingerprint: chrome, type: ss, cipher: ss, password: //Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTo1NGY0ZTJmNC1mMGUxLTRhMTUtYTBjZi0zYTMyMzRhYjU4ZmI, tfo: false}
+  - {name: 🇭🇰 14|香港8|@ripaojiedian, server: 38.147.189.188, port: 23782, client-fingerprint: chrome, type: vmess, uuid: 6ba78aee-1390-4bbe-9fca-a07c736948cd, alterId: 0, cipher: auto, tls: false, tfo: false, skip-cert-verify: false}
   - {name: 🇸🇬 14|新加坡|@ripaojiedian, server: ctmm.gscloud.bond, port: 31620, client-fingerprint: chrome, type: ss, cipher: ss, password: //Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTpmMTZkMzc1Mi03YmFlLTQ3NGUtODdkYy1mODkyZGYyY2FlYWY, tfo: false}
-  - {name: 🇸🇬 14|新加坡4|@ripaojiedian, server: w72tapyb.slashdevslashnetslashtun.net, port: 16008, client-fingerprint: chrome, type: ss, cipher: ss, password: //YWVzLTI1Ni1nY206TEJOVjdBUzg1WTQ0U0ZONg, tfo: false}
   - {name: 🇺🇸 14|美国|@ripaojiedian, server: sg02.trojanyyds.xyz, port: 443, client-fingerprint: chrome, type: trojan, password: 243eab52-9ac1-405c-887c-eb112c0985b8, sni: sg02.trojanyyds.xyz, skip-cert-verify: false}
-  - {name: 🇺🇸 14|美国2|@ripaojiedian, server: w72tapyb.slashdevslashnetslashtun.net, port: 17004, client-fingerprint: chrome, type: ss, cipher: ss, password: //YWVzLTI1Ni1nY206WVJDSzJEMTZOSVNEQVBFVg, tfo: false}
-  - {name: 🇰🇷 14|韩国特殊|@ripaojiedian, server: 34.218.246.187, port: 443, client-fingerprint: chrome, type: ss, cipher: ss, password: //YWVzLTI1Ni1jZmI6YW1hem9uc2tyMDU, tfo: false}
-  - {name: 🇯🇵 14|日本特殊|@ripaojiedian, server: 52.79.247.162, port: 443, client-fingerprint: chrome, type: ss, cipher: ss, password: //YWVzLTI1Ni1jZmI6YW1hem9uc2tyMDU, tfo: false}
-  - {name: 🇸🇬 14|狮城特殊|@ripaojiedian, server: 54.169.246.29, port: 443, client-fingerprint: chrome, type: ss, cipher: ss, password: //YWVzLTI1Ni1jZmI6YW1hem9uc2tyMDU, tfo: false}
+  - {name: 🇸🇬 14|狮城特殊|@ripaojiedian, server: 52.195.182.124, port: 443, client-fingerprint: chrome, type: ss, cipher: ss, password: //YWVzLTI1Ni1jZmI6YW1hem9uc2tyMDU, tfo: false}
+  - {name: 🇰🇷 14|韩国特殊|@ripaojiedian, server: 54.95.214.175, port: 443, client-fingerprint: chrome, type: ss, cipher: ss, password: //YWVzLTI1Ni1jZmI6YW1hem9uc2tyMDU, tfo: false}
+  - {name: 🇯🇵 14|日本特殊|@ripaojiedian, server: 3.35.17.138, port: 443, client-fingerprint: chrome, type: ss, cipher: ss, password: //YWVzLTI1Ni1jZmI6YW1hem9uc2tyMDU, tfo: false}
   - {name: 15|AM_speednode_0001, server: 188.164.159.91, port: 2083, client-fingerprint: chrome, type: trojan, password: SSorg, sni: sstjj.esslh.filegear-sg.me, skip-cert-verify: false, network: ws, ws-opts: {path: /, headers: {Host: sstjj.esslh.filegear-sg.me}}}
   - {name: 15|CN_speednode_0004, server: 120.232.217.96, port: 21332, client-fingerprint: chrome, type: trojan, password: 7daf833c-37b9-4afc-8495-96590f03f781, sni: 120.232.217.96, skip-cert-verify: false}
   - {name: 15|FR_speednode_0007, server: 88.218.78.95, port: 8443, client-fingerprint: chrome, type: trojan, password: SSorg, sni: sstjj.esslh.filegear-sg.me, skip-cert-verify: false, network: ws, ws-opts: {path: /, headers: {Host: sstjj.esslh.filegear-sg.me}}}
@@ -26079,43 +25719,44 @@ proxy-groups:
       - 🇬🇧 高性价比机场:https://kfyun.uk
       - 0|--1
       - 0|--2
-      - 0|--3
+      - 0|--4
       - 0|--5
-      - 0|--19
+      - 0|--7
+      - 0|--8
+      - 0|--10
+      - 0|--11
+      - 0|--12
+      - 0|--26
+      - 0|--31
+      - 0|--32
+      - 🇭🇰 13,14|香港|@ripaojiedian
       - 🇭🇰 13,14|香港2|@ripaojiedian
       - 🇭🇰 13|🇭🇰 香港3|@ripaojiedian
+      - 🇭🇰 13|🇭🇰 香港4|@ripaojiedian
       - 🇭🇰 13|🇭🇰 香港5|@ripaojiedian
-      - 🇨🇳 13|🇨🇳 中国6|@ripaojiedian
+      - 🇭🇰 13|🇭🇰 香港6|@ripaojiedian
       - 🇭🇰 13,14|香港7|@ripaojiedian
       - 🇭🇰 13|🇭🇰 香港8|@ripaojiedian
-      - 🇭🇰 13|🇭🇰 香港9|@ripaojiedian
       - 🇹🇼 13,14|台湾|@ripaojiedian
       - 🇹🇼 13,14|台湾2|@ripaojiedian
-      - 🇯🇵 13|🇯🇵 日本|@ripaojiedian
-      - 🇯🇵 13|🇯🇵 日本2|@ripaojiedian
-      - 🇰🇷 13|🇰🇷 韩国|@ripaojiedian
-      - 🇸🇬 13,14|新加坡3|@ripaojiedian
+      - 🇯🇵 13,14|日本|@ripaojiedian
+      - 🇯🇵 13,14|日本2|@ripaojiedian
       - 🇸🇬 13|🇸🇬 新加坡|@ripaojiedian
-      - 🇸🇬 13|🇸🇬 新加坡4|@ripaojiedian
+      - 🇸🇬 13,14|新加坡3|@ripaojiedian
       - 🇺🇸 13|🇺🇸 美国|@ripaojiedian
-      - 🇺🇸 13|🇺🇸 美国2|@ripaojiedian
+      - 🇸🇬 13|🇸🇬 狮城特殊|@ripaojiedian
       - 🇰🇷 13|🇰🇷 韩国特殊|@ripaojiedian
       - 🇯🇵 13|🇯🇵 日本特殊|@ripaojiedian
-      - 🇸🇬 13|🇸🇬 狮城特殊|@ripaojiedian
       - 🇭🇰 14|香港3|@ripaojiedian
+      - 🇭🇰 14|香港4|@ripaojiedian
       - 🇭🇰 14|香港5|@ripaojiedian
       - 🇭🇰 14|香港6|@ripaojiedian
       - 🇭🇰 14|香港8|@ripaojiedian
-      - 🇯🇵 14|日本|@ripaojiedian
-      - 🇯🇵 14|日本2|@ripaojiedian
-      - 🇰🇷 14|韩国|@ripaojiedian
       - 🇸🇬 14|新加坡|@ripaojiedian
-      - 🇸🇬 14|新加坡4|@ripaojiedian
       - 🇺🇸 14|美国|@ripaojiedian
-      - 🇺🇸 14|美国2|@ripaojiedian
+      - 🇸🇬 14|狮城特殊|@ripaojiedian
       - 🇰🇷 14|韩国特殊|@ripaojiedian
       - 🇯🇵 14|日本特殊|@ripaojiedian
-      - 🇸🇬 14|狮城特殊|@ripaojiedian
       - 15|AM_speednode_0001
       - 15|CN_speednode_0004
       - 15|FR_speednode_0007
@@ -26179,43 +25820,44 @@ proxy-groups:
       - 🇬🇧 高性价比机场:https://kfyun.uk
       - 0|--1
       - 0|--2
-      - 0|--3
+      - 0|--4
       - 0|--5
-      - 0|--19
+      - 0|--7
+      - 0|--8
+      - 0|--10
+      - 0|--11
+      - 0|--12
+      - 0|--26
+      - 0|--31
+      - 0|--32
+      - 🇭🇰 13,14|香港|@ripaojiedian
       - 🇭🇰 13,14|香港2|@ripaojiedian
       - 🇭🇰 13|🇭🇰 香港3|@ripaojiedian
+      - 🇭🇰 13|🇭🇰 香港4|@ripaojiedian
       - 🇭🇰 13|🇭🇰 香港5|@ripaojiedian
-      - 🇨🇳 13|🇨🇳 中国6|@ripaojiedian
+      - 🇭🇰 13|🇭🇰 香港6|@ripaojiedian
       - 🇭🇰 13,14|香港7|@ripaojiedian
       - 🇭🇰 13|🇭🇰 香港8|@ripaojiedian
-      - 🇭🇰 13|🇭🇰 香港9|@ripaojiedian
       - 🇹🇼 13,14|台湾|@ripaojiedian
       - 🇹🇼 13,14|台湾2|@ripaojiedian
-      - 🇯🇵 13|🇯🇵 日本|@ripaojiedian
-      - 🇯🇵 13|🇯🇵 日本2|@ripaojiedian
-      - 🇰🇷 13|🇰🇷 韩国|@ripaojiedian
-      - 🇸🇬 13,14|新加坡3|@ripaojiedian
+      - 🇯🇵 13,14|日本|@ripaojiedian
+      - 🇯🇵 13,14|日本2|@ripaojiedian
       - 🇸🇬 13|🇸🇬 新加坡|@ripaojiedian
-      - 🇸🇬 13|🇸🇬 新加坡4|@ripaojiedian
+      - 🇸🇬 13,14|新加坡3|@ripaojiedian
       - 🇺🇸 13|🇺🇸 美国|@ripaojiedian
-      - 🇺🇸 13|🇺🇸 美国2|@ripaojiedian
+      - 🇸🇬 13|🇸🇬 狮城特殊|@ripaojiedian
       - 🇰🇷 13|🇰🇷 韩国特殊|@ripaojiedian
       - 🇯🇵 13|🇯🇵 日本特殊|@ripaojiedian
-      - 🇸🇬 13|🇸🇬 狮城特殊|@ripaojiedian
       - 🇭🇰 14|香港3|@ripaojiedian
+      - 🇭🇰 14|香港4|@ripaojiedian
       - 🇭🇰 14|香港5|@ripaojiedian
       - 🇭🇰 14|香港6|@ripaojiedian
       - 🇭🇰 14|香港8|@ripaojiedian
-      - 🇯🇵 14|日本|@ripaojiedian
-      - 🇯🇵 14|日本2|@ripaojiedian
-      - 🇰🇷 14|韩国|@ripaojiedian
       - 🇸🇬 14|新加坡|@ripaojiedian
-      - 🇸🇬 14|新加坡4|@ripaojiedian
       - 🇺🇸 14|美国|@ripaojiedian
-      - 🇺🇸 14|美国2|@ripaojiedian
+      - 🇸🇬 14|狮城特殊|@ripaojiedian
       - 🇰🇷 14|韩国特殊|@ripaojiedian
       - 🇯🇵 14|日本特殊|@ripaojiedian
-      - 🇸🇬 14|狮城特殊|@ripaojiedian
       - 15|AM_speednode_0001
       - 15|CN_speednode_0004
       - 15|FR_speednode_0007
@@ -26280,43 +25922,44 @@ proxy-groups:
       - 🇬🇧 高性价比机场:https://kfyun.uk
       - 0|--1
       - 0|--2
-      - 0|--3
+      - 0|--4
       - 0|--5
-      - 0|--19
+      - 0|--7
+      - 0|--8
+      - 0|--10
+      - 0|--11
+      - 0|--12
+      - 0|--26
+      - 0|--31
+      - 0|--32
+      - 🇭🇰 13,14|香港|@ripaojiedian
       - 🇭🇰 13,14|香港2|@ripaojiedian
       - 🇭🇰 13|🇭🇰 香港3|@ripaojiedian
+      - 🇭🇰 13|🇭🇰 香港4|@ripaojiedian
       - 🇭🇰 13|🇭🇰 香港5|@ripaojiedian
-      - 🇨🇳 13|🇨🇳 中国6|@ripaojiedian
+      - 🇭🇰 13|🇭🇰 香港6|@ripaojiedian
       - 🇭🇰 13,14|香港7|@ripaojiedian
       - 🇭🇰 13|🇭🇰 香港8|@ripaojiedian
-      - 🇭🇰 13|🇭🇰 香港9|@ripaojiedian
       - 🇹🇼 13,14|台湾|@ripaojiedian
       - 🇹🇼 13,14|台湾2|@ripaojiedian
-      - 🇯🇵 13|🇯🇵 日本|@ripaojiedian
-      - 🇯🇵 13|🇯🇵 日本2|@ripaojiedian
-      - 🇰🇷 13|🇰🇷 韩国|@ripaojiedian
-      - 🇸🇬 13,14|新加坡3|@ripaojiedian
+      - 🇯🇵 13,14|日本|@ripaojiedian
+      - 🇯🇵 13,14|日本2|@ripaojiedian
       - 🇸🇬 13|🇸🇬 新加坡|@ripaojiedian
-      - 🇸🇬 13|🇸🇬 新加坡4|@ripaojiedian
+      - 🇸🇬 13,14|新加坡3|@ripaojiedian
       - 🇺🇸 13|🇺🇸 美国|@ripaojiedian
-      - 🇺🇸 13|🇺🇸 美国2|@ripaojiedian
+      - 🇸🇬 13|🇸🇬 狮城特殊|@ripaojiedian
       - 🇰🇷 13|🇰🇷 韩国特殊|@ripaojiedian
       - 🇯🇵 13|🇯🇵 日本特殊|@ripaojiedian
-      - 🇸🇬 13|🇸🇬 狮城特殊|@ripaojiedian
       - 🇭🇰 14|香港3|@ripaojiedian
+      - 🇭🇰 14|香港4|@ripaojiedian
       - 🇭🇰 14|香港5|@ripaojiedian
       - 🇭🇰 14|香港6|@ripaojiedian
       - 🇭🇰 14|香港8|@ripaojiedian
-      - 🇯🇵 14|日本|@ripaojiedian
-      - 🇯🇵 14|日本2|@ripaojiedian
-      - 🇰🇷 14|韩国|@ripaojiedian
       - 🇸🇬 14|新加坡|@ripaojiedian
-      - 🇸🇬 14|新加坡4|@ripaojiedian
       - 🇺🇸 14|美国|@ripaojiedian
-      - 🇺🇸 14|美国2|@ripaojiedian
+      - 🇸🇬 14|狮城特殊|@ripaojiedian
       - 🇰🇷 14|韩国特殊|@ripaojiedian
       - 🇯🇵 14|日本特殊|@ripaojiedian
-      - 🇸🇬 14|狮城特殊|@ripaojiedian
       - 15|AM_speednode_0001
       - 15|CN_speednode_0004
       - 15|FR_speednode_0007
@@ -26376,15 +26019,18 @@ proxy-groups:
     type: select
     proxies:
       - 🎯 全球直连
+      - 🇭🇰 13,14|香港|@ripaojiedian
       - 🇭🇰 13,14|香港2|@ripaojiedian
       - 🇭🇰 13|🇭🇰 香港3|@ripaojiedian
+      - 🇭🇰 13|🇭🇰 香港4|@ripaojiedian
       - 🇭🇰 13|🇭🇰 香港5|@ripaojiedian
+      - 🇭🇰 13|🇭🇰 香港6|@ripaojiedian
       - 🇭🇰 13,14|香港7|@ripaojiedian
       - 🇭🇰 13|🇭🇰 香港8|@ripaojiedian
-      - 🇭🇰 13|🇭🇰 香港9|@ripaojiedian
       - 🇹🇼 13,14|台湾|@ripaojiedian
       - 🇹🇼 13,14|台湾2|@ripaojiedian
       - 🇭🇰 14|香港3|@ripaojiedian
+      - 🇭🇰 14|香港4|@ripaojiedian
       - 🇭🇰 14|香港5|@ripaojiedian
       - 🇭🇰 14|香港6|@ripaojiedian
       - 🇭🇰 14|香港8|@ripaojiedian
@@ -26397,43 +26043,44 @@ proxy-groups:
       - 🇬🇧 高性价比机场:https://kfyun.uk
       - 0|--1
       - 0|--2
-      - 0|--3
+      - 0|--4
       - 0|--5
-      - 0|--19
+      - 0|--7
+      - 0|--8
+      - 0|--10
+      - 0|--11
+      - 0|--12
+      - 0|--26
+      - 0|--31
+      - 0|--32
+      - 🇭🇰 13,14|香港|@ripaojiedian
       - 🇭🇰 13,14|香港2|@ripaojiedian
       - 🇭🇰 13|🇭🇰 香港3|@ripaojiedian
+      - 🇭🇰 13|🇭🇰 香港4|@ripaojiedian
       - 🇭🇰 13|🇭🇰 香港5|@ripaojiedian
-      - 🇨🇳 13|🇨🇳 中国6|@ripaojiedian
+      - 🇭🇰 13|🇭🇰 香港6|@ripaojiedian
       - 🇭🇰 13,14|香港7|@ripaojiedian
       - 🇭🇰 13|🇭🇰 香港8|@ripaojiedian
-      - 🇭🇰 13|🇭🇰 香港9|@ripaojiedian
       - 🇹🇼 13,14|台湾|@ripaojiedian
       - 🇹🇼 13,14|台湾2|@ripaojiedian
-      - 🇯🇵 13|🇯🇵 日本|@ripaojiedian
-      - 🇯🇵 13|🇯🇵 日本2|@ripaojiedian
-      - 🇰🇷 13|🇰🇷 韩国|@ripaojiedian
-      - 🇸🇬 13,14|新加坡3|@ripaojiedian
+      - 🇯🇵 13,14|日本|@ripaojiedian
+      - 🇯🇵 13,14|日本2|@ripaojiedian
       - 🇸🇬 13|🇸🇬 新加坡|@ripaojiedian
-      - 🇸🇬 13|🇸🇬 新加坡4|@ripaojiedian
+      - 🇸🇬 13,14|新加坡3|@ripaojiedian
       - 🇺🇸 13|🇺🇸 美国|@ripaojiedian
-      - 🇺🇸 13|🇺🇸 美国2|@ripaojiedian
+      - 🇸🇬 13|🇸🇬 狮城特殊|@ripaojiedian
       - 🇰🇷 13|🇰🇷 韩国特殊|@ripaojiedian
       - 🇯🇵 13|🇯🇵 日本特殊|@ripaojiedian
-      - 🇸🇬 13|🇸🇬 狮城特殊|@ripaojiedian
       - 🇭🇰 14|香港3|@ripaojiedian
+      - 🇭🇰 14|香港4|@ripaojiedian
       - 🇭🇰 14|香港5|@ripaojiedian
       - 🇭🇰 14|香港6|@ripaojiedian
       - 🇭🇰 14|香港8|@ripaojiedian
-      - 🇯🇵 14|日本|@ripaojiedian
-      - 🇯🇵 14|日本2|@ripaojiedian
-      - 🇰🇷 14|韩国|@ripaojiedian
       - 🇸🇬 14|新加坡|@ripaojiedian
-      - 🇸🇬 14|新加坡4|@ripaojiedian
       - 🇺🇸 14|美国|@ripaojiedian
-      - 🇺🇸 14|美国2|@ripaojiedian
+      - 🇸🇬 14|狮城特殊|@ripaojiedian
       - 🇰🇷 14|韩国特殊|@ripaojiedian
       - 🇯🇵 14|日本特殊|@ripaojiedian
-      - 🇸🇬 14|狮城特殊|@ripaojiedian
       - 15|AM_speednode_0001
       - 15|CN_speednode_0004
       - 15|FR_speednode_0007
@@ -26497,43 +26144,44 @@ proxy-groups:
       - 🇬🇧 高性价比机场:https://kfyun.uk
       - 0|--1
       - 0|--2
-      - 0|--3
+      - 0|--4
       - 0|--5
-      - 0|--19
+      - 0|--7
+      - 0|--8
+      - 0|--10
+      - 0|--11
+      - 0|--12
+      - 0|--26
+      - 0|--31
+      - 0|--32
+      - 🇭🇰 13,14|香港|@ripaojiedian
       - 🇭🇰 13,14|香港2|@ripaojiedian
       - 🇭🇰 13|🇭🇰 香港3|@ripaojiedian
+      - 🇭🇰 13|🇭🇰 香港4|@ripaojiedian
       - 🇭🇰 13|🇭🇰 香港5|@ripaojiedian
-      - 🇨🇳 13|🇨🇳 中国6|@ripaojiedian
+      - 🇭🇰 13|🇭🇰 香港6|@ripaojiedian
       - 🇭🇰 13,14|香港7|@ripaojiedian
       - 🇭🇰 13|🇭🇰 香港8|@ripaojiedian
-      - 🇭🇰 13|🇭🇰 香港9|@ripaojiedian
       - 🇹🇼 13,14|台湾|@ripaojiedian
       - 🇹🇼 13,14|台湾2|@ripaojiedian
-      - 🇯🇵 13|🇯🇵 日本|@ripaojiedian
-      - 🇯🇵 13|🇯🇵 日本2|@ripaojiedian
-      - 🇰🇷 13|🇰🇷 韩国|@ripaojiedian
-      - 🇸🇬 13,14|新加坡3|@ripaojiedian
+      - 🇯🇵 13,14|日本|@ripaojiedian
+      - 🇯🇵 13,14|日本2|@ripaojiedian
       - 🇸🇬 13|🇸🇬 新加坡|@ripaojiedian
-      - 🇸🇬 13|🇸🇬 新加坡4|@ripaojiedian
+      - 🇸🇬 13,14|新加坡3|@ripaojiedian
       - 🇺🇸 13|🇺🇸 美国|@ripaojiedian
-      - 🇺🇸 13|🇺🇸 美国2|@ripaojiedian
+      - 🇸🇬 13|🇸🇬 狮城特殊|@ripaojiedian
       - 🇰🇷 13|🇰🇷 韩国特殊|@ripaojiedian
       - 🇯🇵 13|🇯🇵 日本特殊|@ripaojiedian
-      - 🇸🇬 13|🇸🇬 狮城特殊|@ripaojiedian
       - 🇭🇰 14|香港3|@ripaojiedian
+      - 🇭🇰 14|香港4|@ripaojiedian
       - 🇭🇰 14|香港5|@ripaojiedian
       - 🇭🇰 14|香港6|@ripaojiedian
       - 🇭🇰 14|香港8|@ripaojiedian
-      - 🇯🇵 14|日本|@ripaojiedian
-      - 🇯🇵 14|日本2|@ripaojiedian
-      - 🇰🇷 14|韩国|@ripaojiedian
       - 🇸🇬 14|新加坡|@ripaojiedian
-      - 🇸🇬 14|新加坡4|@ripaojiedian
       - 🇺🇸 14|美国|@ripaojiedian
-      - 🇺🇸 14|美国2|@ripaojiedian
+      - 🇸🇬 14|狮城特殊|@ripaojiedian
       - 🇰🇷 14|韩国特殊|@ripaojiedian
       - 🇯🇵 14|日本特殊|@ripaojiedian
-      - 🇸🇬 14|狮城特殊|@ripaojiedian
       - 15|AM_speednode_0001
       - 15|CN_speednode_0004
       - 15|FR_speednode_0007
@@ -26598,43 +26246,44 @@ proxy-groups:
       - 🇬🇧 高性价比机场:https://kfyun.uk
       - 0|--1
       - 0|--2
-      - 0|--3
+      - 0|--4
       - 0|--5
-      - 0|--19
+      - 0|--7
+      - 0|--8
+      - 0|--10
+      - 0|--11
+      - 0|--12
+      - 0|--26
+      - 0|--31
+      - 0|--32
+      - 🇭🇰 13,14|香港|@ripaojiedian
       - 🇭🇰 13,14|香港2|@ripaojiedian
       - 🇭🇰 13|🇭🇰 香港3|@ripaojiedian
+      - 🇭🇰 13|🇭🇰 香港4|@ripaojiedian
       - 🇭🇰 13|🇭🇰 香港5|@ripaojiedian
-      - 🇨🇳 13|🇨🇳 中国6|@ripaojiedian
+      - 🇭🇰 13|🇭🇰 香港6|@ripaojiedian
       - 🇭🇰 13,14|香港7|@ripaojiedian
       - 🇭🇰 13|🇭🇰 香港8|@ripaojiedian
-      - 🇭🇰 13|🇭🇰 香港9|@ripaojiedian
       - 🇹🇼 13,14|台湾|@ripaojiedian
       - 🇹🇼 13,14|台湾2|@ripaojiedian
-      - 🇯🇵 13|🇯🇵 日本|@ripaojiedian
-      - 🇯🇵 13|🇯🇵 日本2|@ripaojiedian
-      - 🇰🇷 13|🇰🇷 韩国|@ripaojiedian
-      - 🇸🇬 13,14|新加坡3|@ripaojiedian
+      - 🇯🇵 13,14|日本|@ripaojiedian
+      - 🇯🇵 13,14|日本2|@ripaojiedian
       - 🇸🇬 13|🇸🇬 新加坡|@ripaojiedian
-      - 🇸🇬 13|🇸🇬 新加坡4|@ripaojiedian
+      - 🇸🇬 13,14|新加坡3|@ripaojiedian
       - 🇺🇸 13|🇺🇸 美国|@ripaojiedian
-      - 🇺🇸 13|🇺🇸 美国2|@ripaojiedian
+      - 🇸🇬 13|🇸🇬 狮城特殊|@ripaojiedian
       - 🇰🇷 13|🇰🇷 韩国特殊|@ripaojiedian
       - 🇯🇵 13|🇯🇵 日本特殊|@ripaojiedian
-      - 🇸🇬 13|🇸🇬 狮城特殊|@ripaojiedian
       - 🇭🇰 14|香港3|@ripaojiedian
+      - 🇭🇰 14|香港4|@ripaojiedian
       - 🇭🇰 14|香港5|@ripaojiedian
       - 🇭🇰 14|香港6|@ripaojiedian
       - 🇭🇰 14|香港8|@ripaojiedian
-      - 🇯🇵 14|日本|@ripaojiedian
-      - 🇯🇵 14|日本2|@ripaojiedian
-      - 🇰🇷 14|韩国|@ripaojiedian
       - 🇸🇬 14|新加坡|@ripaojiedian
-      - 🇸🇬 14|新加坡4|@ripaojiedian
       - 🇺🇸 14|美国|@ripaojiedian
-      - 🇺🇸 14|美国2|@ripaojiedian
+      - 🇸🇬 14|狮城特殊|@ripaojiedian
       - 🇰🇷 14|韩国特殊|@ripaojiedian
       - 🇯🇵 14|日本特殊|@ripaojiedian
-      - 🇸🇬 14|狮城特殊|@ripaojiedian
       - 15|AM_speednode_0001
       - 15|CN_speednode_0004
       - 15|FR_speednode_0007
@@ -26708,43 +26357,44 @@ proxy-groups:
       - 🇬🇧 高性价比机场:https://kfyun.uk
       - 0|--1
       - 0|--2
-      - 0|--3
+      - 0|--4
       - 0|--5
-      - 0|--19
+      - 0|--7
+      - 0|--8
+      - 0|--10
+      - 0|--11
+      - 0|--12
+      - 0|--26
+      - 0|--31
+      - 0|--32
+      - 🇭🇰 13,14|香港|@ripaojiedian
       - 🇭🇰 13,14|香港2|@ripaojiedian
       - 🇭🇰 13|🇭🇰 香港3|@ripaojiedian
+      - 🇭🇰 13|🇭🇰 香港4|@ripaojiedian
       - 🇭🇰 13|🇭🇰 香港5|@ripaojiedian
-      - 🇨🇳 13|🇨🇳 中国6|@ripaojiedian
+      - 🇭🇰 13|🇭🇰 香港6|@ripaojiedian
       - 🇭🇰 13,14|香港7|@ripaojiedian
       - 🇭🇰 13|🇭🇰 香港8|@ripaojiedian
-      - 🇭🇰 13|🇭🇰 香港9|@ripaojiedian
       - 🇹🇼 13,14|台湾|@ripaojiedian
       - 🇹🇼 13,14|台湾2|@ripaojiedian
-      - 🇯🇵 13|🇯🇵 日本|@ripaojiedian
-      - 🇯🇵 13|🇯🇵 日本2|@ripaojiedian
-      - 🇰🇷 13|🇰🇷 韩国|@ripaojiedian
-      - 🇸🇬 13,14|新加坡3|@ripaojiedian
+      - 🇯🇵 13,14|日本|@ripaojiedian
+      - 🇯🇵 13,14|日本2|@ripaojiedian
       - 🇸🇬 13|🇸🇬 新加坡|@ripaojiedian
-      - 🇸🇬 13|🇸🇬 新加坡4|@ripaojiedian
+      - 🇸🇬 13,14|新加坡3|@ripaojiedian
       - 🇺🇸 13|🇺🇸 美国|@ripaojiedian
-      - 🇺🇸 13|🇺🇸 美国2|@ripaojiedian
+      - 🇸🇬 13|🇸🇬 狮城特殊|@ripaojiedian
       - 🇰🇷 13|🇰🇷 韩国特殊|@ripaojiedian
       - 🇯🇵 13|🇯🇵 日本特殊|@ripaojiedian
-      - 🇸🇬 13|🇸🇬 狮城特殊|@ripaojiedian
       - 🇭🇰 14|香港3|@ripaojiedian
+      - 🇭🇰 14|香港4|@ripaojiedian
       - 🇭🇰 14|香港5|@ripaojiedian
       - 🇭🇰 14|香港6|@ripaojiedian
       - 🇭🇰 14|香港8|@ripaojiedian
-      - 🇯🇵 14|日本|@ripaojiedian
-      - 🇯🇵 14|日本2|@ripaojiedian
-      - 🇰🇷 14|韩国|@ripaojiedian
       - 🇸🇬 14|新加坡|@ripaojiedian
-      - 🇸🇬 14|新加坡4|@ripaojiedian
       - 🇺🇸 14|美国|@ripaojiedian
-      - 🇺🇸 14|美国2|@ripaojiedian
+      - 🇸🇬 14|狮城特殊|@ripaojiedian
       - 🇰🇷 14|韩国特殊|@ripaojiedian
       - 🇯🇵 14|日本特殊|@ripaojiedian
-      - 🇸🇬 14|狮城特殊|@ripaojiedian
       - 15|AM_speednode_0001
       - 15|CN_speednode_0004
       - 15|FR_speednode_0007
