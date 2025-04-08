@@ -48,8 +48,8 @@ ss://YWVzLTI1Ni1jZmI6Qk5tQVhYeEFIWXBUUmR6dQ==@80.92.204.106:9020#%F0%9F%87%B7%F0
 ss://YWVzLTI1Ni1jZmI6WkVUNTlMRjZEdkNDOEtWdA==@80.92.204.106:9005#%F0%9F%87%B7%F0%9F%87%BA_RU_%E4%BF%84%E7%BD%97%E6%96%AF_14
 未获取到到节点，错误代码:404 Client Error: Not Found for url: https://nodev2ray.com/uploads/2025/04/0-20250408.txt
 未获取到到节点，错误代码:404 Client Error: Not Found for url: https://nodev2ray.com/uploads/2025/04/1-20250408.txt
-未获取到到节点，错误代码:522 Server Error: <none> for url: https://nodev2ray.com/uploads/2025/04/2-20250408.txt
-未获取到到节点，错误代码:522 Server Error:  for url: https://nodev2ray.com/uploads/2025/04/3-20250408.txt
+未获取到到节点，错误代码:404 Client Error: Not Found for url: https://nodev2ray.com/uploads/2025/04/2-20250408.txt
+未获取到到节点，错误代码:404 Client Error: Not Found for url: https://nodev2ray.com/uploads/2025/04/3-20250408.txt
 未获取到到节点，错误代码:404 Client Error: Not Found for url: https://nodev2ray.com/uploads/2025/04/4-20250408.txt
 vless://dce4535b-5833-4d62-97e7-3d9d4ba6bd4c@172.67.73.163:8080?security=none&type=ws&host=0j.Gr02P5L88B.zUlaIR.oRG.&encryption=none&type=ws&sni=0j.Gr02P5L88B.zUlaIR.oRG.&headerType=none#%F0%9F%87%BA%F0%9F%87%B8_US_%E7%BE%8E%E5%9B%BD_1
 ss://YWVzLTI1Ni1jZmI6RkFkVXZNSlVxNXZEZ0tFcQ==@80.92.204.106:9006#%F0%9F%87%B7%F0%9F%87%BA_RU_%E4%BF%84%E7%BD%97%E6%96%AF_1
