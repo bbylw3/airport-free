@@ -1,4 +1,4 @@
-未获取到到节点，错误代码:404 Client Error: Not Found for url: https://www.naidounode.com/node/20250506-v2ray.txt
+未获取到到节点，错误代码:HTTPSConnectionPool(host='www.naidounode.com', port=443): Max retries exceeded with url: /node/20250507-v2ray.txt (Caused by ConnectTimeoutError(<urllib3.connection.HTTPSConnection object at 0x7f821d4eb4d0>, 'Connection to www.naidounode.com timed out. (connect timeout=None)'))
 vmess://eyJwcyI6IvCfh6jwn4ezX0NOX+S4reWbvS0+8J+HuvCfh7hfVVNf576O5Zu9XzEiLCJhZGQiOiJkeHY0LnBhaTUwMjg4LnVrIiwiYWlkIjowLCJpZCI6ImY2ODY2YjBiLWY5NDYtNGEwMy04ZGYwLWM3ZTAwMTZiNTVhZCIsIm5ldCI6InRjcCIsInNjeSI6ImF1dG8iLCJwb3J0IjoxNDEwMCwidGxzIjoiIn0=
 vless://d11fd54a-8fd4-4886-bad2-8264cb317ead@14.102.228.77:2052?security=none&type=ws&host=sPeedtest2.sbs.se.vless.sitespeedtest.net&encryption=none&type=ws&path=%2Fvless%23%40V2RAY_SPATIAL%2C%40V2RAY_SPATIAL%2C%40V2RAY_SPATIAL%2C%40V2RAY_SPATIAL%2C%40V2RAY_SPATIAL%2C%40V2RAY_SPATIAL%2C%40V2RAY_SPATIAL%2C%40V2RAY_SPATIAL%2C%40V2RAY_SPATIAL%2C%40V2RAY_SPATIAL%2C%40V2RAY_SPATIAL%2C%40V2RAY_SPATIAL&sni=sPeedtest2.sbs.se.vless.sitespeedtest.net&headerType=none#%F0%9F%87%AE%F0%9F%87%B3_IN_%E5%8D%B0%E5%BA%A6
 vmess://eyJwcyI6IvCfh6jwn4ezX0NOX+S4reWbvS0+8J+HuvCfh7hfVVNf576O5Zu9XzIiLCJhZGQiOiI3MzYxODkwMy1zdmhsczAtdDFibmpxLTFrcnRiLmN1LnBsZWJhaS5uZXQiLCJhaWQiOjAsImlkIjoiNjBmNmI0YzQtOWQ3MC0xMWVkLWE0ZDItZjIzYzkxNjRjYTVkIiwibmV0IjoidGNwIiwic2N5IjoiYXV0byIsInBvcnQiOjUyMjksInRscyI6IiJ9
@@ -26,11 +26,11 @@ vmess://eyJwcyI6IvCfh7Pwn4exX05MX+iNt+WFsC0+8J+HuvCfh7hfVVNf576O5Zu9IiwiYWRkIjoi
 vless://9322430d-84fd-4fdf-808d-5c146fcde700@172.67.73.163:8080?security=none&type=ws&host=06.GDyA7g7K11.ZuLair.ORG.&encryption=none&type=ws&sni=06.GDyA7g7K11.ZuLair.ORG.&headerType=none#%F0%9F%87%BA%F0%9F%87%B8_US_%E7%BE%8E%E5%9B%BD-%3E%F0%9F%87%B7%F0%9F%87%BA_RU_%E4%BF%84%E7%BD%97%E6%96%AF
 vmess://eyJwcyI6IvCfh6nwn4eqX0RFX+W+t+WbvSIsImFkZCI6IjE1Ny45MC4xMTcuMjQ0IiwiYWlkIjowLCJpZCI6ImQ4ZmRmMGI2LTlhMTMtNDI2ZC1iNDJiLTA4OWNhY2U2M2Q0ZSIsIm5ldCI6InRjcCIsInNjeSI6ImF1dG8iLCJwb3J0IjoyMzg5MCwidGxzIjoiIn0=
 vmess://eyJwcyI6IvCfh6jwn4ezX0NOX+S4reWbvS0+8J+Hq/Cfh7dfRlJf5rOV5Zu9XzUiLCJhZGQiOiIzMDA5ZTM2ZC1zdm41czAtdDFibmpxLTFrcnRiLmN1LnBsZWJhaS5uZXQiLCJhaWQiOjAsImlkIjoiNjBmNmI0YzQtOWQ3MC0xMWVkLWE0ZDItZjIzYzkxNjRjYTVkIiwibmV0IjoidGNwIiwic2N5IjoiYXV0byIsInBvcnQiOjUyMjksInRscyI6IiJ9
-未获取到到节点，错误代码:404 Client Error: Not Found for url: https://nodev2ray.com/uploads/2025/05/0-20250506.txt
-未获取到到节点，错误代码:404 Client Error: Not Found for url: https://nodev2ray.com/uploads/2025/05/1-20250506.txt
-未获取到到节点，错误代码:404 Client Error: Not Found for url: https://nodev2ray.com/uploads/2025/05/2-20250506.txt
-未获取到到节点，错误代码:404 Client Error: Not Found for url: https://nodev2ray.com/uploads/2025/05/3-20250506.txt
-未获取到到节点，错误代码:404 Client Error: Not Found for url: https://nodev2ray.com/uploads/2025/05/4-20250506.txt
+未获取到到节点，错误代码:522 Server Error: <none> for url: https://nodev2ray.com/uploads/2025/05/0-20250507.txt
+未获取到到节点，错误代码:522 Server Error: <none> for url: https://nodev2ray.com/uploads/2025/05/1-20250507.txt
+未获取到到节点，错误代码:522 Server Error: <none> for url: https://nodev2ray.com/uploads/2025/05/2-20250507.txt
+未获取到到节点，错误代码:522 Server Error: <none> for url: https://nodev2ray.com/uploads/2025/05/3-20250507.txt
+未获取到到节点，错误代码:522 Server Error: <none> for url: https://nodev2ray.com/uploads/2025/05/4-20250507.txt
 vmess://eyJwcyI6IvCfh6jwn4ezX0NOX+S4reWbvS0+8J+HuvCfh7hfVVNf576O5Zu9XzEiLCJhZGQiOiJkeHY0LnBhaTUwMjg4LnVrIiwiYWlkIjowLCJpZCI6ImY2ODY2YjBiLWY5NDYtNGEwMy04ZGYwLWM3ZTAwMTZiNTVhZCIsIm5ldCI6InRjcCIsInNjeSI6ImF1dG8iLCJwb3J0IjoxNDEwMCwidGxzIjoiIn0=
 vless://d11fd54a-8fd4-4886-bad2-8264cb317ead@14.102.228.77:2052?security=none&type=ws&host=sPeedtest2.sbs.se.vless.sitespeedtest.net&encryption=none&type=ws&path=%2Fvless%23%40V2RAY_SPATIAL%2C%40V2RAY_SPATIAL%2C%40V2RAY_SPATIAL%2C%40V2RAY_SPATIAL%2C%40V2RAY_SPATIAL%2C%40V2RAY_SPATIAL%2C%40V2RAY_SPATIAL%2C%40V2RAY_SPATIAL%2C%40V2RAY_SPATIAL%2C%40V2RAY_SPATIAL%2C%40V2RAY_SPATIAL%2C%40V2RAY_SPATIAL&sni=sPeedtest2.sbs.se.vless.sitespeedtest.net&headerType=none#%F0%9F%87%AE%F0%9F%87%B3_IN_%E5%8D%B0%E5%BA%A6
 vmess://eyJwcyI6IvCfh6jwn4ezX0NOX+S4reWbvS0+8J+HuvCfh7hfVVNf576O5Zu9XzIiLCJhZGQiOiI3MzYxODkwMy1zdmhsczAtdDFibmpxLTFrcnRiLmN1LnBsZWJhaS5uZXQiLCJhaWQiOjAsImlkIjoiNjBmNmI0YzQtOWQ3MC0xMWVkLWE0ZDItZjIzYzkxNjRjYTVkIiwibmV0IjoidGNwIiwic2N5IjoiYXV0byIsInBvcnQiOjUyMjksInRscyI6IiJ9
