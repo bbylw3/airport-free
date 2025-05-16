@@ -1,4 +1,4 @@
-未获取到到节点，错误代码:404 Client Error: Not Found for url: https://www.naidounode.com/node/20250515-v2ray.txt
+未获取到到节点，错误代码:404 Client Error: Not Found for url: https://www.naidounode.com/node/20250516-v2ray.txt
 trojan://70776bb4-d791-4cbd-9c9b-c76e937f9e60@104.21.75.75:443?type=ws&sni=sSXcdF4.857856.xyz&path=/71M8Ov1I5Gk9247fHC0XGZG6&host=sSXcdF4.857856.xyz#%F0%9F%87%BA%F0%9F%87%B8_US_%E7%BE%8E%E5%9B%BD_1
 trojan://74260665780162200@grown-mackerel.shiner427.skin:443?type=tcp&security=tls&sni=grown-mackerel.shiner427.skin#%F0%9F%87%AB%F0%9F%87%B7_FR_%E6%B3%95%E5%9B%BD-%3E%F0%9F%87%A8%F0%9F%87%B3_CN_%E4%B8%AD%E5%9B%BD
 vmess://eyJwcyI6IvCfh7rwn4e4X1VTX+e+juWbvV8yIiwiYWRkIjoiMzguNTQuMjUuMjA0IiwiYWlkIjowLCJpZCI6ImI3Njc1ZDY2LWNkZGItNGE2OS1lZGQ2LWMwYzgzMjkwZjcyZSIsIm5ldCI6Imh0dHAiLCJzY3kiOiJhdXRvIiwicG9ydCI6NTU4MzksInRscyI6IiJ9
@@ -27,11 +27,11 @@ trojan://aTArbZ2F0E@cloudgetservice.mcloudservice.site:443?type=ws&sni=uSa-vp-27
 ss://YWVzLTI1Ni1jZmI6YXdzcHMwNTAx@52.37.38.194:443#%F0%9F%87%BA%F0%9F%87%B8_US_%E7%BE%8E%E5%9B%BD_11
 trojan://3e6ae2e4-a8a5-11ef-8578-f23c913c8d2b@76b15373-swd340-tcudgo-1sa5k.cu.plebai.net:15229?type=tcp&security=tls&sni=76b15373-swd340-tcudgo-1sa5k.cu.plebai.net#%F0%9F%87%A8%F0%9F%87%B3_CN_%E4%B8%AD%E5%9B%BD-%3E%F0%9F%87%BA%F0%9F%87%B8_US_%E7%BE%8E%E5%9B%BD_6
 vless://ac2bfdf2-7c88-449f-b353-0ff9d026bb6a@104.17.148.22:80?security=none&type=ws&host=www.speedtest.net1.svgspeedtest.net.&encryption=none&type=ws&path=%2F%40SavageNet----%40SavageNet----%40SavageNet----%40SavageNet----%40SavageNet----%40SavageNet----%40SavageNet----%40SavageNet----%40SavageNet----%40SavageNet----%40SavageNet----%40SavageNet%3Fed%3D2048&sni=www.speedtest.net1.svgspeedtest.net.&headerType=none#%F0%9F%87%BA%F0%9F%87%B8_US_%E7%BE%8E%E5%9B%BD_12
-未获取到到节点，错误代码:404 Client Error: Not Found for url: https://nodev2ray.com/uploads/2025/05/0-20250515.txt
-未获取到到节点，错误代码:404 Client Error: Not Found for url: https://nodev2ray.com/uploads/2025/05/1-20250515.txt
-未获取到到节点，错误代码:404 Client Error: Not Found for url: https://nodev2ray.com/uploads/2025/05/2-20250515.txt
-未获取到到节点，错误代码:404 Client Error: Not Found for url: https://nodev2ray.com/uploads/2025/05/3-20250515.txt
-未获取到到节点，错误代码:404 Client Error: Not Found for url: https://nodev2ray.com/uploads/2025/05/4-20250515.txt
+未获取到到节点，错误代码:404 Client Error: Not Found for url: https://nodev2ray.com/uploads/2025/05/0-20250516.txt
+未获取到到节点，错误代码:404 Client Error: Not Found for url: https://nodev2ray.com/uploads/2025/05/1-20250516.txt
+未获取到到节点，错误代码:404 Client Error: Not Found for url: https://nodev2ray.com/uploads/2025/05/2-20250516.txt
+未获取到到节点，错误代码:404 Client Error: Not Found for url: https://nodev2ray.com/uploads/2025/05/3-20250516.txt
+未获取到到节点，错误代码:404 Client Error: Not Found for url: https://nodev2ray.com/uploads/2025/05/4-20250516.txt
 trojan://70776bb4-d791-4cbd-9c9b-c76e937f9e60@104.21.75.75:443?type=ws&sni=sSXcdF4.857856.xyz&path=/71M8Ov1I5Gk9247fHC0XGZG6&host=sSXcdF4.857856.xyz#%F0%9F%87%BA%F0%9F%87%B8_US_%E7%BE%8E%E5%9B%BD_1
 trojan://74260665780162200@grown-mackerel.shiner427.skin:443?type=tcp&security=tls&sni=grown-mackerel.shiner427.skin#%F0%9F%87%AB%F0%9F%87%B7_FR_%E6%B3%95%E5%9B%BD-%3E%F0%9F%87%A8%F0%9F%87%B3_CN_%E4%B8%AD%E5%9B%BD
 vmess://eyJwcyI6IvCfh7rwn4e4X1VTX+e+juWbvV8yIiwiYWRkIjoiMzguNTQuMjUuMjA0IiwiYWlkIjowLCJpZCI6ImI3Njc1ZDY2LWNkZGItNGE2OS1lZGQ2LWMwYzgzMjkwZjcyZSIsIm5ldCI6Imh0dHAiLCJzY3kiOiJhdXRvIiwicG9ydCI6NTU4MzksInRscyI6IiJ9
