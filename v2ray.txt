@@ -1,9 +1,9 @@
-未获取到到节点，错误代码:404 Client Error: Not Found for url: https://naidounode.com/node/20250601-v2ray.txt
+未获取到到节点，错误代码:404 Client Error: Not Found for url: https://naidounode.com/node/20250602-v2ray.txt
 未获取到到节点，错误代码:('Received response with content-encoding: gzip, but failed to decode it.', error('Error -3 while decompressing data: incorrect header check'))
-未获取到到节点，错误代码:404 Client Error: Not Found for url: https://nodev2ray.com/uploads/2025/06/0-20250601.txt
-未获取到到节点，错误代码:404 Client Error: Not Found for url: https://nodev2ray.com/uploads/2025/06/1-20250601.txt
-未获取到到节点，错误代码:404 Client Error: Not Found for url: https://nodev2ray.com/uploads/2025/06/2-20250601.txt
-未获取到到节点，错误代码:404 Client Error: Not Found for url: https://nodev2ray.com/uploads/2025/06/3-20250601.txt
-未获取到到节点，错误代码:404 Client Error: Not Found for url: https://nodev2ray.com/uploads/2025/06/4-20250601.txt
+未获取到到节点，错误代码:404 Client Error: Not Found for url: https://nodev2ray.com/uploads/2025/06/0-20250602.txt
+未获取到到节点，错误代码:404 Client Error: Not Found for url: https://nodev2ray.com/uploads/2025/06/1-20250602.txt
+未获取到到节点，错误代码:404 Client Error: Not Found for url: https://nodev2ray.com/uploads/2025/06/2-20250602.txt
+未获取到到节点，错误代码:404 Client Error: Not Found for url: https://nodev2ray.com/uploads/2025/06/3-20250602.txt
+未获取到到节点，错误代码:404 Client Error: Not Found for url: https://nodev2ray.com/uploads/2025/06/4-20250602.txt
 未获取到到节点，错误代码:('Received response with content-encoding: gzip, but failed to decode it.', error('Error -3 while decompressing data: incorrect header check'))
 未获取到到节点，错误代码:('Received response with content-encoding: gzip, but failed to decode it.', error('Error -3 while decompressing data: incorrect header check'))
