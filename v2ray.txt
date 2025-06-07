@@ -1,4 +1,4 @@
-未获取到到节点，错误代码:404 Client Error: Not Found for url: https://www.naidounode.com/node/20250606-v2ray.txt
+未获取到到节点，错误代码:404 Client Error: Not Found for url: https://www.naidounode.com/node/20250607-v2ray.txt
 trojan://2b1ed981-6547-4094-998b-06a3323d6f6c@120.233.44.201:21102?type=tcp&security=tls&sni=120.233.44.201&allowInsecure=1#%F0%9F%87%A8%F0%9F%87%B3_CN_%E4%B8%AD%E5%9B%BD-%3E%F0%9F%87%A9%F0%9F%87%AA_DE_%E5%BE%B7%E5%9B%BD
 trojan://895552fa-6284-4c1d-ba00-3944e0c7c626@104.21.71.112:443?type=ws&sni=CFR56ty7890.288288.sHOP&path=/By7cEmOrNRS58yeduy9AOG&host=cfr56ty7890.288288.shop#%F0%9F%87%BA%F0%9F%87%B8_US_%E7%BE%8E%E5%9B%BD_1
 vless://bb03cf22-5e68-4e21-cb14-deaac7143593@5.178.96.177:777?security=none&type=ws&encryption=none&type=ws&headerType=none#%F0%9F%87%AC%F0%9F%87%A7_GB_%E8%8B%B1%E5%9B%BD-%3E%F0%9F%87%BA%F0%9F%87%B8_US_%E7%BE%8E%E5%9B%BD
@@ -22,11 +22,11 @@ trojan://RlzoEILU@36.151.251.61:33097?type=tcp&security=tls&sni=36.151.251.61&al
 vless://51fda508-20aa-419e-b4c3-3a6202411412@172.67.73.163:8080?security=none&type=ws&host=18.6na7PY43IT.zuLaiR.Org.&encryption=none&type=ws&path=%2F&sni=18.6na7PY43IT.zuLaiR.Org.&headerType=none#%F0%9F%87%BA%F0%9F%87%B8_US_%E7%BE%8E%E5%9B%BD_8
 trojan://f0f6e76e-e5fe-4e2c-9faf-34832e021eae@104.21.25.95:443?type=ws&sni=DDd.890604.FIlEGear-sG.Me&allowInsecure=1&path=/mZr1mA5hub7QHHkQBzYO#%F0%9F%87%BA%F0%9F%87%B8_US_%E7%BE%8E%E5%9B%BD-%3E%F0%9F%87%AB%F0%9F%87%B7_FR_%E6%B3%95%E5%9B%BD_4
 ss://YWVzLTI1Ni1jZmI6YXdzcHMwNTAx@35.91.246.41:443#%F0%9F%87%BA%F0%9F%87%B8_US_%E7%BE%8E%E5%9B%BD-%3E%F0%9F%87%B7%F0%9F%87%B4_RO_%E7%BD%97%E9%A9%AC%E5%B0%BC%E4%BA%9A
-未获取到到节点，错误代码:404 Client Error: Not Found for url: https://nodev2ray.com/uploads/2025/06/0-20250606.txt
-未获取到到节点，错误代码:404 Client Error: Not Found for url: https://nodev2ray.com/uploads/2025/06/1-20250606.txt
-未获取到到节点，错误代码:404 Client Error: Not Found for url: https://nodev2ray.com/uploads/2025/06/2-20250606.txt
-未获取到到节点，错误代码:404 Client Error: Not Found for url: https://nodev2ray.com/uploads/2025/06/3-20250606.txt
-未获取到到节点，错误代码:404 Client Error: Not Found for url: https://nodev2ray.com/uploads/2025/06/4-20250606.txt
+未获取到到节点，错误代码:404 Client Error: Not Found for url: https://nodev2ray.com/uploads/2025/06/0-20250607.txt
+未获取到到节点，错误代码:404 Client Error: Not Found for url: https://nodev2ray.com/uploads/2025/06/1-20250607.txt
+未获取到到节点，错误代码:404 Client Error: Not Found for url: https://nodev2ray.com/uploads/2025/06/2-20250607.txt
+未获取到到节点，错误代码:404 Client Error: Not Found for url: https://nodev2ray.com/uploads/2025/06/3-20250607.txt
+未获取到到节点，错误代码:404 Client Error: Not Found for url: https://nodev2ray.com/uploads/2025/06/4-20250607.txt
 trojan://2b1ed981-6547-4094-998b-06a3323d6f6c@120.233.44.201:21102?type=tcp&security=tls&sni=120.233.44.201&allowInsecure=1#%F0%9F%87%A8%F0%9F%87%B3_CN_%E4%B8%AD%E5%9B%BD-%3E%F0%9F%87%A9%F0%9F%87%AA_DE_%E5%BE%B7%E5%9B%BD
 trojan://895552fa-6284-4c1d-ba00-3944e0c7c626@104.21.71.112:443?type=ws&sni=CFR56ty7890.288288.sHOP&path=/By7cEmOrNRS58yeduy9AOG&host=cfr56ty7890.288288.shop#%F0%9F%87%BA%F0%9F%87%B8_US_%E7%BE%8E%E5%9B%BD_1
 vless://bb03cf22-5e68-4e21-cb14-deaac7143593@5.178.96.177:777?security=none&type=ws&encryption=none&type=ws&headerType=none#%F0%9F%87%AC%F0%9F%87%A7_GB_%E8%8B%B1%E5%9B%BD-%3E%F0%9F%87%BA%F0%9F%87%B8_US_%E7%BE%8E%E5%9B%BD
