@@ -1,4 +1,4 @@
-未获取到到节点，错误代码:404 Client Error: Not Found for url: https://www.naidounode.com/node/20250627-v2ray.txt
+未获取到到节点，错误代码:404 Client Error: Not Found for url: https://www.naidounode.com/node/20250628-v2ray.txt
 trojan://1b4c16925f934c57b954a9f0f23dea33@42.240.152.238:8842?type=tcp&security=tls&sni=brwx.spvpv.com&allowInsecure=1#%F0%9F%87%A8%F0%9F%87%B3_CN_%E4%B8%AD%E5%9B%BD-%3E%F0%9F%87%BA%F0%9F%87%B8_US_%E7%BE%8E%E5%9B%BD_1
 vmess://eyJwcyI6IvCfh6jwn4ezX0NOX+S4reWbvS0+8J+HuvCfh7hfVVNf576O5Zu9XzIiLCJhZGQiOiJ2MjkuaGVkdWlhbi5saW5rIiwiYWlkIjoyLCJpZCI6ImNiYjNmODc3LWQxZmItMzQ0Yy04N2E5LWQxNTNiZmZkNTQ4NCIsIm5ldCI6IndzIiwic2N5IjoiYXV0byIsInBvcnQiOjMwODI5LCJ0bHMiOiIiLCJwYXRoIjoiL29vb28iLCJob3N0Ijoib2NiYy5jb20iLCJzbmkiOiJvY2JjLmNvbSJ9
 vmess://eyJwcyI6IvCfh6jwn4ezX0NOX+S4reWbvS0+8J+HuvCfh7hfVVNf576O5Zu9XzMiLCJhZGQiOiJ2Ny5oZWR1aWFuLmxpbmsiLCJhaWQiOjIsImlkIjoiY2JiM2Y4NzctZDFmYi0zNDRjLTg3YTktZDE1M2JmZmQ1NDg0IiwibmV0Ijoid3MiLCJzY3kiOiJhdXRvIiwicG9ydCI6MzA4MDcsInRscyI6IiIsInBhdGgiOiIvb29vbyIsImhvc3QiOiJ2Ny5oZWR1aWFuLmxpbmsiLCJzbmkiOiJ2Ny5oZWR1aWFuLmxpbmsifQ==
@@ -13,11 +13,11 @@ ss://YWVzLTI1Ni1jZmI6ZjhmN2FDemNQS2JzRjhwMw==@91.132.94.200:989#%F0%9F%87%B2%F0%
 ss://YWVzLTI1Ni1jZmI6ZjhmN2FDemNQS2JzRjhwMw==@185.153.197.5:989#%F0%9F%87%B2%F0%9F%87%A9_MD_%E6%91%A9%E5%B0%94%E5%A4%9A%E7%93%A6-%3E%F0%9F%87%A8%F0%9F%87%B3_CN_%E4%B8%AD%E5%9B%BD
 vmess://eyJwcyI6IvCfh6jwn4ezX0NOX+S4reWbvS0+8J+HuvCfh7hfVVNf576O5Zu9XzUiLCJhZGQiOiIxMTEuMjYuMTA5Ljc5IiwiYWlkIjoyLCJpZCI6ImNiYjNmODc3LWQxZmItMzQ0Yy04N2E5LWQxNTNiZmZkNTQ4NCIsIm5ldCI6IndzIiwic2N5IjoiYXV0byIsInBvcnQiOjMwODI5LCJ0bHMiOiIiLCJwYXRoIjoiL29vb28ifQ==
 ss://YWVzLTI1Ni1jZmI6cXdlclJFV1FAQA==@125.141.31.72:15098#%F0%9F%87%B0%F0%9F%87%B7_KR_%E9%9F%A9%E5%9B%BD
-未获取到到节点，错误代码:404 Client Error: Not Found for url: https://nodev2ray.com/uploads/2025/06/0-20250627.txt
-未获取到到节点，错误代码:404 Client Error: Not Found for url: https://nodev2ray.com/uploads/2025/06/1-20250627.txt
-未获取到到节点，错误代码:404 Client Error: Not Found for url: https://nodev2ray.com/uploads/2025/06/2-20250627.txt
-未获取到到节点，错误代码:404 Client Error: Not Found for url: https://nodev2ray.com/uploads/2025/06/3-20250627.txt
-未获取到到节点，错误代码:404 Client Error: Not Found for url: https://nodev2ray.com/uploads/2025/06/4-20250627.txt
+未获取到到节点，错误代码:404 Client Error: Not Found for url: https://nodev2ray.com/uploads/2025/06/0-20250628.txt
+未获取到到节点，错误代码:404 Client Error: Not Found for url: https://nodev2ray.com/uploads/2025/06/1-20250628.txt
+未获取到到节点，错误代码:404 Client Error: Not Found for url: https://nodev2ray.com/uploads/2025/06/2-20250628.txt
+未获取到到节点，错误代码:404 Client Error: Not Found for url: https://nodev2ray.com/uploads/2025/06/3-20250628.txt
+未获取到到节点，错误代码:404 Client Error: Not Found for url: https://nodev2ray.com/uploads/2025/06/4-20250628.txt
 trojan://1b4c16925f934c57b954a9f0f23dea33@42.240.152.238:8842?type=tcp&security=tls&sni=brwx.spvpv.com&allowInsecure=1#%F0%9F%87%A8%F0%9F%87%B3_CN_%E4%B8%AD%E5%9B%BD-%3E%F0%9F%87%BA%F0%9F%87%B8_US_%E7%BE%8E%E5%9B%BD_1
 vmess://eyJwcyI6IvCfh6jwn4ezX0NOX+S4reWbvS0+8J+HuvCfh7hfVVNf576O5Zu9XzIiLCJhZGQiOiJ2MjkuaGVkdWlhbi5saW5rIiwiYWlkIjoyLCJpZCI6ImNiYjNmODc3LWQxZmItMzQ0Yy04N2E5LWQxNTNiZmZkNTQ4NCIsIm5ldCI6IndzIiwic2N5IjoiYXV0byIsInBvcnQiOjMwODI5LCJ0bHMiOiIiLCJwYXRoIjoiL29vb28iLCJob3N0Ijoib2NiYy5jb20iLCJzbmkiOiJvY2JjLmNvbSJ9
 vmess://eyJwcyI6IvCfh6jwn4ezX0NOX+S4reWbvS0+8J+HuvCfh7hfVVNf576O5Zu9XzMiLCJhZGQiOiJ2Ny5oZWR1aWFuLmxpbmsiLCJhaWQiOjIsImlkIjoiY2JiM2Y4NzctZDFmYi0zNDRjLTg3YTktZDE1M2JmZmQ1NDg0IiwibmV0Ijoid3MiLCJzY3kiOiJhdXRvIiwicG9ydCI6MzA4MDcsInRscyI6IiIsInBhdGgiOiIvb29vbyIsImhvc3QiOiJ2Ny5oZWR1aWFuLmxpbmsiLCJzbmkiOiJ2Ny5oZWR1aWFuLmxpbmsifQ==
