@@ -1,4 +1,4 @@
-未获取到到节点，错误代码:404 Client Error: Not Found for url: https://www.naidounode.com/node/20250726-v2ray.txt
+未获取到到节点，错误代码:404 Client Error: Not Found for url: https://www.naidounode.com/node/20250727-v2ray.txt
 ss://YWVzLTI1Ni1jZmI6ZjhmN2FDemNQS2JzRjhwM0A5MS4xMzIuOTQuMjAwOjk4OQ==#%F0%9F%87%AE%F0%9F%87%B6%20IQ_78
 ss://YWVzLTI1Ni1jZmI6ZjhmN2FDemNQS2JzRjhwM0AzOC4xNjUuMjMzLjkzOjk4OQ==#%F0%9F%87%BA%F0%9F%87%B8%20US_152
 ss://YWVzLTI1Ni1jZmI6ZjhmN2FDemNQS2JzRjhwMw==@185.231.233.112:989#%E2%9A%A1%20b2n.ir/v2ray-configs%20%7C%20416
@@ -22,11 +22,11 @@ vmess://eyJhZGQiOiJ2MzcuaGVkdWlhbi5saW5rIiwiYWlkIjoyLCJob3N0IjoidjM3LmhlZHVpYW4u
 vless://7e74ff43-3a90-48b3-8372-7d92a045c2d4@light-presence.oneeat.co:80?&type=ws&headerType=none&host=light-presence.oneeat.co&path=%2F#%F0%9F%87%B3%F0%9F%87%B1%5BBy%20EbraSha%5D%20vless-NL%20%F0%9F%94%92
 vmess://eyJ2IjoiMiIsImFkZCI6InB1YmcuYWMiLCJwb3J0Ijo4MCwiaWQiOiJkYWMyZDRkZC05YTRkLTRlYjAtOTJhNi0wMjg1MzJjYWVkNTIiLCJ0eXBlIjoiIiwiYWlkIjowLCJuZXQiOiJ3cyIsInRscyI6IiIsInBhdGgiOiIvcHJvZmlsZS90ZWxlZ3JhbUBzc3JzdWIiLCJob3N0IjoiY2RuLW5vZGUtb3NzLTk5LnBhb2Z1LmRlIiwicHMiOiLwn5GJ8J+GlEB2MnJheV9jb25maWdzX3Bvb2zwn5Oh8J+HqPCfh77Cru+4j0N5cHJ1c8Kp77iPS8OhdG8gTGFrYXTDoW1laWHwn4W/77iPcGluZzo4LjY3bXMifQ==
 ss://cmM0LW1kNToxNGZGUHJiZXpFM0hEWnpzTU9yNkAxOTMuMTA4LjExOS4yMzA6ODA4MA==#_27
-未获取到到节点，错误代码:404 Client Error: Not Found for url: https://nodev2ray.com/uploads/2025/07/0-20250726.txt
-未获取到到节点，错误代码:404 Client Error: Not Found for url: https://nodev2ray.com/uploads/2025/07/1-20250726.txt
-未获取到到节点，错误代码:404 Client Error: Not Found for url: https://nodev2ray.com/uploads/2025/07/2-20250726.txt
-未获取到到节点，错误代码:404 Client Error: Not Found for url: https://nodev2ray.com/uploads/2025/07/3-20250726.txt
-未获取到到节点，错误代码:404 Client Error: Not Found for url: https://nodev2ray.com/uploads/2025/07/4-20250726.txt
+未获取到到节点，错误代码:404 Client Error: Not Found for url: https://nodev2ray.com/uploads/2025/07/0-20250727.txt
+未获取到到节点，错误代码:404 Client Error: Not Found for url: https://nodev2ray.com/uploads/2025/07/1-20250727.txt
+未获取到到节点，错误代码:404 Client Error: Not Found for url: https://nodev2ray.com/uploads/2025/07/2-20250727.txt
+未获取到到节点，错误代码:404 Client Error: Not Found for url: https://nodev2ray.com/uploads/2025/07/3-20250727.txt
+未获取到到节点，错误代码:404 Client Error: Not Found for url: https://nodev2ray.com/uploads/2025/07/4-20250727.txt
 ss://YWVzLTI1Ni1jZmI6ZjhmN2FDemNQS2JzRjhwM0A5MS4xMzIuOTQuMjAwOjk4OQ==#%F0%9F%87%AE%F0%9F%87%B6%20IQ_78
 ss://YWVzLTI1Ni1jZmI6ZjhmN2FDemNQS2JzRjhwM0AzOC4xNjUuMjMzLjkzOjk4OQ==#%F0%9F%87%BA%F0%9F%87%B8%20US_152
 ss://YWVzLTI1Ni1jZmI6ZjhmN2FDemNQS2JzRjhwMw==@185.231.233.112:989#%E2%9A%A1%20b2n.ir/v2ray-configs%20%7C%20416
