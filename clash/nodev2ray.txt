@@ -2,4 +2,4 @@
 未获取到节点，错误代码：404 Client Error: Not Found for url: https://nodev2ray.com/uploads/2025/08/1-20250823.yaml
 未获取到节点，错误代码：404 Client Error: Not Found for url: https://nodev2ray.com/uploads/2025/08/2-20250823.yaml
 未获取到节点，错误代码：404 Client Error: Not Found for url: https://nodev2ray.com/uploads/2025/08/3-20250823.yaml
-未获取到节点，错误代码：('Connection aborted.', ConnectionResetError(104, 'Connection reset by peer'))
+未获取到节点，错误代码：404 Client Error: Not Found for url: https://nodev2ray.com/uploads/2025/08/4-20250823.yml
