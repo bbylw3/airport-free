@@ -1,4 +1,4 @@
-未获取到到节点，错误代码:404 Client Error: Not Found for url: https://www.naidounode.com/node/20250915-v2ray.txt
+未获取到到节点，错误代码:404 Client Error: Not Found for url: https://www.naidounode.com/node/20250916-v2ray.txt
 vless://89b3cbba-e6ac-485a-9481-976a0415eab9@wwwopensignalcom-goodspeed-8xx.pages.dev.:443?encryption=none&security=tls&sni=WwW.OPENSIgnaL.cOm.NaynaY09.dynv6.nET&type=ws&host=WwW.OPENSIgnaL.cOm.NaynaY09.dynv6.nET&path=%2F%2F#%E7%BE%8E%E5%9B%BD
 vless://401374e6-df77-41fb-f638-dad8184f175b@102.177.189.251:443?encryption=none&security=tls&sni=pqh23v4.hiddendom.shop&type=grpc#%E7%BE%8E%E5%9B%BD
 vless://401374e6-df77-41fb-f638-dad8184f175b@103.133.1.227:443?encryption=none&security=tls&sni=pqh24v3.hiddendom.shop&type=grpc#%E6%BE%B3%E6%B4%B2
@@ -44,11 +44,11 @@ vmess://ewogICJ2IjogIjIiLAogICJwcyI6ICLnvo7lm70iLAogICJhZGQiOiAiMjA1LjIzMy4xODEu
 vmess://ewogICJ2IjogIjIiLAogICJwcyI6ICLnvo7lm70iLAogICJhZGQiOiAiY29kZXBlbi5pbyIsCiAgInBvcnQiOiAiNDQzIiwKICAiaWQiOiAiZGU5NGNjMGEtMDU5Mi00OTY5LWIxZmMtOTdlYThmMGVhMGIzIiwKICAiYWlkIjogIjAiLAogICJzY3kiOiAiYXV0byIsCiAgIm5ldCI6ICJ3cyIsCiAgInR5cGUiOiAibm9uZSIsCiAgImhvc3QiOiAiZmFyaWQuMS5iZXJvemhhLmlyIiwKICAicGF0aCI6ICIvdXMua2twLm1lLmV1Lm9yZy9hYSIsCiAgInRscyI6ICJ0bHMiLAogICJzbmkiOiAiZmFyaWQuMS5iZXJvemhhLmlyIiwKICAiYWxwbiI6ICIiLAogICJmcCI6ICIiCn0=
 vmess://ewogICJ2IjogIjIiLAogICJwcyI6ICLnvo7lm70iLAogICJhZGQiOiAidjguaGVkdWlhbi5saW5rIiwKICAicG9ydCI6ICIzMDgwOCIsCiAgImlkIjogImNiYjNmODc3LWQxZmItMzQ0Yy04N2E5LWQxNTNiZmZkNTQ4NCIsCiAgImFpZCI6ICIyIiwKICAic2N5IjogImF1dG8iLAogICJuZXQiOiAid3MiLAogICJ0eXBlIjogIm5vbmUiLAogICJob3N0IjogInY4LmhlZHVpYW4ubGluayIsCiAgInBhdGgiOiAiL29vb28iLAogICJ0bHMiOiAiIiwKICAic25pIjogIiIsCiAgImFscG4iOiAiIiwKICAiZnAiOiAiIgp9
 
-未获取到到节点，错误代码:404 Client Error: Not Found for url: https://nodev2ray.com/uploads/2025/09/0-20250915.txt
-未获取到到节点，错误代码:404 Client Error: Not Found for url: https://nodev2ray.com/uploads/2025/09/1-20250915.txt
-未获取到到节点，错误代码:404 Client Error: Not Found for url: https://nodev2ray.com/uploads/2025/09/2-20250915.txt
-未获取到到节点，错误代码:404 Client Error: Not Found for url: https://nodev2ray.com/uploads/2025/09/3-20250915.txt
-未获取到到节点，错误代码:404 Client Error: Not Found for url: https://nodev2ray.com/uploads/2025/09/4-20250915.txt
+未获取到到节点，错误代码:404 Client Error: Not Found for url: https://nodev2ray.com/uploads/2025/09/0-20250916.txt
+未获取到到节点，错误代码:404 Client Error: Not Found for url: https://nodev2ray.com/uploads/2025/09/1-20250916.txt
+未获取到到节点，错误代码:404 Client Error: Not Found for url: https://nodev2ray.com/uploads/2025/09/2-20250916.txt
+未获取到到节点，错误代码:404 Client Error: Not Found for url: https://nodev2ray.com/uploads/2025/09/3-20250916.txt
+未获取到到节点，错误代码:404 Client Error: Not Found for url: https://nodev2ray.com/uploads/2025/09/4-20250916.txt
 vless://89b3cbba-e6ac-485a-9481-976a0415eab9@wwwopensignalcom-goodspeed-8xx.pages.dev.:443?encryption=none&security=tls&sni=WwW.OPENSIgnaL.cOm.NaynaY09.dynv6.nET&type=ws&host=WwW.OPENSIgnaL.cOm.NaynaY09.dynv6.nET&path=%2F%2F#%E7%BE%8E%E5%9B%BD
 vless://401374e6-df77-41fb-f638-dad8184f175b@102.177.189.251:443?encryption=none&security=tls&sni=pqh23v4.hiddendom.shop&type=grpc#%E7%BE%8E%E5%9B%BD
 vless://401374e6-df77-41fb-f638-dad8184f175b@103.133.1.227:443?encryption=none&security=tls&sni=pqh24v3.hiddendom.shop&type=grpc#%E6%BE%B3%E6%B4%B2
