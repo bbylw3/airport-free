@@ -1,4 +1,4 @@
-未获取到到节点，错误代码:404 Client Error: Not Found for url: https://www.naidounode.com/node/20251011-v2ray.txt
+未获取到到节点，错误代码:404 Client Error: Not Found for url: https://www.naidounode.com/node/20251012-v2ray.txt
 vmess://ewogICJ2IjogIjIiLAogICJwcyI6ICLnvo7lm70iLAogICJhZGQiOiAiMzYuMTM5LjIwMS4zNSIsCiAgInBvcnQiOiAiMTAwMDIiLAogICJpZCI6ICI4ZDcxN2U1YS1kYWI1LTRiOTktYWY0Zi1lYTI5ZWY4ZWViZWQiLAogICJhaWQiOiAiMCIsCiAgInNjeSI6ICJhdXRvIiwKICAibmV0IjogInRjcCIsCiAgInR5cGUiOiAibm9uZSIsCiAgImhvc3QiOiAiIiwKICAicGF0aCI6ICIiLAogICJ0bHMiOiAiIiwKICAic25pIjogIiIsCiAgImFscG4iOiAiIiwKICAiZnAiOiAiIgp9
 vmess://ewogICJ2IjogIjIiLAogICJwcyI6ICLms5Xlm70iLAogICJhZGQiOiAiMjAwMTpiYzg6MzJkNzozMDI6OjEwIiwKICAicG9ydCI6ICI0NDU3OSIsCiAgImlkIjogIjhlMzRlMTcwLTEzYWUtNDg5Mi05ZDIwLTA1OTYyYWNjOWY4NCIsCiAgImFpZCI6ICIwIiwKICAic2N5IjogImF1dG8iLAogICJuZXQiOiAid3MiLAogICJ0eXBlIjogIm5vbmUiLAogICJob3N0IjogIiIsCiAgInBhdGgiOiAiLyIsCiAgInRscyI6ICIiLAogICJzbmkiOiAiIiwKICAiYWxwbiI6ICIiLAogICJmcCI6ICIiCn0=
 vmess://ewogICJ2IjogIjIiLAogICJwcyI6ICLnvo7lm70iLAogICJhZGQiOiAiZGlnaXRhbG9jZWFuLmNvbSIsCiAgInBvcnQiOiAiODQ0MyIsCiAgImlkIjogIjYyMTUxNGQwLTQ2ZGUtNDdlYS05MDYzLTIxZWFlYTA5OTljNyIsCiAgImFpZCI6ICIwIiwKICAic2N5IjogImF1dG8iLAogICJuZXQiOiAid3MiLAogICJ0eXBlIjogIm5vbmUiLAogICJob3N0IjogImJwY2EyLmNhdGltZWNzZ28ueHl6IiwKICAicGF0aCI6ICIvaGt6N2hlYTN4aWFjbzJqL2NhMSIsCiAgInRscyI6ICJ0bHMiLAogICJzbmkiOiAiYnBjYTIuY2F0aW1lY3Nnby54eXoiLAogICJhbHBuIjogIiIsCiAgImZwIjogIiIKfQ==
@@ -59,11 +59,11 @@ vless://12345678-1234-1234-1234-123456789123@92.53.188.61:2096?encryption=none&s
 vless://12345678-1234-1234-1234-123456789123@185.156.19.61:2096?encryption=none&security=tls&sni=vless.hubp.de&type=ws&host=vless.hubp.de&path=%2Fsnippets#%E8%8B%B1%E5%9B%BD
 vless://01997b9d-a1f7-e188-981a-c665b723cfef@5.175.141.43:2096?encryption=none&security=tls&sni=kejiland.freewarp.eu.org&type=ws&host=kejiland.freewarp.eu.org&path=%2Fsnippets#%E5%BE%B7%E5%9B%BD
 
-未获取到到节点，错误代码:404 Client Error: Not Found for url: https://nodev2ray.com/uploads/2025/10/0-20251011.txt
-未获取到到节点，错误代码:404 Client Error: Not Found for url: https://nodev2ray.com/uploads/2025/10/1-20251011.txt
-未获取到到节点，错误代码:404 Client Error: Not Found for url: https://nodev2ray.com/uploads/2025/10/2-20251011.txt
-未获取到到节点，错误代码:404 Client Error: Not Found for url: https://nodev2ray.com/uploads/2025/10/3-20251011.txt
-未获取到到节点，错误代码:404 Client Error: Not Found for url: https://nodev2ray.com/uploads/2025/10/4-20251011.txt
+未获取到到节点，错误代码:404 Client Error: Not Found for url: https://nodev2ray.com/uploads/2025/10/0-20251012.txt
+未获取到到节点，错误代码:404 Client Error: Not Found for url: https://nodev2ray.com/uploads/2025/10/1-20251012.txt
+未获取到到节点，错误代码:404 Client Error: Not Found for url: https://nodev2ray.com/uploads/2025/10/2-20251012.txt
+未获取到到节点，错误代码:404 Client Error: Not Found for url: https://nodev2ray.com/uploads/2025/10/3-20251012.txt
+未获取到到节点，错误代码:404 Client Error: Not Found for url: https://nodev2ray.com/uploads/2025/10/4-20251012.txt
 vmess://ewogICJ2IjogIjIiLAogICJwcyI6ICLnvo7lm70iLAogICJhZGQiOiAiMzYuMTM5LjIwMS4zNSIsCiAgInBvcnQiOiAiMTAwMDIiLAogICJpZCI6ICI4ZDcxN2U1YS1kYWI1LTRiOTktYWY0Zi1lYTI5ZWY4ZWViZWQiLAogICJhaWQiOiAiMCIsCiAgInNjeSI6ICJhdXRvIiwKICAibmV0IjogInRjcCIsCiAgInR5cGUiOiAibm9uZSIsCiAgImhvc3QiOiAiIiwKICAicGF0aCI6ICIiLAogICJ0bHMiOiAiIiwKICAic25pIjogIiIsCiAgImFscG4iOiAiIiwKICAiZnAiOiAiIgp9
 vmess://ewogICJ2IjogIjIiLAogICJwcyI6ICLms5Xlm70iLAogICJhZGQiOiAiMjAwMTpiYzg6MzJkNzozMDI6OjEwIiwKICAicG9ydCI6ICI0NDU3OSIsCiAgImlkIjogIjhlMzRlMTcwLTEzYWUtNDg5Mi05ZDIwLTA1OTYyYWNjOWY4NCIsCiAgImFpZCI6ICIwIiwKICAic2N5IjogImF1dG8iLAogICJuZXQiOiAid3MiLAogICJ0eXBlIjogIm5vbmUiLAogICJob3N0IjogIiIsCiAgInBhdGgiOiAiLyIsCiAgInRscyI6ICIiLAogICJzbmkiOiAiIiwKICAiYWxwbiI6ICIiLAogICJmcCI6ICIiCn0=
 vmess://ewogICJ2IjogIjIiLAogICJwcyI6ICLnvo7lm70iLAogICJhZGQiOiAiZGlnaXRhbG9jZWFuLmNvbSIsCiAgInBvcnQiOiAiODQ0MyIsCiAgImlkIjogIjYyMTUxNGQwLTQ2ZGUtNDdlYS05MDYzLTIxZWFlYTA5OTljNyIsCiAgImFpZCI6ICIwIiwKICAic2N5IjogImF1dG8iLAogICJuZXQiOiAid3MiLAogICJ0eXBlIjogIm5vbmUiLAogICJob3N0IjogImJwY2EyLmNhdGltZWNzZ28ueHl6IiwKICAicGF0aCI6ICIvaGt6N2hlYTN4aWFjbzJqL2NhMSIsCiAgInRscyI6ICJ0bHMiLAogICJzbmkiOiAiYnBjYTIuY2F0aW1lY3Nnby54eXoiLAogICJhbHBuIjogIiIsCiAgImZwIjogIiIKfQ==
