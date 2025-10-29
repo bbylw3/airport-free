@@ -1,4 +1,4 @@
-未获取到到节点，错误代码:404 Client Error: Not Found for url: https://www.naidounode.com/node/20251028-v2ray.txt
+未获取到到节点，错误代码:404 Client Error: Not Found for url: https://www.naidounode.com/node/20251029-v2ray.txt
 vless://f61a4285-7264-4d07-9408-7b9ba1922c26@210.6.207.42:18622?encryption=none&security=tls&sni=gaosir.unfeeling.sbs&type=ws&host=gaosir.unfeeling.sbs&path=X%40%E8%8A%82%E7%82%B9%E7%8B%82%E9%AD%94%2F%3Fed%3D2560#%E5%8F%B0%E6%B9%BE
 vless://f61a4285-7264-4d07-9408-7b9ba1922c26@222.113.18.211:14443?encryption=none&security=tls&sni=gaosir.unfeeling.sbs&type=ws&host=gaosir.unfeeling.sbs&path=%2Ffreecodes%2F#%E9%9F%A9%E5%9B%BD
 vless://f61a4285-7264-4d07-9408-7b9ba1922c26@114.34.202.224:10004?encryption=none&security=tls&sni=gaosir.unfeeling.sbs&type=ws&host=gaosir.unfeeling.sbs&path=%2FX%40%E8%8A%82%E7%82%B9%E7%8B%82%E9%AD%94%2F#%E5%8F%B0%E6%B9%BE
@@ -58,11 +58,11 @@ vmess://ewogICJ2IjogIjIiLAogICJwcyI6ICLms5Xlm70iLAogICJhZGQiOiAiMjAwMTpiYzg6MzJk
 vmess://ewogICJ2IjogIjIiLAogICJwcyI6ICLms5Xlm70iLAogICJhZGQiOiAiMjAwMTpiYzg6MzJkNzozMDI6OjEwIiwKICAicG9ydCI6ICI0NDU3OSIsCiAgImlkIjogIjhlMzRlMTcwLTEzYWUtNDg5Mi05ZDIwLTA1OTYyYWNjOWY4NCIsCiAgImFpZCI6ICIwIiwKICAic2N5IjogImF1dG8iLAogICJuZXQiOiAid3MiLAogICJ0eXBlIjogIm5vbmUiLAogICJob3N0IjogIiIsCiAgInBhdGgiOiAiIiwKICAidGxzIjogIiIsCiAgInNuaSI6ICIiLAogICJhbHBuIjogIiIsCiAgImZwIjogIiIKfQ==
 vmess://ewogICJ2IjogIjIiLAogICJwcyI6ICLnvo7lm70iLAogICJhZGQiOiAiYmVzdGNkbjEuODY4ODYzLnh5eiIsCiAgInBvcnQiOiAiODAiLAogICJpZCI6ICJmNmVhY2Y0Zi0xYzNiLTQ0MjMtYmU1NC1mZjBlNjZhMTFiZjEiLAogICJhaWQiOiAiMCIsCiAgInNjeSI6ICJhdXRvIiwKICAibmV0IjogIndzIiwKICAidHlwZSI6ICJub25lIiwKICAiaG9zdCI6ICJ2bi1jNS5uby4xNjgzODIueHl6IiwKICAicGF0aCI6ICIvaHRlaGVoZWhuIiwKICAidGxzIjogIiIsCiAgInNuaSI6ICIiLAogICJhbHBuIjogIiIsCiAgImZwIjogIiIKfQ==
 
-未获取到到节点，错误代码:404 Client Error: Not Found for url: https://nodev2ray.com/uploads/2025/10/0-20251028.txt
-未获取到到节点，错误代码:404 Client Error: Not Found for url: https://nodev2ray.com/uploads/2025/10/1-20251028.txt
-未获取到到节点，错误代码:404 Client Error: Not Found for url: https://nodev2ray.com/uploads/2025/10/2-20251028.txt
-未获取到到节点，错误代码:404 Client Error: Not Found for url: https://nodev2ray.com/uploads/2025/10/3-20251028.txt
-未获取到到节点，错误代码:404 Client Error: Not Found for url: https://nodev2ray.com/uploads/2025/10/4-20251028.txt
+未获取到到节点，错误代码:404 Client Error: Not Found for url: https://nodev2ray.com/uploads/2025/10/0-20251029.txt
+未获取到到节点，错误代码:404 Client Error: Not Found for url: https://nodev2ray.com/uploads/2025/10/1-20251029.txt
+未获取到到节点，错误代码:404 Client Error: Not Found for url: https://nodev2ray.com/uploads/2025/10/2-20251029.txt
+未获取到到节点，错误代码:404 Client Error: Not Found for url: https://nodev2ray.com/uploads/2025/10/3-20251029.txt
+未获取到到节点，错误代码:404 Client Error: Not Found for url: https://nodev2ray.com/uploads/2025/10/4-20251029.txt
 vless://f61a4285-7264-4d07-9408-7b9ba1922c26@210.6.207.42:18622?encryption=none&security=tls&sni=gaosir.unfeeling.sbs&type=ws&host=gaosir.unfeeling.sbs&path=X%40%E8%8A%82%E7%82%B9%E7%8B%82%E9%AD%94%2F%3Fed%3D2560#%E5%8F%B0%E6%B9%BE
 vless://f61a4285-7264-4d07-9408-7b9ba1922c26@222.113.18.211:14443?encryption=none&security=tls&sni=gaosir.unfeeling.sbs&type=ws&host=gaosir.unfeeling.sbs&path=%2Ffreecodes%2F#%E9%9F%A9%E5%9B%BD
 vless://f61a4285-7264-4d07-9408-7b9ba1922c26@114.34.202.224:10004?encryption=none&security=tls&sni=gaosir.unfeeling.sbs&type=ws&host=gaosir.unfeeling.sbs&path=%2FX%40%E8%8A%82%E7%82%B9%E7%8B%82%E9%AD%94%2F#%E5%8F%B0%E6%B9%BE
