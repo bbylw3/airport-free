@@ -1,4 +1,4 @@
-未获取到到节点，错误代码:404 Client Error: Not Found for url: https://www.naidounode.com/node/20251116-v2ray.txt
+未获取到到节点，错误代码:404 Client Error: Not Found for url: https://www.naidounode.com/node/20251117-v2ray.txt
 vmess://eyJ2IjoiMiIsInBzIjoi8J+HuvCfh7hVU8KyXzJ8MC42TUIvc3wxOCV8R1BUfFlULUNOfFRLfE5GfFh8S2VlcEhpc3RvcnkiLCJhZGQiOiJvbmVjYXQtdXMuMDNlemhnMHFzYS5kb3dubG9hZCIsInBvcnQiOiIyNTAyNCIsImlkIjoiNjk3NDkyOTgtNjgyMS0zMzU4LWI2ZDMtMWQxOGQ4NjQyY2JhIiwiYWlkIjoiMCIsInNjeSI6ImF1dG8iLCJuZXQiOiJ0Y3AiLCJ0eXBlIjoiIiwidGxzIjoiIn0=
 trojan://BxceQaOe@116.49.237.130:518?sni=t.me%252Fripaojiedian&allowInsecure=1#%F0%9F%87%A8%F0%9F%87%B3_CN_%E4%B8%AD%E5%9B%BD
 trojan://BxceQaOe@116.49.237.130:4094?allowInsecure=1&sni=t.me%2Fripaojiedian#%F0%9F%87%A8%F0%9F%87%B3_CN_%E4%B8%AD%E5%9B%BD
@@ -29,11 +29,11 @@ vless://fafd4d2b-558e-7ae5-8e95-cde87e74ca95@sweden.marzxo.biz:8090?security=rea
 ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTpORFJ5U0lBQkFSYkVyTklWc0NOVmt5WUFIaUJ6aHZlVA@23.95.75.146:443#%F0%9F%87%BA%F0%9F%87%B8_US_%E7%BE%8E%E5%9B%BD
 ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNToxN1pET1JXSWxpUUh1TzZXUkdIQ2hYWU16ZFJ0QVlWUA@45.14.245.2:443#%F0%9F%87%B7%F0%9F%87%BA_RU_%E4%BF%84%E7%BD%97%E6%96%AF
 ss://YWVzLTI1Ni1jZmI6cXdlclJFV1FAQA==@221.139.79.57:37008#%F0%9F%87%B0%F0%9F%87%B7_KR_%E9%9F%A9%E5%9B%BD
-未获取到到节点，错误代码:404 Client Error: Not Found for url: https://nodev2ray.com/uploads/2025/11/0-20251116.txt
-未获取到到节点，错误代码:404 Client Error: Not Found for url: https://nodev2ray.com/uploads/2025/11/1-20251116.txt
-未获取到到节点，错误代码:404 Client Error: Not Found for url: https://nodev2ray.com/uploads/2025/11/2-20251116.txt
-未获取到到节点，错误代码:404 Client Error: Not Found for url: https://nodev2ray.com/uploads/2025/11/3-20251116.txt
-未获取到到节点，错误代码:404 Client Error: Not Found for url: https://nodev2ray.com/uploads/2025/11/4-20251116.txt
+未获取到到节点，错误代码:404 Client Error: Not Found for url: https://nodev2ray.com/uploads/2025/11/0-20251117.txt
+未获取到到节点，错误代码:404 Client Error: Not Found for url: https://nodev2ray.com/uploads/2025/11/1-20251117.txt
+未获取到到节点，错误代码:404 Client Error: Not Found for url: https://nodev2ray.com/uploads/2025/11/2-20251117.txt
+未获取到到节点，错误代码:404 Client Error: Not Found for url: https://nodev2ray.com/uploads/2025/11/3-20251117.txt
+未获取到到节点，错误代码:404 Client Error: Not Found for url: https://nodev2ray.com/uploads/2025/11/4-20251117.txt
 vmess://eyJ2IjoiMiIsInBzIjoi8J+HuvCfh7hVU8KyXzJ8MC42TUIvc3wxOCV8R1BUfFlULUNOfFRLfE5GfFh8S2VlcEhpc3RvcnkiLCJhZGQiOiJvbmVjYXQtdXMuMDNlemhnMHFzYS5kb3dubG9hZCIsInBvcnQiOiIyNTAyNCIsImlkIjoiNjk3NDkyOTgtNjgyMS0zMzU4LWI2ZDMtMWQxOGQ4NjQyY2JhIiwiYWlkIjoiMCIsInNjeSI6ImF1dG8iLCJuZXQiOiJ0Y3AiLCJ0eXBlIjoiIiwidGxzIjoiIn0=
 trojan://BxceQaOe@116.49.237.130:518?sni=t.me%252Fripaojiedian&allowInsecure=1#%F0%9F%87%A8%F0%9F%87%B3_CN_%E4%B8%AD%E5%9B%BD
 trojan://BxceQaOe@116.49.237.130:4094?allowInsecure=1&sni=t.me%2Fripaojiedian#%F0%9F%87%A8%F0%9F%87%B3_CN_%E4%B8%AD%E5%9B%BD
