@@ -1,4 +1,4 @@
-未获取到到节点，错误代码:404 Client Error: Not Found for url: https://www.naidounode.com/node/20251121-v2ray.txt
+未获取到到节点，错误代码:404 Client Error: Not Found for url: https://www.naidounode.com/node/20251122-v2ray.txt
 trojan://dd2f25b4c70689de8bc0f7fa9d6591cb@58.152.110.206:443?allowInsecure=0&sni=www.nintendogames.net#%F0%9F%87%A8%F0%9F%87%B3_CN_%E4%B8%AD%E5%9B%BD
 trojan://0507fbcd-b983-43a7-8e1d-2c561960ad4f@54d-bd0d-c3f111d0b879.664.qzz.io:443/?type=ws&host=54d-Bd0d-c3f111d0b879.664.QZZ.iO&path=%2FE2JXJM5geneWfr9noOhn&security=tls&sni=54D-bD0D-c3F111D0b879.664.Qzz.Io&alpn=http%2F1.1&fp=chrome#%F0%9F%87%BA%F0%9F%87%B8_US_%E7%BE%8E%E5%9B%BD
 hysteria2://95D27EEF-B7AE-4076-BA39-40FDFA3D0F61@us4.dexlos.com:7641?insecure=1#%F0%9F%87%BA%F0%9F%87%B8_US_%E7%BE%8E%E5%9B%BD
@@ -29,11 +29,11 @@ vless://ccac649c-7717-4767-8fd2-fa7180ec14c6@ru.shvurgceo.online:31121?encryptio
 ss://YWVzLTI1Ni1jZmI6YW1hem9uc2tyMDU=@54.217.49.39:443#%F0%9F%87%AE%F0%9F%87%AA_IE_%E7%88%B1%E5%B0%94%E5%85%B0
 vless://cfe032e4-1bc3-454f-9d09-301b0aea08ff@40.233.83.110:26113?security=reality&type=tcp&sni=www.yahoo.com&fp=chrome&flow=xtls-rprx-vision&sid=1fbd20fd&pbk=GUcD8LK1DFNuVun5yhsqeEego_p3PF2yIdvE2KY2Nng#%F0%9F%87%BA%F0%9F%87%B8_US_%E7%BE%8E%E5%9B%BD
 vless://aa7f42cc-616f-4550-9a87-4b85bb409121@178.239.123.216:24443?&security=tls&fp=chrome&sni=vless3.datatestvless.click&type=ws&headerType=none&host=vless3.datatestvless.click&path=%2F%3Fed%3D2560#%F0%9F%87%A7%F0%9F%87%AC_BG_%E4%BF%9D%E5%8A%A0%E5%88%A9%E4%BA%9A
-未获取到到节点，错误代码:404 Client Error: Not Found for url: https://nodev2ray.com/uploads/2025/11/0-20251121.txt
-未获取到到节点，错误代码:404 Client Error: Not Found for url: https://nodev2ray.com/uploads/2025/11/1-20251121.txt
-未获取到到节点，错误代码:404 Client Error: Not Found for url: https://nodev2ray.com/uploads/2025/11/2-20251121.txt
-未获取到到节点，错误代码:404 Client Error: Not Found for url: https://nodev2ray.com/uploads/2025/11/3-20251121.txt
-未获取到到节点，错误代码:404 Client Error: Not Found for url: https://nodev2ray.com/uploads/2025/11/4-20251121.txt
+未获取到到节点，错误代码:404 Client Error: Not Found for url: https://nodev2ray.com/uploads/2025/11/0-20251122.txt
+未获取到到节点，错误代码:404 Client Error: Not Found for url: https://nodev2ray.com/uploads/2025/11/1-20251122.txt
+未获取到到节点，错误代码:404 Client Error: Not Found for url: https://nodev2ray.com/uploads/2025/11/2-20251122.txt
+未获取到到节点，错误代码:404 Client Error: Not Found for url: https://nodev2ray.com/uploads/2025/11/3-20251122.txt
+未获取到到节点，错误代码:404 Client Error: Not Found for url: https://nodev2ray.com/uploads/2025/11/4-20251122.txt
 trojan://dd2f25b4c70689de8bc0f7fa9d6591cb@58.152.110.206:443?allowInsecure=0&sni=www.nintendogames.net#%F0%9F%87%A8%F0%9F%87%B3_CN_%E4%B8%AD%E5%9B%BD
 trojan://0507fbcd-b983-43a7-8e1d-2c561960ad4f@54d-bd0d-c3f111d0b879.664.qzz.io:443/?type=ws&host=54d-Bd0d-c3f111d0b879.664.QZZ.iO&path=%2FE2JXJM5geneWfr9noOhn&security=tls&sni=54D-bD0D-c3F111D0b879.664.Qzz.Io&alpn=http%2F1.1&fp=chrome#%F0%9F%87%BA%F0%9F%87%B8_US_%E7%BE%8E%E5%9B%BD
 hysteria2://95D27EEF-B7AE-4076-BA39-40FDFA3D0F61@us4.dexlos.com:7641?insecure=1#%F0%9F%87%BA%F0%9F%87%B8_US_%E7%BE%8E%E5%9B%BD
