@@ -1,4 +1,4 @@
-未获取到到节点，错误代码:404 Client Error: Not Found for url: https://www.naidounode.com/node/20251226-v2ray.txt
+未获取到到节点，错误代码:404 Client Error: Not Found for url: https://www.naidounode.com/node/20251227-v2ray.txt
 hysteria://62.210.196.68:26691?alpn=h3&auth=dongtaiwang.com&downmbps=55 Mbps&protocol=udp&insecure=1&peer=apple.com&upmbps=11 Mbps#%F0%9F%87%AB%F0%9F%87%B7_FR_%E6%B3%95%E5%9B%BD
 hysteria://62.210.10.186:35511?alpn=h3&auth=dongtaiwang.com&auth_str=dongtaiwang.com&downmbps=55&protocol=udp&insecure=1&peer=apple.com&udp=true&upmbps=11#%F0%9F%87%AB%F0%9F%87%B7_FR_%E6%B3%95%E5%9B%BD
 hysteria://62.210.10.186:50011?alpn=h3&auth=dongtaiwang.com&downmbps=55 Mbps&protocol=udp&insecure=1&peer=apple.com&upmbps=11 Mbps#%F0%9F%87%AB%F0%9F%87%B7_FR_%E6%B3%95%E5%9B%BD
@@ -27,11 +27,11 @@ ss://Y2hhY2hhMjAtaWV0Zjphc2QxMjM0NTY=@103.149.183.80:8388#%F0%9F%87%A8%F0%9F%87%
 vless://046da250-d5ef-4867-9095-302477d54d20@www.gov.ua:8080?&security=false&fp=chrome&type=ws&headerType=none&host=feng.ipy29c99.workers.dev&path=%2F%3Fed%3D2048#%F0%9F%87%BA%F0%9F%87%B8_US_%E7%BE%8E%E5%9B%BD
 vless://046da250-d5ef-4867-9095-302477d54d20@ip.sb:8080?&security=false&fp=chrome&type=ws&headerType=none&host=feng.ipy29c99.workers.dev&path=%2F%3Fed%3D2048#%F0%9F%87%BA%F0%9F%87%B8_US_%E7%BE%8E%E5%9B%BD
 vless://48a8cab5-ce75-4c8a-90f5-dcd020c89b4b@31.44.0.63:58349?type=tcp&encryption=none&flow=#%F0%9F%87%B7%F0%9F%87%BA_RU_%E4%BF%84%E7%BD%97%E6%96%AF
-未获取到到节点，错误代码:404 Client Error: Not Found for url: https://nodev2ray.com/uploads/2025/12/0-20251226.txt
-未获取到到节点，错误代码:404 Client Error: Not Found for url: https://nodev2ray.com/uploads/2025/12/1-20251226.txt
-未获取到到节点，错误代码:404 Client Error: Not Found for url: https://nodev2ray.com/uploads/2025/12/2-20251226.txt
-未获取到到节点，错误代码:404 Client Error: Not Found for url: https://nodev2ray.com/uploads/2025/12/3-20251226.txt
-未获取到到节点，错误代码:404 Client Error: Not Found for url: https://nodev2ray.com/uploads/2025/12/4-20251226.txt
+未获取到到节点，错误代码:404 Client Error: Not Found for url: https://nodev2ray.com/uploads/2025/12/0-20251227.txt
+未获取到到节点，错误代码:404 Client Error: Not Found for url: https://nodev2ray.com/uploads/2025/12/1-20251227.txt
+未获取到到节点，错误代码:404 Client Error: Not Found for url: https://nodev2ray.com/uploads/2025/12/2-20251227.txt
+未获取到到节点，错误代码:404 Client Error: Not Found for url: https://nodev2ray.com/uploads/2025/12/3-20251227.txt
+未获取到到节点，错误代码:404 Client Error: Not Found for url: https://nodev2ray.com/uploads/2025/12/4-20251227.txt
 hysteria://62.210.196.68:26691?alpn=h3&auth=dongtaiwang.com&downmbps=55 Mbps&protocol=udp&insecure=1&peer=apple.com&upmbps=11 Mbps#%F0%9F%87%AB%F0%9F%87%B7_FR_%E6%B3%95%E5%9B%BD
 hysteria://62.210.10.186:35511?alpn=h3&auth=dongtaiwang.com&auth_str=dongtaiwang.com&downmbps=55&protocol=udp&insecure=1&peer=apple.com&udp=true&upmbps=11#%F0%9F%87%AB%F0%9F%87%B7_FR_%E6%B3%95%E5%9B%BD
 hysteria://62.210.10.186:50011?alpn=h3&auth=dongtaiwang.com&downmbps=55 Mbps&protocol=udp&insecure=1&peer=apple.com&upmbps=11 Mbps#%F0%9F%87%AB%F0%9F%87%B7_FR_%E6%B3%95%E5%9B%BD
@@ -60,4 +60,4 @@ ss://Y2hhY2hhMjAtaWV0Zjphc2QxMjM0NTY=@103.149.183.80:8388#%F0%9F%87%A8%F0%9F%87%
 vless://046da250-d5ef-4867-9095-302477d54d20@www.gov.ua:8080?&security=false&fp=chrome&type=ws&headerType=none&host=feng.ipy29c99.workers.dev&path=%2F%3Fed%3D2048#%F0%9F%87%BA%F0%9F%87%B8_US_%E7%BE%8E%E5%9B%BD
 vless://046da250-d5ef-4867-9095-302477d54d20@ip.sb:8080?&security=false&fp=chrome&type=ws&headerType=none&host=feng.ipy29c99.workers.dev&path=%2F%3Fed%3D2048#%F0%9F%87%BA%F0%9F%87%B8_US_%E7%BE%8E%E5%9B%BD
 vless://48a8cab5-ce75-4c8a-90f5-dcd020c89b4b@31.44.0.63:58349?type=tcp&encryption=none&flow=#%F0%9F%87%B7%F0%9F%87%BA_RU_%E4%BF%84%E7%BD%97%E6%96%AF
-未获取到到节点，错误代码:401 Client Error: Unauthorized for url: https://wenode.githubrowcontent.com/2025/12/20251226.txt
+未获取到到节点，错误代码:401 Client Error: Unauthorized for url: https://wenode.githubrowcontent.com/2025/12/20251227.txt
